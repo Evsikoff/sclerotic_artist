@@ -2,3 +2,5 @@ node_modules/
 dist/
 # Кэш и журналы генерации озвучки
 voiceover/.state/
+# Кэш и журналы генерации обучающего видео
+video/tutorial/.state/

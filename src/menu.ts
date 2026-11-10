@@ -2,6 +2,7 @@ import logoUrl from '../images/logo.png';
 import { audio } from './audio';
 import { QUIZ_SIZE, ROUNDS, type RoundInfo } from './content';
 import { progress } from './progress';
+import { showTutorial } from './tutorial';
 import { h, icon, points, setScreen, signed } from './ui';
 
 export interface MenuChoice {
@@ -64,6 +65,7 @@ export function showMenu(): Promise<MenuChoice> {
             points(progress.score),
           ),
           nextCard,
+          h('button', { class: 'help-btn', onclick: () => void showTutorial() }, icon('help'), 'Как играть'),
           ...list,
         ),
       ),
