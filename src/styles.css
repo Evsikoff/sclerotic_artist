@@ -837,15 +837,24 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  padding: calc(var(--safe-top) + 24px) 16px calc(var(--safe-bottom) + 28px);
+  gap: 8px;
+  padding: calc(var(--safe-top) + 16px) 16px calc(var(--safe-bottom) + 20px);
   text-align: center;
   animation: fade-in 0.4s ease both;
 }
 
+/* Когда места с запасом, весь экран центрируется; когда мало — прокручивается с самого верха. */
+.results > :first-child {
+  margin-top: auto;
+}
+
+.results > :last-child {
+  margin-bottom: auto;
+}
+
 .results h1 {
   font-family: var(--font-hand);
-  font-size: 2.8rem;
+  font-size: clamp(2.2rem, 5.5vh, 2.8rem);
   line-height: 1;
 }
 
@@ -853,34 +862,46 @@ button:disabled {
   display: flex;
   align-items: baseline;
   gap: 10px;
-  font-size: 4.2rem;
+  font-size: clamp(2.8rem, 7.5vh, 4.2rem);
   font-weight: 800;
   line-height: 1;
   animation: pop 0.5s cubic-bezier(0.2, 1.5, 0.4, 1) 0.15s both;
 }
 
 .results-score small {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .results-summary {
   color: var(--ink-soft);
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
+/*
+ * Сетка забирает всю оставшуюся высоту, и рисунки ужимаются под неё.
+ * Выше, чем нужно квадратным рисункам во всю ширину колонки, не растёт;
+ * на совсем низком экране не сжимается дальше min-height — тогда экран прокручивается.
+ */
 .results-grid {
+  flex: 1 1 0;
+  min-height: 330px;
+  max-height: calc(min(100vw - 32px, 520px) + 116px);
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: 8px;
   width: 100%;
   max-width: 520px;
-  margin: 6px 0 8px;
+  margin: 2px 0 4px;
 }
 
 .res-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
   margin: 0;
-  padding: 6px 6px 8px;
+  padding: 5px 5px 6px;
   border: 3px solid transparent;
   border-radius: 16px;
   background: var(--paper);
@@ -895,35 +916,63 @@ button:disabled {
   border-color: #f2b2a8;
 }
 
-.res-item canvas {
+.res-thumb {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+/* Квадрат, вписанный в свободное место карточки. */
+.res-thumb canvas {
+  position: absolute;
+  inset: 0;
+  margin: auto;
   display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
+  max-width: 100%;
+  max-height: 100%;
   border: 1px solid var(--line);
   border-radius: 9px;
 }
 
+/* Место под вторую строку есть у всех карточек, чтобы рисунки в ряду были одного размера. */
 .res-item figcaption {
-  margin-top: 5px;
+  margin-top: 4px;
+  min-height: calc(0.95rem * 1.15 + 0.75rem * 1.2 + 1px);
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: center;
   gap: 1px;
 }
 
 .res-item b {
   font-size: 0.95rem;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 .res-item small {
   font-size: 0.75rem;
+  line-height: 1.2;
   color: var(--ink-soft);
-  overflow-wrap: anywhere;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .results-actions {
-  display: grid;
-  gap: 14px;
-  width: min(100%, 320px);
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: min(100%, 440px);
+  margin-top: 2px;
+}
+
+.results-actions .btn {
+  flex: 1 1 0;
+  max-width: 320px;
+  padding-inline: 0.6em;
+  font-size: 1.15rem;
 }
 
 /* ——— Диалоги и реклама ——— */

@@ -382,12 +382,12 @@ class RoundSession {
           h(
             'figure',
             { class: `res-item ${a.ok ? 'ok' : 'bad'}` },
-            renderThumb(this.board.strokes[a.cell], a.cell + 1),
+            h('div', { class: 'res-thumb' }, renderThumb(this.board.strokes[a.cell], a.cell + 1)),
             h(
               'figcaption',
               {},
               h('b', {}, a.word),
-              !a.ok && h('small', {}, a.answer === null ? 'не вспомнили' : `ваш ответ: ${a.answer}`),
+              !a.ok && h('small', {}, a.answer === null ? 'не вспомнили' : h('s', {}, a.answer)),
             ),
           ),
         );
@@ -402,8 +402,8 @@ class RoundSession {
           h(
             'div',
             { class: 'results-actions' },
-            next !== null && h('button', { class: 'btn btn-lg', onclick: () => resolve(next) }, `Раунд ${next}`, icon('play')),
             h('button', { class: next !== null ? 'btn btn-light' : 'btn btn-lg', onclick: () => resolve('menu') }, 'На главную'),
+            next !== null && h('button', { class: 'btn btn-lg', onclick: () => resolve(next) }, `Раунд ${next}`, icon('play')),
           ),
         ),
       );
