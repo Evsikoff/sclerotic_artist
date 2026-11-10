@@ -1,0 +1,124 @@
+{
+  "1": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Calm, slow, and clearly articulated female voice with neutral pacing."
+  },
+  "2": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Calm, low-energy, steady male voice speaking in a quiet, measured cadence."
+  },
+  "3": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "A deep, authoritative Russian male voice reciting items with steady, deliberate pacing."
+  },
+  "4": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "A gentle, playful female voice articulating words with clear, theatrical, childlike charm."
+  },
+  "6": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Slow, methodical, and calm pronunciation with consistent pauses between words."
+  },
+  "7": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "A neutral, clear, and steady male voice reciting numbered vocabulary items."
+  },
+  "9": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "A breathy, deliberate, strained whisper with slow and rhythmic articulation."
+  },
+  "10": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Calm, slow, and clearly articulated female voice reciting vocabulary evenly."
+  },
+  "11": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Calm, precise, and measured Russian pronunciation delivered with clear, steady pacing."
+  },
+  "12": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Calm, clear, and methodical pronunciation with an instructional tone."
+  },
+  "13": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "A slow, deep male voice reciting items with a calm, flat, deliberate tone."
+  },
+  "14": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [
+      {
+        "expected": [
+          "куб"
+        ],
+        "heard": [
+          "куп"
+        ]
+      },
+      {
+        "expected": [
+          "губы"
+        ],
+        "heard": [
+          "кубы"
+        ]
+      }
+    ],
+    "delivery": "Calm, slow, and deliberately enunciated Russian speech with an instructional tone."
+  },
+  "15": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Calm, clear, and steady voice counting and reading words methodically."
+  },
+  "16": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "A clear, steady male voice speaking in a neutral and instructional manner."
+  },
+  "5": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [],
+    "delivery": "Spoken slowly in a deep, robotic, and monotone voice."
+  },
+  "8": {
+    "heard_items": 50,
+    "expected_items": 50,
+    "diffs": [
+      {
+        "expected": [
+          "гвоздь"
+        ],
+        "heard": [
+          "хвост"
+        ]
+      }
+    ],
+    "delivery": "Soft, calm female whispers, carefully articulated in a measured, soothing tempo."
+  }
+}

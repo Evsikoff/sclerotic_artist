@@ -1,0 +1,6124 @@
+{
+  "game_title": "Художник-склеротик",
+  "total_items": 400,
+  "rounds_count": 16,
+  "items_per_round": 25,
+  "words_flat": [
+    "Простыня",
+    "Кактус",
+    "Ворота",
+    "Яхта",
+    "Газета",
+    "Мыло",
+    "Вафля",
+    "Туман",
+    "Стакан",
+    "Колода карт",
+    "Наковальня",
+    "Луна",
+    "Бочка",
+    "Небоскреб",
+    "Шлейф",
+    "Мангал",
+    "Дирижабль",
+    "Шоколадный батончик",
+    "Фонтан",
+    "Паутина",
+    "Подъезд",
+    "Медуза",
+    "Свеча",
+    "Мель",
+    "Ветеринар",
+    "Сад",
+    "Мандарин",
+    "Арбуз",
+    "Ель",
+    "Зверь",
+    "Сундук с золотом",
+    "Мышь",
+    "Поршень",
+    "Гнездо",
+    "Стол",
+    "Кит",
+    "Вишня",
+    "Лапта",
+    "Карабин",
+    "Маховик",
+    "Воронка",
+    "Посох",
+    "Штатив",
+    "Мост",
+    "Яйцо",
+    "Вьюга",
+    "Пень",
+    "Молния",
+    "Биатлон",
+    "Шоколад",
+    "Лук",
+    "Чемодан",
+    "Швабра",
+    "Ковш",
+    "Звено",
+    "Станок",
+    "Пульт",
+    "Ларёк",
+    "Кресло-качалка",
+    "Брызги",
+    "Зеркало",
+    "Звук",
+    "Тон",
+    "Кот",
+    "Скот",
+    "Клапан",
+    "Спичечный коробок",
+    "Тарелка",
+    "Качок",
+    "Лопата",
+    "Ситечко",
+    "Елочная игрушка",
+    "Коктейль",
+    "Кирпич",
+    "Конь",
+    "Стон",
+    "Кондуктор",
+    "Хвоя",
+    "Черта",
+    "Сабля",
+    "Лес",
+    "Лев",
+    "Слив",
+    "Вилка",
+    "Саморез",
+    "Сачок",
+    "Бабочка",
+    "Почка",
+    "Печка",
+    "Клон",
+    "Будка",
+    "Гудок",
+    "Трактор",
+    "Крик",
+    "Сигнал",
+    "Сигара",
+    "Гитара",
+    "Тариф",
+    "Жираф",
+    "Шкаф",
+    "Зонт",
+    "Бинт",
+    "Бунт",
+    "Бант",
+    "Торт",
+    "Краб",
+    "Гриб",
+    "Герб",
+    "Гроб",
+    "Сугроб",
+    "Лимон",
+    "Вагон",
+    "Разгон",
+    "Дракон",
+    "Балкон",
+    "Очки",
+    "Тапки",
+    "Щепки",
+    "Кепка",
+    "Скрепка",
+    "Чайник",
+    "Памятник",
+    "Спутник",
+    "Веник",
+    "Пряник",
+    "Колесо",
+    "Кольцо",
+    "Крыльцо",
+    "Пальто",
+    "Ведро",
+    "Фонарь",
+    "Якорь",
+    "Токарь",
+    "Сухарь",
+    "Словарь",
+    "Ножницы",
+    "Лестница",
+    "Кузница",
+    "Мельница",
+    "Гусеница",
+    "Барабан",
+    "Кабан",
+    "Обман",
+    "Карман",
+    "Стаканчик",
+    "Робот",
+    "Хобот",
+    "Шепот",
+    "Сапог",
+    "Пирог",
+    "Утюг",
+    "Паук",
+    "Испуг",
+    "Сундук",
+    "Каблук",
+    "Замок",
+    "Венок",
+    "Рынок",
+    "Щенок",
+    "Звонок",
+    "Пингвин",
+    "Дельфин",
+    "Бензин",
+    "Камин",
+    "Рубин",
+    "Гантель",
+    "Портфель",
+    "Метель",
+    "Качели",
+    "Туннель",
+    "Шляпа",
+    "Лапа",
+    "Этап",
+    "Штамп",
+    "Лампа",
+    "Кость",
+    "Гвоздь",
+    "Гость",
+    "Трость",
+    "Гроздь",
+    "Крюк",
+    "Люк",
+    "Трюк",
+    "Брюки",
+    "Руки",
+    "Маяк",
+    "Гамак",
+    "Сквозняк",
+    "Червяк",
+    "Рюкзак",
+    "Сыр",
+    "Тир",
+    "Мир",
+    "Пир",
+    "Гиря",
+    "Корона",
+    "Ворона",
+    "Оборона",
+    "Колонна",
+    "Лимонад",
+    "Шприц",
+    "Принц",
+    "Принцип",
+    "Перец",
+    "Огурец",
+    "Санки",
+    "Банка",
+    "Изнанка",
+    "Шарманка",
+    "Скакалка",
+    "Пчела",
+    "Пила",
+    "Смола",
+    "Стрела",
+    "Метла",
+    "Компас",
+    "Кактус в горшке",
+    "Космос",
+    "Термос",
+    "Поднос",
+    "Кровать",
+    "Тетрадь",
+    "Печать",
+    "Меч",
+    "Мяч",
+    "Рыба",
+    "Глыба",
+    "Улыбка",
+    "Скрипка",
+    "Прищепка",
+    "Коробка",
+    "Пробка",
+    "Скорлупка",
+    "Шлюпка",
+    "Юбка",
+    "Забор",
+    "Топор",
+    "Мотор",
+    "Костер",
+    "Шатер",
+    "Скейт",
+    "Флейта",
+    "Лейка",
+    "Скамейка",
+    "Батарейка",
+    "Снеговик",
+    "Грузовик",
+    "Тупик",
+    "Парик",
+    "Родник",
+    "Ключ",
+    "Обруч",
+    "Луч",
+    "Туча",
+    "Куча",
+    "Пальма",
+    "Шлем",
+    "Проблема",
+    "Коромысло",
+    "Весло",
+    "Седло",
+    "Стекло",
+    "Тепло",
+    "Дупло",
+    "Крыло",
+    "Монета",
+    "Ракета",
+    "Диета",
+    "Конфета",
+    "Котлета",
+    "Планета",
+    "Карета",
+    "Примета",
+    "Кассета",
+    "Антенна",
+    "Грабли",
+    "Корабль",
+    "Ансамбль",
+    "Капля",
+    "Цапля",
+    "Шарф",
+    "Арфа",
+    "Штраф",
+    "Сейф",
+    "Серф",
+    "Ботинок",
+    "Пластинка",
+    "Разминка",
+    "Корзинка",
+    "Снежинка",
+    "Пружина",
+    "Машина",
+    "Вершина",
+    "Кувшин",
+    "Пинцет",
+    "Билет",
+    "Скелет",
+    "Секрет",
+    "Букет",
+    "Пакет",
+    "Кран",
+    "Экран",
+    "Обманщик",
+    "Диван",
+    "Вулкан",
+    "Остров",
+    "Ковер",
+    "Заговор",
+    "Светофор",
+    "Помидор",
+    "Мухомор",
+    "Зазор",
+    "Позор",
+    "Узор",
+    "Телевизор",
+    "Кактус в пустыне",
+    "Верблюд",
+    "Уют",
+    "Парашют",
+    "Салют",
+    "Батут",
+    "Жгут",
+    "Маршрут",
+    "Шуруп",
+    "Суп",
+    "Зуб",
+    "Дуб",
+    "Клуб",
+    "Куб",
+    "Труба",
+    "Губы",
+    "Шуба",
+    "Дружба",
+    "Шайба",
+    "Колба",
+    "Бомба",
+    "Тумба",
+    "Пломба",
+    "Клумба",
+    "Изба",
+    "Резьба",
+    "Серьга",
+    "Тайга",
+    "Нога",
+    "Радуга",
+    "Телега",
+    "Коллега",
+    "Тревога",
+    "Дорога",
+    "Берлога",
+    "Рога",
+    "Фляга",
+    "Отвага",
+    "Бумага",
+    "Шпага",
+    "Книга",
+    "Фига",
+    "Интрига",
+    "Иголка",
+    "Футболка",
+    "Полка",
+    "Булка",
+    "Прогулка",
+    "Копилка",
+    "Бутылка",
+    "Посылка",
+    "Носилки",
+    "Опилки",
+    "Варежка",
+    "Тележка",
+    "Пешка",
+    "Орешки",
+    "Спешка",
+    "Флешка",
+    "Матрешка",
+    "Картошка",
+    "Гармошка",
+    "Брошка",
+    "Ложка",
+    "Кошка",
+    "Окошко",
+    "Лукошко",
+    "Понарошку",
+    "Ладошка",
+    "Мошка",
+    "Пушка",
+    "Подушка",
+    "Ловушка",
+    "Лягушка",
+    "Ракушка",
+    "Ватрушка",
+    "Хлопушка",
+    "Опушка",
+    "Кормушка",
+    "Погремушка",
+    "Клюшка",
+    "Кружка",
+    "Стружка",
+    "Мушка",
+    "Макушка"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "words": [
+        "Простыня",
+        "Кактус",
+        "Ворота",
+        "Яхта",
+        "Газета",
+        "Мыло",
+        "Вафля",
+        "Туман",
+        "Стакан",
+        "Колода карт",
+        "Наковальня",
+        "Луна",
+        "Бочка",
+        "Небоскреб",
+        "Шлейф",
+        "Мангал",
+        "Дирижабль",
+        "Шоколадный батончик",
+        "Фонтан",
+        "Паутина",
+        "Подъезд",
+        "Медуза",
+        "Свеча",
+        "Мель",
+        "Ветеринар"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 1,
+          "word": "Простыня",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 2,
+          "word": "Кактус",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 3,
+          "word": "Ворота",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 4,
+          "id": 4,
+          "word": "Яхта",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 5,
+          "word": "Газета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 6,
+          "word": "Мыло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 7,
+          "word": "Вафля",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 8,
+          "word": "Туман",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 9,
+          "word": "Стакан",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 10,
+          "word": "Колода карт",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 11,
+          "word": "Наковальня",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 12,
+          "word": "Луна",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 13,
+          "word": "Бочка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 14,
+          "id": 14,
+          "word": "Небоскреб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 15,
+          "word": "Шлейф",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 16,
+          "id": 16,
+          "word": "Мангал",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 17,
+          "word": "Дирижабль",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 18,
+          "word": "Шоколадный батончик",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 19,
+          "id": 19,
+          "word": "Фонтан",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 20,
+          "word": "Паутина",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 21,
+          "word": "Подъезд",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 22,
+          "word": "Медуза",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 23,
+          "word": "Свеча",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 24,
+          "id": 24,
+          "word": "Мель",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 25,
+          "id": 25,
+          "word": "Ветеринар",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "words": [
+        "Сад",
+        "Мандарин",
+        "Арбуз",
+        "Ель",
+        "Зверь",
+        "Сундук с золотом",
+        "Мышь",
+        "Поршень",
+        "Гнездо",
+        "Стол",
+        "Кит",
+        "Вишня",
+        "Лапта",
+        "Карабин",
+        "Маховик",
+        "Воронка",
+        "Посох",
+        "Штатив",
+        "Мост",
+        "Яйцо",
+        "Вьюга",
+        "Пень",
+        "Молния",
+        "Биатлон",
+        "Шоколад"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 26,
+          "word": "Сад",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 27,
+          "word": "Мандарин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 28,
+          "word": "Арбуз",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 4,
+          "id": 29,
+          "word": "Ель",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 30,
+          "word": "Зверь",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 6,
+          "id": 31,
+          "word": "Сундук с золотом",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 32,
+          "word": "Мышь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 33,
+          "word": "Поршень",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 34,
+          "word": "Гнездо",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 35,
+          "word": "Стол",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 36,
+          "word": "Кит",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 37,
+          "word": "Вишня",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 38,
+          "word": "Лапта",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 39,
+          "word": "Карабин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 40,
+          "word": "Маховик",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 16,
+          "id": 41,
+          "word": "Воронка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 42,
+          "word": "Посох",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 43,
+          "word": "Штатив",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 44,
+          "word": "Мост",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 45,
+          "word": "Яйцо",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 46,
+          "word": "Вьюга",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 22,
+          "id": 47,
+          "word": "Пень",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 48,
+          "word": "Молния",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 24,
+          "id": 49,
+          "word": "Биатлон",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 25,
+          "id": 50,
+          "word": "Шоколад",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "words": [
+        "Лук",
+        "Чемодан",
+        "Швабра",
+        "Ковш",
+        "Звено",
+        "Станок",
+        "Пульт",
+        "Ларёк",
+        "Кресло-качалка",
+        "Брызги",
+        "Зеркало",
+        "Звук",
+        "Тон",
+        "Кот",
+        "Скот",
+        "Клапан",
+        "Спичечный коробок",
+        "Тарелка",
+        "Качок",
+        "Лопата",
+        "Ситечко",
+        "Елочная игрушка",
+        "Коктейль",
+        "Кирпич",
+        "Конь"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 51,
+          "word": "Лук",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 52,
+          "word": "Чемодан",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 53,
+          "word": "Швабра",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 4,
+          "id": 54,
+          "word": "Ковш",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 55,
+          "word": "Звено",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 6,
+          "id": 56,
+          "word": "Станок",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 7,
+          "id": 57,
+          "word": "Пульт",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 58,
+          "word": "Ларёк",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 9,
+          "id": 59,
+          "word": "Кресло-качалка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 60,
+          "word": "Брызги",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 11,
+          "id": 61,
+          "word": "Зеркало",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 62,
+          "word": "Звук",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 13,
+          "id": 63,
+          "word": "Тон",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 64,
+          "word": "Кот",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 65,
+          "word": "Скот",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 16,
+          "id": 66,
+          "word": "Клапан",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 17,
+          "id": 67,
+          "word": "Спичечный коробок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 68,
+          "word": "Тарелка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 19,
+          "id": 69,
+          "word": "Качок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 70,
+          "word": "Лопата",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 71,
+          "word": "Ситечко",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 72,
+          "word": "Елочная игрушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 73,
+          "word": "Коктейль",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 24,
+          "id": 74,
+          "word": "Кирпич",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 75,
+          "word": "Конь",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "words": [
+        "Стон",
+        "Кондуктор",
+        "Хвоя",
+        "Черта",
+        "Сабля",
+        "Лес",
+        "Лев",
+        "Слив",
+        "Вилка",
+        "Саморез",
+        "Сачок",
+        "Бабочка",
+        "Почка",
+        "Печка",
+        "Клон",
+        "Будка",
+        "Гудок",
+        "Трактор",
+        "Крик",
+        "Сигнал",
+        "Сигара",
+        "Гитара",
+        "Тариф",
+        "Жираф",
+        "Шкаф"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 76,
+          "word": "Стон",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 2,
+          "id": 77,
+          "word": "Кондуктор",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 3,
+          "id": 78,
+          "word": "Хвоя",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 4,
+          "id": 79,
+          "word": "Черта",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 80,
+          "word": "Сабля",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 81,
+          "word": "Лес",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 82,
+          "word": "Лев",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 83,
+          "word": "Слив",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 84,
+          "word": "Вилка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 85,
+          "word": "Саморез",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 86,
+          "word": "Сачок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 87,
+          "word": "Бабочка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 88,
+          "word": "Почка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 89,
+          "word": "Печка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 90,
+          "word": "Клон",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 16,
+          "id": 91,
+          "word": "Будка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 92,
+          "word": "Гудок",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 18,
+          "id": 93,
+          "word": "Трактор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 19,
+          "id": 94,
+          "word": "Крик",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 20,
+          "id": 95,
+          "word": "Сигнал",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 21,
+          "id": 96,
+          "word": "Сигара",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 97,
+          "word": "Гитара",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 98,
+          "word": "Тариф",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 99,
+          "word": "Жираф",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 100,
+          "word": "Шкаф",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "words": [
+        "Зонт",
+        "Бинт",
+        "Бунт",
+        "Бант",
+        "Торт",
+        "Краб",
+        "Гриб",
+        "Герб",
+        "Гроб",
+        "Сугроб",
+        "Лимон",
+        "Вагон",
+        "Разгон",
+        "Дракон",
+        "Балкон",
+        "Очки",
+        "Тапки",
+        "Щепки",
+        "Кепка",
+        "Скрепка",
+        "Чайник",
+        "Памятник",
+        "Спутник",
+        "Веник",
+        "Пряник"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 101,
+          "word": "Зонт",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 102,
+          "word": "Бинт",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 103,
+          "word": "Бунт",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 104,
+          "word": "Бант",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 105,
+          "word": "Торт",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 106,
+          "word": "Краб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 107,
+          "word": "Гриб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 108,
+          "word": "Герб",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 109,
+          "word": "Гроб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 110,
+          "word": "Сугроб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 111,
+          "word": "Лимон",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 112,
+          "word": "Вагон",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 113,
+          "word": "Разгон",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 114,
+          "word": "Дракон",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 115,
+          "word": "Балкон",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 116,
+          "word": "Очки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 117,
+          "word": "Тапки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 118,
+          "word": "Щепки",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 119,
+          "word": "Кепка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 120,
+          "word": "Скрепка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 121,
+          "word": "Чайник",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 122,
+          "word": "Памятник",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 123,
+          "word": "Спутник",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 124,
+          "word": "Веник",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 125,
+          "word": "Пряник",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "words": [
+        "Колесо",
+        "Кольцо",
+        "Крыльцо",
+        "Пальто",
+        "Ведро",
+        "Фонарь",
+        "Якорь",
+        "Токарь",
+        "Сухарь",
+        "Словарь",
+        "Ножницы",
+        "Лестница",
+        "Кузница",
+        "Мельница",
+        "Гусеница",
+        "Барабан",
+        "Кабан",
+        "Обман",
+        "Карман",
+        "Стаканчик",
+        "Робот",
+        "Хобот",
+        "Шепот",
+        "Сапог",
+        "Пирог"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 126,
+          "word": "Колесо",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 127,
+          "word": "Кольцо",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 128,
+          "word": "Крыльцо",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 129,
+          "word": "Пальто",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 130,
+          "word": "Ведро",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 131,
+          "word": "Фонарь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 132,
+          "word": "Якорь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 133,
+          "word": "Токарь",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 134,
+          "word": "Сухарь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 135,
+          "word": "Словарь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 136,
+          "word": "Ножницы",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 137,
+          "word": "Лестница",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 138,
+          "word": "Кузница",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 139,
+          "word": "Мельница",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 140,
+          "word": "Гусеница",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 141,
+          "word": "Барабан",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 142,
+          "word": "Кабан",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 143,
+          "word": "Обман",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 144,
+          "word": "Карман",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 145,
+          "word": "Стаканчик",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 146,
+          "word": "Робот",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 147,
+          "word": "Хобот",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 148,
+          "word": "Шепот",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 149,
+          "word": "Сапог",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 150,
+          "word": "Пирог",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "words": [
+        "Утюг",
+        "Паук",
+        "Испуг",
+        "Сундук",
+        "Каблук",
+        "Замок",
+        "Венок",
+        "Рынок",
+        "Щенок",
+        "Звонок",
+        "Пингвин",
+        "Дельфин",
+        "Бензин",
+        "Камин",
+        "Рубин",
+        "Гантель",
+        "Портфель",
+        "Метель",
+        "Качели",
+        "Туннель",
+        "Шляпа",
+        "Лапа",
+        "Этап",
+        "Штамп",
+        "Лампа"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 151,
+          "word": "Утюг",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 152,
+          "word": "Паук",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 153,
+          "word": "Испуг",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 154,
+          "word": "Сундук",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 155,
+          "word": "Каблук",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 156,
+          "word": "Замок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 157,
+          "word": "Венок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 158,
+          "word": "Рынок",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 159,
+          "word": "Щенок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 160,
+          "word": "Звонок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 161,
+          "word": "Пингвин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 162,
+          "word": "Дельфин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 163,
+          "word": "Бензин",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 164,
+          "word": "Камин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 165,
+          "word": "Рубин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 166,
+          "word": "Гантель",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 167,
+          "word": "Портфель",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 168,
+          "word": "Метель",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 169,
+          "word": "Качели",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 170,
+          "word": "Туннель",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 171,
+          "word": "Шляпа",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 172,
+          "word": "Лапа",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 173,
+          "word": "Этап",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 174,
+          "word": "Штамп",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 175,
+          "word": "Лампа",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "words": [
+        "Кость",
+        "Гвоздь",
+        "Гость",
+        "Трость",
+        "Гроздь",
+        "Крюк",
+        "Люк",
+        "Трюк",
+        "Брюки",
+        "Руки",
+        "Маяк",
+        "Гамак",
+        "Сквозняк",
+        "Червяк",
+        "Рюкзак",
+        "Сыр",
+        "Тир",
+        "Мир",
+        "Пир",
+        "Гиря",
+        "Корона",
+        "Ворона",
+        "Оборона",
+        "Колонна",
+        "Лимонад"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 176,
+          "word": "Кость",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 177,
+          "word": "Гвоздь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 178,
+          "word": "Гость",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 179,
+          "word": "Трость",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 180,
+          "word": "Гроздь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 181,
+          "word": "Крюк",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 182,
+          "word": "Люк",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 183,
+          "word": "Трюк",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 184,
+          "word": "Брюки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 185,
+          "word": "Руки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 186,
+          "word": "Маяк",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 187,
+          "word": "Гамак",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 188,
+          "word": "Сквозняк",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 189,
+          "word": "Червяк",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 190,
+          "word": "Рюкзак",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 191,
+          "word": "Сыр",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 192,
+          "word": "Тир",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 193,
+          "word": "Мир",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 194,
+          "word": "Пир",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 195,
+          "word": "Гиря",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 196,
+          "word": "Корона",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 197,
+          "word": "Ворона",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 198,
+          "word": "Оборона",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 199,
+          "word": "Колонна",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 200,
+          "word": "Лимонад",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "words": [
+        "Шприц",
+        "Принц",
+        "Принцип",
+        "Перец",
+        "Огурец",
+        "Санки",
+        "Банка",
+        "Изнанка",
+        "Шарманка",
+        "Скакалка",
+        "Пчела",
+        "Пила",
+        "Смола",
+        "Стрела",
+        "Метла",
+        "Компас",
+        "Кактус в горшке",
+        "Космос",
+        "Термос",
+        "Поднос",
+        "Кровать",
+        "Тетрадь",
+        "Печать",
+        "Меч",
+        "Мяч"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 201,
+          "word": "Шприц",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 202,
+          "word": "Принц",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 203,
+          "word": "Принцип",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 204,
+          "word": "Перец",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 205,
+          "word": "Огурец",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 206,
+          "word": "Санки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 207,
+          "word": "Банка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 208,
+          "word": "Изнанка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 209,
+          "word": "Шарманка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 210,
+          "word": "Скакалка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 211,
+          "word": "Пчела",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 212,
+          "word": "Пила",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 213,
+          "word": "Смола",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 214,
+          "word": "Стрела",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 215,
+          "word": "Метла",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 216,
+          "word": "Компас",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 217,
+          "word": "Кактус в горшке",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 218,
+          "word": "Космос",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 219,
+          "word": "Термос",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 220,
+          "word": "Поднос",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 221,
+          "word": "Кровать",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 222,
+          "word": "Тетрадь",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 223,
+          "word": "Печать",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 224,
+          "word": "Меч",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 225,
+          "word": "Мяч",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "words": [
+        "Рыба",
+        "Глыба",
+        "Улыбка",
+        "Скрипка",
+        "Прищепка",
+        "Коробка",
+        "Пробка",
+        "Скорлупка",
+        "Шлюпка",
+        "Юбка",
+        "Забор",
+        "Топор",
+        "Мотор",
+        "Костер",
+        "Шатер",
+        "Скейт",
+        "Флейта",
+        "Лейка",
+        "Скамейка",
+        "Батарейка",
+        "Снеговик",
+        "Грузовик",
+        "Тупик",
+        "Парик",
+        "Родник"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 226,
+          "word": "Рыба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 227,
+          "word": "Глыба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 228,
+          "word": "Улыбка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 229,
+          "word": "Скрипка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 230,
+          "word": "Прищепка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 231,
+          "word": "Коробка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 232,
+          "word": "Пробка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 233,
+          "word": "Скорлупка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 234,
+          "word": "Шлюпка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 235,
+          "word": "Юбка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 236,
+          "word": "Забор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 237,
+          "word": "Топор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 238,
+          "word": "Мотор",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 239,
+          "word": "Костер",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 240,
+          "word": "Шатер",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 241,
+          "word": "Скейт",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 242,
+          "word": "Флейта",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 243,
+          "word": "Лейка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 244,
+          "word": "Скамейка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 245,
+          "word": "Батарейка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 246,
+          "word": "Снеговик",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 247,
+          "word": "Грузовик",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 248,
+          "word": "Тупик",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 249,
+          "word": "Парик",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 250,
+          "word": "Родник",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "words": [
+        "Ключ",
+        "Обруч",
+        "Луч",
+        "Туча",
+        "Куча",
+        "Пальма",
+        "Шлем",
+        "Проблема",
+        "Коромысло",
+        "Весло",
+        "Седло",
+        "Стекло",
+        "Тепло",
+        "Дупло",
+        "Крыло",
+        "Монета",
+        "Ракета",
+        "Диета",
+        "Конфета",
+        "Котлета",
+        "Планета",
+        "Карета",
+        "Примета",
+        "Кассета",
+        "Антенна"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 251,
+          "word": "Ключ",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 252,
+          "word": "Обруч",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 253,
+          "word": "Луч",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 254,
+          "word": "Туча",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 255,
+          "word": "Куча",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 256,
+          "word": "Пальма",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 257,
+          "word": "Шлем",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 258,
+          "word": "Проблема",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 259,
+          "word": "Коромысло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 260,
+          "word": "Весло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 261,
+          "word": "Седло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 262,
+          "word": "Стекло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 263,
+          "word": "Тепло",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 264,
+          "word": "Дупло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 265,
+          "word": "Крыло",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 266,
+          "word": "Монета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 267,
+          "word": "Ракета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 268,
+          "word": "Диета",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 269,
+          "word": "Конфета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 270,
+          "word": "Котлета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 271,
+          "word": "Планета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 272,
+          "word": "Карета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 273,
+          "word": "Примета",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 274,
+          "word": "Кассета",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 275,
+          "word": "Антенна",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "words": [
+        "Грабли",
+        "Корабль",
+        "Ансамбль",
+        "Капля",
+        "Цапля",
+        "Шарф",
+        "Арфа",
+        "Штраф",
+        "Сейф",
+        "Серф",
+        "Ботинок",
+        "Пластинка",
+        "Разминка",
+        "Корзинка",
+        "Снежинка",
+        "Пружина",
+        "Машина",
+        "Вершина",
+        "Кувшин",
+        "Пинцет",
+        "Билет",
+        "Скелет",
+        "Секрет",
+        "Букет",
+        "Пакет"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 276,
+          "word": "Грабли",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 277,
+          "word": "Корабль",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 278,
+          "word": "Ансамбль",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 279,
+          "word": "Капля",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 280,
+          "word": "Цапля",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 281,
+          "word": "Шарф",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 282,
+          "word": "Арфа",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 283,
+          "word": "Штраф",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 284,
+          "word": "Сейф",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 285,
+          "word": "Серф",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 286,
+          "word": "Ботинок",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 287,
+          "word": "Пластинка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 288,
+          "word": "Разминка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 289,
+          "word": "Корзинка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 290,
+          "word": "Снежинка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 291,
+          "word": "Пружина",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 292,
+          "word": "Машина",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 293,
+          "word": "Вершина",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 294,
+          "word": "Кувшин",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 295,
+          "word": "Пинцет",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 296,
+          "word": "Билет",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 297,
+          "word": "Скелет",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 298,
+          "word": "Секрет",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 299,
+          "word": "Букет",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 300,
+          "word": "Пакет",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "words": [
+        "Кран",
+        "Экран",
+        "Обманщик",
+        "Диван",
+        "Вулкан",
+        "Остров",
+        "Ковер",
+        "Заговор",
+        "Светофор",
+        "Помидор",
+        "Мухомор",
+        "Зазор",
+        "Позор",
+        "Узор",
+        "Телевизор",
+        "Кактус в пустыне",
+        "Верблюд",
+        "Уют",
+        "Парашют",
+        "Салют",
+        "Батут",
+        "Жгут",
+        "Маршрут",
+        "Шуруп",
+        "Суп"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 301,
+          "word": "Кран",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 302,
+          "word": "Экран",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 303,
+          "word": "Обманщик",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 304,
+          "word": "Диван",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 305,
+          "word": "Вулкан",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 306,
+          "word": "Остров",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 307,
+          "word": "Ковер",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 308,
+          "word": "Заговор",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 309,
+          "word": "Светофор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 310,
+          "word": "Помидор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 311,
+          "word": "Мухомор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 312,
+          "word": "Зазор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 313,
+          "word": "Позор",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 314,
+          "word": "Узор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 315,
+          "word": "Телевизор",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 316,
+          "word": "Кактус в пустыне",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 317,
+          "word": "Верблюд",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 318,
+          "word": "Уют",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 319,
+          "word": "Парашют",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 320,
+          "word": "Салют",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 321,
+          "word": "Батут",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 322,
+          "word": "Жгут",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 323,
+          "word": "Маршрут",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 324,
+          "word": "Шуруп",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 325,
+          "word": "Суп",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "words": [
+        "Зуб",
+        "Дуб",
+        "Клуб",
+        "Куб",
+        "Труба",
+        "Губы",
+        "Шуба",
+        "Дружба",
+        "Шайба",
+        "Колба",
+        "Бомба",
+        "Тумба",
+        "Пломба",
+        "Клумба",
+        "Изба",
+        "Резьба",
+        "Серьга",
+        "Тайга",
+        "Нога",
+        "Радуга",
+        "Телега",
+        "Коллега",
+        "Тревога",
+        "Дорога",
+        "Берлога"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 326,
+          "word": "Зуб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 327,
+          "word": "Дуб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 328,
+          "word": "Клуб",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 329,
+          "word": "Куб",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 330,
+          "word": "Труба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 331,
+          "word": "Губы",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 332,
+          "word": "Шуба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 333,
+          "word": "Дружба",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 334,
+          "word": "Шайба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 335,
+          "word": "Колба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 336,
+          "word": "Бомба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 337,
+          "word": "Тумба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 338,
+          "word": "Пломба",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 339,
+          "word": "Клумба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 340,
+          "word": "Изба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 341,
+          "word": "Резьба",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 342,
+          "word": "Серьга",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 343,
+          "word": "Тайга",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 344,
+          "word": "Нога",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 345,
+          "word": "Радуга",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 346,
+          "word": "Телега",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 347,
+          "word": "Коллега",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 348,
+          "word": "Тревога",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 349,
+          "word": "Дорога",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 350,
+          "word": "Берлога",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "words": [
+        "Рога",
+        "Фляга",
+        "Отвага",
+        "Бумага",
+        "Шпага",
+        "Книга",
+        "Фига",
+        "Интрига",
+        "Иголка",
+        "Футболка",
+        "Полка",
+        "Булка",
+        "Прогулка",
+        "Копилка",
+        "Бутылка",
+        "Посылка",
+        "Носилки",
+        "Опилки",
+        "Варежка",
+        "Тележка",
+        "Пешка",
+        "Орешки",
+        "Спешка",
+        "Флешка",
+        "Матрешка"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 351,
+          "word": "Рога",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 352,
+          "word": "Фляга",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 353,
+          "word": "Отвага",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 354,
+          "word": "Бумага",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 355,
+          "word": "Шпага",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 356,
+          "word": "Книга",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 357,
+          "word": "Фига",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 358,
+          "word": "Интрига",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 359,
+          "word": "Иголка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 360,
+          "word": "Футболка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 361,
+          "word": "Полка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 362,
+          "word": "Булка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 363,
+          "word": "Прогулка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 364,
+          "word": "Копилка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 365,
+          "word": "Бутылка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 366,
+          "word": "Посылка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 367,
+          "word": "Носилки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 368,
+          "word": "Опилки",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 369,
+          "word": "Варежка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 370,
+          "word": "Тележка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 371,
+          "word": "Пешка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 372,
+          "word": "Орешки",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 373,
+          "word": "Спешка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 374,
+          "word": "Флешка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 375,
+          "word": "Матрешка",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "round": 16,
+      "words": [
+        "Картошка",
+        "Гармошка",
+        "Брошка",
+        "Ложка",
+        "Кошка",
+        "Окошко",
+        "Лукошко",
+        "Понарошку",
+        "Ладошка",
+        "Мошка",
+        "Пушка",
+        "Подушка",
+        "Ловушка",
+        "Лягушка",
+        "Ракушка",
+        "Ватрушка",
+        "Хлопушка",
+        "Опушка",
+        "Кормушка",
+        "Погремушка",
+        "Клюшка",
+        "Кружка",
+        "Стружка",
+        "Мушка",
+        "Макушка"
+      ],
+      "items": [
+        {
+          "cell_number": 1,
+          "id": 376,
+          "word": "Картошка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 2,
+          "id": 377,
+          "word": "Гармошка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 3,
+          "id": 378,
+          "word": "Брошка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 4,
+          "id": 379,
+          "word": "Ложка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 5,
+          "id": 380,
+          "word": "Кошка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 6,
+          "id": 381,
+          "word": "Окошко",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 7,
+          "id": 382,
+          "word": "Лукошко",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 8,
+          "id": 383,
+          "word": "Понарошку",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 9,
+          "id": 384,
+          "word": "Ладошка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 10,
+          "id": 385,
+          "word": "Мошка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 11,
+          "id": 386,
+          "word": "Пушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 12,
+          "id": 387,
+          "word": "Подушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 13,
+          "id": 388,
+          "word": "Ловушка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 14,
+          "id": 389,
+          "word": "Лягушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 15,
+          "id": 390,
+          "word": "Ракушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 16,
+          "id": 391,
+          "word": "Ватрушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 17,
+          "id": 392,
+          "word": "Хлопушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 18,
+          "id": 393,
+          "word": "Опушка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 19,
+          "id": 394,
+          "word": "Кормушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 20,
+          "id": 395,
+          "word": "Погремушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 21,
+          "id": 396,
+          "word": "Клюшка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 22,
+          "id": 397,
+          "word": "Кружка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 23,
+          "id": 398,
+          "word": "Стружка",
+          "difficulty": "hard"
+        },
+        {
+          "cell_number": 24,
+          "id": 399,
+          "word": "Мушка",
+          "difficulty": "easy"
+        },
+        {
+          "cell_number": 25,
+          "id": 400,
+          "word": "Макушка",
+          "difficulty": "easy"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "round": 1,
+      "cell_number": 1,
+      "word": "Простыня",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "round": 1,
+      "cell_number": 2,
+      "word": "Кактус",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "round": 1,
+      "cell_number": 3,
+      "word": "Ворота",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "round": 1,
+      "cell_number": 4,
+      "word": "Яхта",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "round": 1,
+      "cell_number": 5,
+      "word": "Газета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "round": 1,
+      "cell_number": 6,
+      "word": "Мыло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "round": 1,
+      "cell_number": 7,
+      "word": "Вафля",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "round": 1,
+      "cell_number": 8,
+      "word": "Туман",
+      "difficulty": "hard"
+    },
+    {
+      "id": 9,
+      "round": 1,
+      "cell_number": 9,
+      "word": "Стакан",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "round": 1,
+      "cell_number": 10,
+      "word": "Колода карт",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "round": 1,
+      "cell_number": 11,
+      "word": "Наковальня",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "round": 1,
+      "cell_number": 12,
+      "word": "Луна",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "round": 1,
+      "cell_number": 13,
+      "word": "Бочка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "round": 1,
+      "cell_number": 14,
+      "word": "Небоскреб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "round": 1,
+      "cell_number": 15,
+      "word": "Шлейф",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "round": 1,
+      "cell_number": 16,
+      "word": "Мангал",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "round": 1,
+      "cell_number": 17,
+      "word": "Дирижабль",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "round": 1,
+      "cell_number": 18,
+      "word": "Шоколадный батончик",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "round": 1,
+      "cell_number": 19,
+      "word": "Фонтан",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "round": 1,
+      "cell_number": 20,
+      "word": "Паутина",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "round": 1,
+      "cell_number": 21,
+      "word": "Подъезд",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "round": 1,
+      "cell_number": 22,
+      "word": "Медуза",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "round": 1,
+      "cell_number": 23,
+      "word": "Свеча",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "round": 1,
+      "cell_number": 24,
+      "word": "Мель",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "round": 1,
+      "cell_number": 25,
+      "word": "Ветеринар",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "round": 2,
+      "cell_number": 1,
+      "word": "Сад",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "round": 2,
+      "cell_number": 2,
+      "word": "Мандарин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "round": 2,
+      "cell_number": 3,
+      "word": "Арбуз",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "round": 2,
+      "cell_number": 4,
+      "word": "Ель",
+      "difficulty": "easy"
+    },
+    {
+      "id": 30,
+      "round": 2,
+      "cell_number": 5,
+      "word": "Зверь",
+      "difficulty": "hard"
+    },
+    {
+      "id": 31,
+      "round": 2,
+      "cell_number": 6,
+      "word": "Сундук с золотом",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "round": 2,
+      "cell_number": 7,
+      "word": "Мышь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "round": 2,
+      "cell_number": 8,
+      "word": "Поршень",
+      "difficulty": "hard"
+    },
+    {
+      "id": 34,
+      "round": 2,
+      "cell_number": 9,
+      "word": "Гнездо",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "round": 2,
+      "cell_number": 10,
+      "word": "Стол",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "round": 2,
+      "cell_number": 11,
+      "word": "Кит",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "round": 2,
+      "cell_number": 12,
+      "word": "Вишня",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "round": 2,
+      "cell_number": 13,
+      "word": "Лапта",
+      "difficulty": "hard"
+    },
+    {
+      "id": 39,
+      "round": 2,
+      "cell_number": 14,
+      "word": "Карабин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "round": 2,
+      "cell_number": 15,
+      "word": "Маховик",
+      "difficulty": "hard"
+    },
+    {
+      "id": 41,
+      "round": 2,
+      "cell_number": 16,
+      "word": "Воронка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "round": 2,
+      "cell_number": 17,
+      "word": "Посох",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "round": 2,
+      "cell_number": 18,
+      "word": "Штатив",
+      "difficulty": "hard"
+    },
+    {
+      "id": 44,
+      "round": 2,
+      "cell_number": 19,
+      "word": "Мост",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "round": 2,
+      "cell_number": 20,
+      "word": "Яйцо",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "round": 2,
+      "cell_number": 21,
+      "word": "Вьюга",
+      "difficulty": "hard"
+    },
+    {
+      "id": 47,
+      "round": 2,
+      "cell_number": 22,
+      "word": "Пень",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "round": 2,
+      "cell_number": 23,
+      "word": "Молния",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "round": 2,
+      "cell_number": 24,
+      "word": "Биатлон",
+      "difficulty": "hard"
+    },
+    {
+      "id": 50,
+      "round": 2,
+      "cell_number": 25,
+      "word": "Шоколад",
+      "difficulty": "easy"
+    },
+    {
+      "id": 51,
+      "round": 3,
+      "cell_number": 1,
+      "word": "Лук",
+      "difficulty": "easy"
+    },
+    {
+      "id": 52,
+      "round": 3,
+      "cell_number": 2,
+      "word": "Чемодан",
+      "difficulty": "easy"
+    },
+    {
+      "id": 53,
+      "round": 3,
+      "cell_number": 3,
+      "word": "Швабра",
+      "difficulty": "easy"
+    },
+    {
+      "id": 54,
+      "round": 3,
+      "cell_number": 4,
+      "word": "Ковш",
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "round": 3,
+      "cell_number": 5,
+      "word": "Звено",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "round": 3,
+      "cell_number": 6,
+      "word": "Станок",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "round": 3,
+      "cell_number": 7,
+      "word": "Пульт",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "round": 3,
+      "cell_number": 8,
+      "word": "Ларёк",
+      "difficulty": "easy"
+    },
+    {
+      "id": 59,
+      "round": 3,
+      "cell_number": 9,
+      "word": "Кресло-качалка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 60,
+      "round": 3,
+      "cell_number": 10,
+      "word": "Брызги",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "round": 3,
+      "cell_number": 11,
+      "word": "Зеркало",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "round": 3,
+      "cell_number": 12,
+      "word": "Звук",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "round": 3,
+      "cell_number": 13,
+      "word": "Тон",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "round": 3,
+      "cell_number": 14,
+      "word": "Кот",
+      "difficulty": "easy"
+    },
+    {
+      "id": 65,
+      "round": 3,
+      "cell_number": 15,
+      "word": "Скот",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "round": 3,
+      "cell_number": 16,
+      "word": "Клапан",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "round": 3,
+      "cell_number": 17,
+      "word": "Спичечный коробок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "round": 3,
+      "cell_number": 18,
+      "word": "Тарелка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 69,
+      "round": 3,
+      "cell_number": 19,
+      "word": "Качок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 70,
+      "round": 3,
+      "cell_number": 20,
+      "word": "Лопата",
+      "difficulty": "easy"
+    },
+    {
+      "id": 71,
+      "round": 3,
+      "cell_number": 21,
+      "word": "Ситечко",
+      "difficulty": "easy"
+    },
+    {
+      "id": 72,
+      "round": 3,
+      "cell_number": 22,
+      "word": "Елочная игрушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 73,
+      "round": 3,
+      "cell_number": 23,
+      "word": "Коктейль",
+      "difficulty": "easy"
+    },
+    {
+      "id": 74,
+      "round": 3,
+      "cell_number": 24,
+      "word": "Кирпич",
+      "difficulty": "easy"
+    },
+    {
+      "id": 75,
+      "round": 3,
+      "cell_number": 25,
+      "word": "Конь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 76,
+      "round": 4,
+      "cell_number": 1,
+      "word": "Стон",
+      "difficulty": "hard"
+    },
+    {
+      "id": 77,
+      "round": 4,
+      "cell_number": 2,
+      "word": "Кондуктор",
+      "difficulty": "hard"
+    },
+    {
+      "id": 78,
+      "round": 4,
+      "cell_number": 3,
+      "word": "Хвоя",
+      "difficulty": "easy"
+    },
+    {
+      "id": 79,
+      "round": 4,
+      "cell_number": 4,
+      "word": "Черта",
+      "difficulty": "easy"
+    },
+    {
+      "id": 80,
+      "round": 4,
+      "cell_number": 5,
+      "word": "Сабля",
+      "difficulty": "easy"
+    },
+    {
+      "id": 81,
+      "round": 4,
+      "cell_number": 6,
+      "word": "Лес",
+      "difficulty": "easy"
+    },
+    {
+      "id": 82,
+      "round": 4,
+      "cell_number": 7,
+      "word": "Лев",
+      "difficulty": "easy"
+    },
+    {
+      "id": 83,
+      "round": 4,
+      "cell_number": 8,
+      "word": "Слив",
+      "difficulty": "hard"
+    },
+    {
+      "id": 84,
+      "round": 4,
+      "cell_number": 9,
+      "word": "Вилка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 85,
+      "round": 4,
+      "cell_number": 10,
+      "word": "Саморез",
+      "difficulty": "easy"
+    },
+    {
+      "id": 86,
+      "round": 4,
+      "cell_number": 11,
+      "word": "Сачок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 87,
+      "round": 4,
+      "cell_number": 12,
+      "word": "Бабочка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 88,
+      "round": 4,
+      "cell_number": 13,
+      "word": "Почка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 89,
+      "round": 4,
+      "cell_number": 14,
+      "word": "Печка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 90,
+      "round": 4,
+      "cell_number": 15,
+      "word": "Клон",
+      "difficulty": "hard"
+    },
+    {
+      "id": 91,
+      "round": 4,
+      "cell_number": 16,
+      "word": "Будка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 92,
+      "round": 4,
+      "cell_number": 17,
+      "word": "Гудок",
+      "difficulty": "hard"
+    },
+    {
+      "id": 93,
+      "round": 4,
+      "cell_number": 18,
+      "word": "Трактор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 94,
+      "round": 4,
+      "cell_number": 19,
+      "word": "Крик",
+      "difficulty": "hard"
+    },
+    {
+      "id": 95,
+      "round": 4,
+      "cell_number": 20,
+      "word": "Сигнал",
+      "difficulty": "hard"
+    },
+    {
+      "id": 96,
+      "round": 4,
+      "cell_number": 21,
+      "word": "Сигара",
+      "difficulty": "easy"
+    },
+    {
+      "id": 97,
+      "round": 4,
+      "cell_number": 22,
+      "word": "Гитара",
+      "difficulty": "easy"
+    },
+    {
+      "id": 98,
+      "round": 4,
+      "cell_number": 23,
+      "word": "Тариф",
+      "difficulty": "hard"
+    },
+    {
+      "id": 99,
+      "round": 4,
+      "cell_number": 24,
+      "word": "Жираф",
+      "difficulty": "easy"
+    },
+    {
+      "id": 100,
+      "round": 4,
+      "cell_number": 25,
+      "word": "Шкаф",
+      "difficulty": "easy"
+    },
+    {
+      "id": 101,
+      "round": 5,
+      "cell_number": 1,
+      "word": "Зонт",
+      "difficulty": "easy"
+    },
+    {
+      "id": 102,
+      "round": 5,
+      "cell_number": 2,
+      "word": "Бинт",
+      "difficulty": "easy"
+    },
+    {
+      "id": 103,
+      "round": 5,
+      "cell_number": 3,
+      "word": "Бунт",
+      "difficulty": "hard"
+    },
+    {
+      "id": 104,
+      "round": 5,
+      "cell_number": 4,
+      "word": "Бант",
+      "difficulty": "easy"
+    },
+    {
+      "id": 105,
+      "round": 5,
+      "cell_number": 5,
+      "word": "Торт",
+      "difficulty": "easy"
+    },
+    {
+      "id": 106,
+      "round": 5,
+      "cell_number": 6,
+      "word": "Краб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 107,
+      "round": 5,
+      "cell_number": 7,
+      "word": "Гриб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 108,
+      "round": 5,
+      "cell_number": 8,
+      "word": "Герб",
+      "difficulty": "hard"
+    },
+    {
+      "id": 109,
+      "round": 5,
+      "cell_number": 9,
+      "word": "Гроб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 110,
+      "round": 5,
+      "cell_number": 10,
+      "word": "Сугроб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 111,
+      "round": 5,
+      "cell_number": 11,
+      "word": "Лимон",
+      "difficulty": "easy"
+    },
+    {
+      "id": 112,
+      "round": 5,
+      "cell_number": 12,
+      "word": "Вагон",
+      "difficulty": "easy"
+    },
+    {
+      "id": 113,
+      "round": 5,
+      "cell_number": 13,
+      "word": "Разгон",
+      "difficulty": "hard"
+    },
+    {
+      "id": 114,
+      "round": 5,
+      "cell_number": 14,
+      "word": "Дракон",
+      "difficulty": "easy"
+    },
+    {
+      "id": 115,
+      "round": 5,
+      "cell_number": 15,
+      "word": "Балкон",
+      "difficulty": "easy"
+    },
+    {
+      "id": 116,
+      "round": 5,
+      "cell_number": 16,
+      "word": "Очки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 117,
+      "round": 5,
+      "cell_number": 17,
+      "word": "Тапки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 118,
+      "round": 5,
+      "cell_number": 18,
+      "word": "Щепки",
+      "difficulty": "hard"
+    },
+    {
+      "id": 119,
+      "round": 5,
+      "cell_number": 19,
+      "word": "Кепка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 120,
+      "round": 5,
+      "cell_number": 20,
+      "word": "Скрепка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 121,
+      "round": 5,
+      "cell_number": 21,
+      "word": "Чайник",
+      "difficulty": "easy"
+    },
+    {
+      "id": 122,
+      "round": 5,
+      "cell_number": 22,
+      "word": "Памятник",
+      "difficulty": "easy"
+    },
+    {
+      "id": 123,
+      "round": 5,
+      "cell_number": 23,
+      "word": "Спутник",
+      "difficulty": "hard"
+    },
+    {
+      "id": 124,
+      "round": 5,
+      "cell_number": 24,
+      "word": "Веник",
+      "difficulty": "easy"
+    },
+    {
+      "id": 125,
+      "round": 5,
+      "cell_number": 25,
+      "word": "Пряник",
+      "difficulty": "easy"
+    },
+    {
+      "id": 126,
+      "round": 6,
+      "cell_number": 1,
+      "word": "Колесо",
+      "difficulty": "easy"
+    },
+    {
+      "id": 127,
+      "round": 6,
+      "cell_number": 2,
+      "word": "Кольцо",
+      "difficulty": "easy"
+    },
+    {
+      "id": 128,
+      "round": 6,
+      "cell_number": 3,
+      "word": "Крыльцо",
+      "difficulty": "hard"
+    },
+    {
+      "id": 129,
+      "round": 6,
+      "cell_number": 4,
+      "word": "Пальто",
+      "difficulty": "easy"
+    },
+    {
+      "id": 130,
+      "round": 6,
+      "cell_number": 5,
+      "word": "Ведро",
+      "difficulty": "easy"
+    },
+    {
+      "id": 131,
+      "round": 6,
+      "cell_number": 6,
+      "word": "Фонарь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 132,
+      "round": 6,
+      "cell_number": 7,
+      "word": "Якорь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 133,
+      "round": 6,
+      "cell_number": 8,
+      "word": "Токарь",
+      "difficulty": "hard"
+    },
+    {
+      "id": 134,
+      "round": 6,
+      "cell_number": 9,
+      "word": "Сухарь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 135,
+      "round": 6,
+      "cell_number": 10,
+      "word": "Словарь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 136,
+      "round": 6,
+      "cell_number": 11,
+      "word": "Ножницы",
+      "difficulty": "easy"
+    },
+    {
+      "id": 137,
+      "round": 6,
+      "cell_number": 12,
+      "word": "Лестница",
+      "difficulty": "easy"
+    },
+    {
+      "id": 138,
+      "round": 6,
+      "cell_number": 13,
+      "word": "Кузница",
+      "difficulty": "hard"
+    },
+    {
+      "id": 139,
+      "round": 6,
+      "cell_number": 14,
+      "word": "Мельница",
+      "difficulty": "easy"
+    },
+    {
+      "id": 140,
+      "round": 6,
+      "cell_number": 15,
+      "word": "Гусеница",
+      "difficulty": "easy"
+    },
+    {
+      "id": 141,
+      "round": 6,
+      "cell_number": 16,
+      "word": "Барабан",
+      "difficulty": "easy"
+    },
+    {
+      "id": 142,
+      "round": 6,
+      "cell_number": 17,
+      "word": "Кабан",
+      "difficulty": "easy"
+    },
+    {
+      "id": 143,
+      "round": 6,
+      "cell_number": 18,
+      "word": "Обман",
+      "difficulty": "hard"
+    },
+    {
+      "id": 144,
+      "round": 6,
+      "cell_number": 19,
+      "word": "Карман",
+      "difficulty": "easy"
+    },
+    {
+      "id": 145,
+      "round": 6,
+      "cell_number": 20,
+      "word": "Стаканчик",
+      "difficulty": "easy"
+    },
+    {
+      "id": 146,
+      "round": 6,
+      "cell_number": 21,
+      "word": "Робот",
+      "difficulty": "easy"
+    },
+    {
+      "id": 147,
+      "round": 6,
+      "cell_number": 22,
+      "word": "Хобот",
+      "difficulty": "easy"
+    },
+    {
+      "id": 148,
+      "round": 6,
+      "cell_number": 23,
+      "word": "Шепот",
+      "difficulty": "hard"
+    },
+    {
+      "id": 149,
+      "round": 6,
+      "cell_number": 24,
+      "word": "Сапог",
+      "difficulty": "easy"
+    },
+    {
+      "id": 150,
+      "round": 6,
+      "cell_number": 25,
+      "word": "Пирог",
+      "difficulty": "easy"
+    },
+    {
+      "id": 151,
+      "round": 7,
+      "cell_number": 1,
+      "word": "Утюг",
+      "difficulty": "easy"
+    },
+    {
+      "id": 152,
+      "round": 7,
+      "cell_number": 2,
+      "word": "Паук",
+      "difficulty": "easy"
+    },
+    {
+      "id": 153,
+      "round": 7,
+      "cell_number": 3,
+      "word": "Испуг",
+      "difficulty": "hard"
+    },
+    {
+      "id": 154,
+      "round": 7,
+      "cell_number": 4,
+      "word": "Сундук",
+      "difficulty": "easy"
+    },
+    {
+      "id": 155,
+      "round": 7,
+      "cell_number": 5,
+      "word": "Каблук",
+      "difficulty": "easy"
+    },
+    {
+      "id": 156,
+      "round": 7,
+      "cell_number": 6,
+      "word": "Замок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 157,
+      "round": 7,
+      "cell_number": 7,
+      "word": "Венок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 158,
+      "round": 7,
+      "cell_number": 8,
+      "word": "Рынок",
+      "difficulty": "hard"
+    },
+    {
+      "id": 159,
+      "round": 7,
+      "cell_number": 9,
+      "word": "Щенок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 160,
+      "round": 7,
+      "cell_number": 10,
+      "word": "Звонок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 161,
+      "round": 7,
+      "cell_number": 11,
+      "word": "Пингвин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 162,
+      "round": 7,
+      "cell_number": 12,
+      "word": "Дельфин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 163,
+      "round": 7,
+      "cell_number": 13,
+      "word": "Бензин",
+      "difficulty": "hard"
+    },
+    {
+      "id": 164,
+      "round": 7,
+      "cell_number": 14,
+      "word": "Камин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 165,
+      "round": 7,
+      "cell_number": 15,
+      "word": "Рубин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 166,
+      "round": 7,
+      "cell_number": 16,
+      "word": "Гантель",
+      "difficulty": "easy"
+    },
+    {
+      "id": 167,
+      "round": 7,
+      "cell_number": 17,
+      "word": "Портфель",
+      "difficulty": "easy"
+    },
+    {
+      "id": 168,
+      "round": 7,
+      "cell_number": 18,
+      "word": "Метель",
+      "difficulty": "hard"
+    },
+    {
+      "id": 169,
+      "round": 7,
+      "cell_number": 19,
+      "word": "Качели",
+      "difficulty": "easy"
+    },
+    {
+      "id": 170,
+      "round": 7,
+      "cell_number": 20,
+      "word": "Туннель",
+      "difficulty": "easy"
+    },
+    {
+      "id": 171,
+      "round": 7,
+      "cell_number": 21,
+      "word": "Шляпа",
+      "difficulty": "easy"
+    },
+    {
+      "id": 172,
+      "round": 7,
+      "cell_number": 22,
+      "word": "Лапа",
+      "difficulty": "easy"
+    },
+    {
+      "id": 173,
+      "round": 7,
+      "cell_number": 23,
+      "word": "Этап",
+      "difficulty": "hard"
+    },
+    {
+      "id": 174,
+      "round": 7,
+      "cell_number": 24,
+      "word": "Штамп",
+      "difficulty": "easy"
+    },
+    {
+      "id": 175,
+      "round": 7,
+      "cell_number": 25,
+      "word": "Лампа",
+      "difficulty": "easy"
+    },
+    {
+      "id": 176,
+      "round": 8,
+      "cell_number": 1,
+      "word": "Кость",
+      "difficulty": "easy"
+    },
+    {
+      "id": 177,
+      "round": 8,
+      "cell_number": 2,
+      "word": "Гвоздь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 178,
+      "round": 8,
+      "cell_number": 3,
+      "word": "Гость",
+      "difficulty": "hard"
+    },
+    {
+      "id": 179,
+      "round": 8,
+      "cell_number": 4,
+      "word": "Трость",
+      "difficulty": "easy"
+    },
+    {
+      "id": 180,
+      "round": 8,
+      "cell_number": 5,
+      "word": "Гроздь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 181,
+      "round": 8,
+      "cell_number": 6,
+      "word": "Крюк",
+      "difficulty": "easy"
+    },
+    {
+      "id": 182,
+      "round": 8,
+      "cell_number": 7,
+      "word": "Люк",
+      "difficulty": "easy"
+    },
+    {
+      "id": 183,
+      "round": 8,
+      "cell_number": 8,
+      "word": "Трюк",
+      "difficulty": "hard"
+    },
+    {
+      "id": 184,
+      "round": 8,
+      "cell_number": 9,
+      "word": "Брюки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 185,
+      "round": 8,
+      "cell_number": 10,
+      "word": "Руки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 186,
+      "round": 8,
+      "cell_number": 11,
+      "word": "Маяк",
+      "difficulty": "easy"
+    },
+    {
+      "id": 187,
+      "round": 8,
+      "cell_number": 12,
+      "word": "Гамак",
+      "difficulty": "easy"
+    },
+    {
+      "id": 188,
+      "round": 8,
+      "cell_number": 13,
+      "word": "Сквозняк",
+      "difficulty": "hard"
+    },
+    {
+      "id": 189,
+      "round": 8,
+      "cell_number": 14,
+      "word": "Червяк",
+      "difficulty": "easy"
+    },
+    {
+      "id": 190,
+      "round": 8,
+      "cell_number": 15,
+      "word": "Рюкзак",
+      "difficulty": "easy"
+    },
+    {
+      "id": 191,
+      "round": 8,
+      "cell_number": 16,
+      "word": "Сыр",
+      "difficulty": "easy"
+    },
+    {
+      "id": 192,
+      "round": 8,
+      "cell_number": 17,
+      "word": "Тир",
+      "difficulty": "easy"
+    },
+    {
+      "id": 193,
+      "round": 8,
+      "cell_number": 18,
+      "word": "Мир",
+      "difficulty": "hard"
+    },
+    {
+      "id": 194,
+      "round": 8,
+      "cell_number": 19,
+      "word": "Пир",
+      "difficulty": "easy"
+    },
+    {
+      "id": 195,
+      "round": 8,
+      "cell_number": 20,
+      "word": "Гиря",
+      "difficulty": "easy"
+    },
+    {
+      "id": 196,
+      "round": 8,
+      "cell_number": 21,
+      "word": "Корона",
+      "difficulty": "easy"
+    },
+    {
+      "id": 197,
+      "round": 8,
+      "cell_number": 22,
+      "word": "Ворона",
+      "difficulty": "easy"
+    },
+    {
+      "id": 198,
+      "round": 8,
+      "cell_number": 23,
+      "word": "Оборона",
+      "difficulty": "hard"
+    },
+    {
+      "id": 199,
+      "round": 8,
+      "cell_number": 24,
+      "word": "Колонна",
+      "difficulty": "easy"
+    },
+    {
+      "id": 200,
+      "round": 8,
+      "cell_number": 25,
+      "word": "Лимонад",
+      "difficulty": "easy"
+    },
+    {
+      "id": 201,
+      "round": 9,
+      "cell_number": 1,
+      "word": "Шприц",
+      "difficulty": "easy"
+    },
+    {
+      "id": 202,
+      "round": 9,
+      "cell_number": 2,
+      "word": "Принц",
+      "difficulty": "easy"
+    },
+    {
+      "id": 203,
+      "round": 9,
+      "cell_number": 3,
+      "word": "Принцип",
+      "difficulty": "hard"
+    },
+    {
+      "id": 204,
+      "round": 9,
+      "cell_number": 4,
+      "word": "Перец",
+      "difficulty": "easy"
+    },
+    {
+      "id": 205,
+      "round": 9,
+      "cell_number": 5,
+      "word": "Огурец",
+      "difficulty": "easy"
+    },
+    {
+      "id": 206,
+      "round": 9,
+      "cell_number": 6,
+      "word": "Санки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 207,
+      "round": 9,
+      "cell_number": 7,
+      "word": "Банка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 208,
+      "round": 9,
+      "cell_number": 8,
+      "word": "Изнанка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 209,
+      "round": 9,
+      "cell_number": 9,
+      "word": "Шарманка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 210,
+      "round": 9,
+      "cell_number": 10,
+      "word": "Скакалка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 211,
+      "round": 9,
+      "cell_number": 11,
+      "word": "Пчела",
+      "difficulty": "easy"
+    },
+    {
+      "id": 212,
+      "round": 9,
+      "cell_number": 12,
+      "word": "Пила",
+      "difficulty": "easy"
+    },
+    {
+      "id": 213,
+      "round": 9,
+      "cell_number": 13,
+      "word": "Смола",
+      "difficulty": "hard"
+    },
+    {
+      "id": 214,
+      "round": 9,
+      "cell_number": 14,
+      "word": "Стрела",
+      "difficulty": "easy"
+    },
+    {
+      "id": 215,
+      "round": 9,
+      "cell_number": 15,
+      "word": "Метла",
+      "difficulty": "easy"
+    },
+    {
+      "id": 216,
+      "round": 9,
+      "cell_number": 16,
+      "word": "Компас",
+      "difficulty": "easy"
+    },
+    {
+      "id": 217,
+      "round": 9,
+      "cell_number": 17,
+      "word": "Кактус в горшке",
+      "difficulty": "easy"
+    },
+    {
+      "id": 218,
+      "round": 9,
+      "cell_number": 18,
+      "word": "Космос",
+      "difficulty": "hard"
+    },
+    {
+      "id": 219,
+      "round": 9,
+      "cell_number": 19,
+      "word": "Термос",
+      "difficulty": "easy"
+    },
+    {
+      "id": 220,
+      "round": 9,
+      "cell_number": 20,
+      "word": "Поднос",
+      "difficulty": "easy"
+    },
+    {
+      "id": 221,
+      "round": 9,
+      "cell_number": 21,
+      "word": "Кровать",
+      "difficulty": "easy"
+    },
+    {
+      "id": 222,
+      "round": 9,
+      "cell_number": 22,
+      "word": "Тетрадь",
+      "difficulty": "easy"
+    },
+    {
+      "id": 223,
+      "round": 9,
+      "cell_number": 23,
+      "word": "Печать",
+      "difficulty": "hard"
+    },
+    {
+      "id": 224,
+      "round": 9,
+      "cell_number": 24,
+      "word": "Меч",
+      "difficulty": "easy"
+    },
+    {
+      "id": 225,
+      "round": 9,
+      "cell_number": 25,
+      "word": "Мяч",
+      "difficulty": "easy"
+    },
+    {
+      "id": 226,
+      "round": 10,
+      "cell_number": 1,
+      "word": "Рыба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 227,
+      "round": 10,
+      "cell_number": 2,
+      "word": "Глыба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 228,
+      "round": 10,
+      "cell_number": 3,
+      "word": "Улыбка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 229,
+      "round": 10,
+      "cell_number": 4,
+      "word": "Скрипка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 230,
+      "round": 10,
+      "cell_number": 5,
+      "word": "Прищепка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 231,
+      "round": 10,
+      "cell_number": 6,
+      "word": "Коробка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 232,
+      "round": 10,
+      "cell_number": 7,
+      "word": "Пробка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 233,
+      "round": 10,
+      "cell_number": 8,
+      "word": "Скорлупка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 234,
+      "round": 10,
+      "cell_number": 9,
+      "word": "Шлюпка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 235,
+      "round": 10,
+      "cell_number": 10,
+      "word": "Юбка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 236,
+      "round": 10,
+      "cell_number": 11,
+      "word": "Забор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 237,
+      "round": 10,
+      "cell_number": 12,
+      "word": "Топор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 238,
+      "round": 10,
+      "cell_number": 13,
+      "word": "Мотор",
+      "difficulty": "hard"
+    },
+    {
+      "id": 239,
+      "round": 10,
+      "cell_number": 14,
+      "word": "Костер",
+      "difficulty": "easy"
+    },
+    {
+      "id": 240,
+      "round": 10,
+      "cell_number": 15,
+      "word": "Шатер",
+      "difficulty": "easy"
+    },
+    {
+      "id": 241,
+      "round": 10,
+      "cell_number": 16,
+      "word": "Скейт",
+      "difficulty": "easy"
+    },
+    {
+      "id": 242,
+      "round": 10,
+      "cell_number": 17,
+      "word": "Флейта",
+      "difficulty": "easy"
+    },
+    {
+      "id": 243,
+      "round": 10,
+      "cell_number": 18,
+      "word": "Лейка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 244,
+      "round": 10,
+      "cell_number": 19,
+      "word": "Скамейка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 245,
+      "round": 10,
+      "cell_number": 20,
+      "word": "Батарейка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 246,
+      "round": 10,
+      "cell_number": 21,
+      "word": "Снеговик",
+      "difficulty": "easy"
+    },
+    {
+      "id": 247,
+      "round": 10,
+      "cell_number": 22,
+      "word": "Грузовик",
+      "difficulty": "easy"
+    },
+    {
+      "id": 248,
+      "round": 10,
+      "cell_number": 23,
+      "word": "Тупик",
+      "difficulty": "hard"
+    },
+    {
+      "id": 249,
+      "round": 10,
+      "cell_number": 24,
+      "word": "Парик",
+      "difficulty": "easy"
+    },
+    {
+      "id": 250,
+      "round": 10,
+      "cell_number": 25,
+      "word": "Родник",
+      "difficulty": "easy"
+    },
+    {
+      "id": 251,
+      "round": 11,
+      "cell_number": 1,
+      "word": "Ключ",
+      "difficulty": "easy"
+    },
+    {
+      "id": 252,
+      "round": 11,
+      "cell_number": 2,
+      "word": "Обруч",
+      "difficulty": "easy"
+    },
+    {
+      "id": 253,
+      "round": 11,
+      "cell_number": 3,
+      "word": "Луч",
+      "difficulty": "hard"
+    },
+    {
+      "id": 254,
+      "round": 11,
+      "cell_number": 4,
+      "word": "Туча",
+      "difficulty": "easy"
+    },
+    {
+      "id": 255,
+      "round": 11,
+      "cell_number": 5,
+      "word": "Куча",
+      "difficulty": "easy"
+    },
+    {
+      "id": 256,
+      "round": 11,
+      "cell_number": 6,
+      "word": "Пальма",
+      "difficulty": "easy"
+    },
+    {
+      "id": 257,
+      "round": 11,
+      "cell_number": 7,
+      "word": "Шлем",
+      "difficulty": "easy"
+    },
+    {
+      "id": 258,
+      "round": 11,
+      "cell_number": 8,
+      "word": "Проблема",
+      "difficulty": "hard"
+    },
+    {
+      "id": 259,
+      "round": 11,
+      "cell_number": 9,
+      "word": "Коромысло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 260,
+      "round": 11,
+      "cell_number": 10,
+      "word": "Весло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 261,
+      "round": 11,
+      "cell_number": 11,
+      "word": "Седло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 262,
+      "round": 11,
+      "cell_number": 12,
+      "word": "Стекло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 263,
+      "round": 11,
+      "cell_number": 13,
+      "word": "Тепло",
+      "difficulty": "hard"
+    },
+    {
+      "id": 264,
+      "round": 11,
+      "cell_number": 14,
+      "word": "Дупло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 265,
+      "round": 11,
+      "cell_number": 15,
+      "word": "Крыло",
+      "difficulty": "easy"
+    },
+    {
+      "id": 266,
+      "round": 11,
+      "cell_number": 16,
+      "word": "Монета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 267,
+      "round": 11,
+      "cell_number": 17,
+      "word": "Ракета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 268,
+      "round": 11,
+      "cell_number": 18,
+      "word": "Диета",
+      "difficulty": "hard"
+    },
+    {
+      "id": 269,
+      "round": 11,
+      "cell_number": 19,
+      "word": "Конфета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 270,
+      "round": 11,
+      "cell_number": 20,
+      "word": "Котлета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 271,
+      "round": 11,
+      "cell_number": 21,
+      "word": "Планета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 272,
+      "round": 11,
+      "cell_number": 22,
+      "word": "Карета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 273,
+      "round": 11,
+      "cell_number": 23,
+      "word": "Примета",
+      "difficulty": "hard"
+    },
+    {
+      "id": 274,
+      "round": 11,
+      "cell_number": 24,
+      "word": "Кассета",
+      "difficulty": "easy"
+    },
+    {
+      "id": 275,
+      "round": 11,
+      "cell_number": 25,
+      "word": "Антенна",
+      "difficulty": "easy"
+    },
+    {
+      "id": 276,
+      "round": 12,
+      "cell_number": 1,
+      "word": "Грабли",
+      "difficulty": "easy"
+    },
+    {
+      "id": 277,
+      "round": 12,
+      "cell_number": 2,
+      "word": "Корабль",
+      "difficulty": "easy"
+    },
+    {
+      "id": 278,
+      "round": 12,
+      "cell_number": 3,
+      "word": "Ансамбль",
+      "difficulty": "hard"
+    },
+    {
+      "id": 279,
+      "round": 12,
+      "cell_number": 4,
+      "word": "Капля",
+      "difficulty": "easy"
+    },
+    {
+      "id": 280,
+      "round": 12,
+      "cell_number": 5,
+      "word": "Цапля",
+      "difficulty": "easy"
+    },
+    {
+      "id": 281,
+      "round": 12,
+      "cell_number": 6,
+      "word": "Шарф",
+      "difficulty": "easy"
+    },
+    {
+      "id": 282,
+      "round": 12,
+      "cell_number": 7,
+      "word": "Арфа",
+      "difficulty": "easy"
+    },
+    {
+      "id": 283,
+      "round": 12,
+      "cell_number": 8,
+      "word": "Штраф",
+      "difficulty": "hard"
+    },
+    {
+      "id": 284,
+      "round": 12,
+      "cell_number": 9,
+      "word": "Сейф",
+      "difficulty": "easy"
+    },
+    {
+      "id": 285,
+      "round": 12,
+      "cell_number": 10,
+      "word": "Серф",
+      "difficulty": "easy"
+    },
+    {
+      "id": 286,
+      "round": 12,
+      "cell_number": 11,
+      "word": "Ботинок",
+      "difficulty": "easy"
+    },
+    {
+      "id": 287,
+      "round": 12,
+      "cell_number": 12,
+      "word": "Пластинка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 288,
+      "round": 12,
+      "cell_number": 13,
+      "word": "Разминка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 289,
+      "round": 12,
+      "cell_number": 14,
+      "word": "Корзинка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 290,
+      "round": 12,
+      "cell_number": 15,
+      "word": "Снежинка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 291,
+      "round": 12,
+      "cell_number": 16,
+      "word": "Пружина",
+      "difficulty": "easy"
+    },
+    {
+      "id": 292,
+      "round": 12,
+      "cell_number": 17,
+      "word": "Машина",
+      "difficulty": "easy"
+    },
+    {
+      "id": 293,
+      "round": 12,
+      "cell_number": 18,
+      "word": "Вершина",
+      "difficulty": "hard"
+    },
+    {
+      "id": 294,
+      "round": 12,
+      "cell_number": 19,
+      "word": "Кувшин",
+      "difficulty": "easy"
+    },
+    {
+      "id": 295,
+      "round": 12,
+      "cell_number": 20,
+      "word": "Пинцет",
+      "difficulty": "easy"
+    },
+    {
+      "id": 296,
+      "round": 12,
+      "cell_number": 21,
+      "word": "Билет",
+      "difficulty": "easy"
+    },
+    {
+      "id": 297,
+      "round": 12,
+      "cell_number": 22,
+      "word": "Скелет",
+      "difficulty": "easy"
+    },
+    {
+      "id": 298,
+      "round": 12,
+      "cell_number": 23,
+      "word": "Секрет",
+      "difficulty": "hard"
+    },
+    {
+      "id": 299,
+      "round": 12,
+      "cell_number": 24,
+      "word": "Букет",
+      "difficulty": "easy"
+    },
+    {
+      "id": 300,
+      "round": 12,
+      "cell_number": 25,
+      "word": "Пакет",
+      "difficulty": "easy"
+    },
+    {
+      "id": 301,
+      "round": 13,
+      "cell_number": 1,
+      "word": "Кран",
+      "difficulty": "easy"
+    },
+    {
+      "id": 302,
+      "round": 13,
+      "cell_number": 2,
+      "word": "Экран",
+      "difficulty": "easy"
+    },
+    {
+      "id": 303,
+      "round": 13,
+      "cell_number": 3,
+      "word": "Обманщик",
+      "difficulty": "hard"
+    },
+    {
+      "id": 304,
+      "round": 13,
+      "cell_number": 4,
+      "word": "Диван",
+      "difficulty": "easy"
+    },
+    {
+      "id": 305,
+      "round": 13,
+      "cell_number": 5,
+      "word": "Вулкан",
+      "difficulty": "easy"
+    },
+    {
+      "id": 306,
+      "round": 13,
+      "cell_number": 6,
+      "word": "Остров",
+      "difficulty": "easy"
+    },
+    {
+      "id": 307,
+      "round": 13,
+      "cell_number": 7,
+      "word": "Ковер",
+      "difficulty": "easy"
+    },
+    {
+      "id": 308,
+      "round": 13,
+      "cell_number": 8,
+      "word": "Заговор",
+      "difficulty": "hard"
+    },
+    {
+      "id": 309,
+      "round": 13,
+      "cell_number": 9,
+      "word": "Светофор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 310,
+      "round": 13,
+      "cell_number": 10,
+      "word": "Помидор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 311,
+      "round": 13,
+      "cell_number": 11,
+      "word": "Мухомор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 312,
+      "round": 13,
+      "cell_number": 12,
+      "word": "Зазор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 313,
+      "round": 13,
+      "cell_number": 13,
+      "word": "Позор",
+      "difficulty": "hard"
+    },
+    {
+      "id": 314,
+      "round": 13,
+      "cell_number": 14,
+      "word": "Узор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 315,
+      "round": 13,
+      "cell_number": 15,
+      "word": "Телевизор",
+      "difficulty": "easy"
+    },
+    {
+      "id": 316,
+      "round": 13,
+      "cell_number": 16,
+      "word": "Кактус в пустыне",
+      "difficulty": "easy"
+    },
+    {
+      "id": 317,
+      "round": 13,
+      "cell_number": 17,
+      "word": "Верблюд",
+      "difficulty": "easy"
+    },
+    {
+      "id": 318,
+      "round": 13,
+      "cell_number": 18,
+      "word": "Уют",
+      "difficulty": "hard"
+    },
+    {
+      "id": 319,
+      "round": 13,
+      "cell_number": 19,
+      "word": "Парашют",
+      "difficulty": "easy"
+    },
+    {
+      "id": 320,
+      "round": 13,
+      "cell_number": 20,
+      "word": "Салют",
+      "difficulty": "easy"
+    },
+    {
+      "id": 321,
+      "round": 13,
+      "cell_number": 21,
+      "word": "Батут",
+      "difficulty": "easy"
+    },
+    {
+      "id": 322,
+      "round": 13,
+      "cell_number": 22,
+      "word": "Жгут",
+      "difficulty": "easy"
+    },
+    {
+      "id": 323,
+      "round": 13,
+      "cell_number": 23,
+      "word": "Маршрут",
+      "difficulty": "hard"
+    },
+    {
+      "id": 324,
+      "round": 13,
+      "cell_number": 24,
+      "word": "Шуруп",
+      "difficulty": "easy"
+    },
+    {
+      "id": 325,
+      "round": 13,
+      "cell_number": 25,
+      "word": "Суп",
+      "difficulty": "easy"
+    },
+    {
+      "id": 326,
+      "round": 14,
+      "cell_number": 1,
+      "word": "Зуб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 327,
+      "round": 14,
+      "cell_number": 2,
+      "word": "Дуб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 328,
+      "round": 14,
+      "cell_number": 3,
+      "word": "Клуб",
+      "difficulty": "hard"
+    },
+    {
+      "id": 329,
+      "round": 14,
+      "cell_number": 4,
+      "word": "Куб",
+      "difficulty": "easy"
+    },
+    {
+      "id": 330,
+      "round": 14,
+      "cell_number": 5,
+      "word": "Труба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 331,
+      "round": 14,
+      "cell_number": 6,
+      "word": "Губы",
+      "difficulty": "easy"
+    },
+    {
+      "id": 332,
+      "round": 14,
+      "cell_number": 7,
+      "word": "Шуба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 333,
+      "round": 14,
+      "cell_number": 8,
+      "word": "Дружба",
+      "difficulty": "hard"
+    },
+    {
+      "id": 334,
+      "round": 14,
+      "cell_number": 9,
+      "word": "Шайба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 335,
+      "round": 14,
+      "cell_number": 10,
+      "word": "Колба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 336,
+      "round": 14,
+      "cell_number": 11,
+      "word": "Бомба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 337,
+      "round": 14,
+      "cell_number": 12,
+      "word": "Тумба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 338,
+      "round": 14,
+      "cell_number": 13,
+      "word": "Пломба",
+      "difficulty": "hard"
+    },
+    {
+      "id": 339,
+      "round": 14,
+      "cell_number": 14,
+      "word": "Клумба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 340,
+      "round": 14,
+      "cell_number": 15,
+      "word": "Изба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 341,
+      "round": 14,
+      "cell_number": 16,
+      "word": "Резьба",
+      "difficulty": "easy"
+    },
+    {
+      "id": 342,
+      "round": 14,
+      "cell_number": 17,
+      "word": "Серьга",
+      "difficulty": "easy"
+    },
+    {
+      "id": 343,
+      "round": 14,
+      "cell_number": 18,
+      "word": "Тайга",
+      "difficulty": "hard"
+    },
+    {
+      "id": 344,
+      "round": 14,
+      "cell_number": 19,
+      "word": "Нога",
+      "difficulty": "easy"
+    },
+    {
+      "id": 345,
+      "round": 14,
+      "cell_number": 20,
+      "word": "Радуга",
+      "difficulty": "easy"
+    },
+    {
+      "id": 346,
+      "round": 14,
+      "cell_number": 21,
+      "word": "Телега",
+      "difficulty": "easy"
+    },
+    {
+      "id": 347,
+      "round": 14,
+      "cell_number": 22,
+      "word": "Коллега",
+      "difficulty": "easy"
+    },
+    {
+      "id": 348,
+      "round": 14,
+      "cell_number": 23,
+      "word": "Тревога",
+      "difficulty": "hard"
+    },
+    {
+      "id": 349,
+      "round": 14,
+      "cell_number": 24,
+      "word": "Дорога",
+      "difficulty": "easy"
+    },
+    {
+      "id": 350,
+      "round": 14,
+      "cell_number": 25,
+      "word": "Берлога",
+      "difficulty": "easy"
+    },
+    {
+      "id": 351,
+      "round": 15,
+      "cell_number": 1,
+      "word": "Рога",
+      "difficulty": "easy"
+    },
+    {
+      "id": 352,
+      "round": 15,
+      "cell_number": 2,
+      "word": "Фляга",
+      "difficulty": "easy"
+    },
+    {
+      "id": 353,
+      "round": 15,
+      "cell_number": 3,
+      "word": "Отвага",
+      "difficulty": "hard"
+    },
+    {
+      "id": 354,
+      "round": 15,
+      "cell_number": 4,
+      "word": "Бумага",
+      "difficulty": "easy"
+    },
+    {
+      "id": 355,
+      "round": 15,
+      "cell_number": 5,
+      "word": "Шпага",
+      "difficulty": "easy"
+    },
+    {
+      "id": 356,
+      "round": 15,
+      "cell_number": 6,
+      "word": "Книга",
+      "difficulty": "easy"
+    },
+    {
+      "id": 357,
+      "round": 15,
+      "cell_number": 7,
+      "word": "Фига",
+      "difficulty": "easy"
+    },
+    {
+      "id": 358,
+      "round": 15,
+      "cell_number": 8,
+      "word": "Интрига",
+      "difficulty": "hard"
+    },
+    {
+      "id": 359,
+      "round": 15,
+      "cell_number": 9,
+      "word": "Иголка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 360,
+      "round": 15,
+      "cell_number": 10,
+      "word": "Футболка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 361,
+      "round": 15,
+      "cell_number": 11,
+      "word": "Полка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 362,
+      "round": 15,
+      "cell_number": 12,
+      "word": "Булка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 363,
+      "round": 15,
+      "cell_number": 13,
+      "word": "Прогулка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 364,
+      "round": 15,
+      "cell_number": 14,
+      "word": "Копилка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 365,
+      "round": 15,
+      "cell_number": 15,
+      "word": "Бутылка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 366,
+      "round": 15,
+      "cell_number": 16,
+      "word": "Посылка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 367,
+      "round": 15,
+      "cell_number": 17,
+      "word": "Носилки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 368,
+      "round": 15,
+      "cell_number": 18,
+      "word": "Опилки",
+      "difficulty": "hard"
+    },
+    {
+      "id": 369,
+      "round": 15,
+      "cell_number": 19,
+      "word": "Варежка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 370,
+      "round": 15,
+      "cell_number": 20,
+      "word": "Тележка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 371,
+      "round": 15,
+      "cell_number": 21,
+      "word": "Пешка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 372,
+      "round": 15,
+      "cell_number": 22,
+      "word": "Орешки",
+      "difficulty": "easy"
+    },
+    {
+      "id": 373,
+      "round": 15,
+      "cell_number": 23,
+      "word": "Спешка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 374,
+      "round": 15,
+      "cell_number": 24,
+      "word": "Флешка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 375,
+      "round": 15,
+      "cell_number": 25,
+      "word": "Матрешка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 376,
+      "round": 16,
+      "cell_number": 1,
+      "word": "Картошка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 377,
+      "round": 16,
+      "cell_number": 2,
+      "word": "Гармошка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 378,
+      "round": 16,
+      "cell_number": 3,
+      "word": "Брошка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 379,
+      "round": 16,
+      "cell_number": 4,
+      "word": "Ложка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 380,
+      "round": 16,
+      "cell_number": 5,
+      "word": "Кошка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 381,
+      "round": 16,
+      "cell_number": 6,
+      "word": "Окошко",
+      "difficulty": "easy"
+    },
+    {
+      "id": 382,
+      "round": 16,
+      "cell_number": 7,
+      "word": "Лукошко",
+      "difficulty": "easy"
+    },
+    {
+      "id": 383,
+      "round": 16,
+      "cell_number": 8,
+      "word": "Понарошку",
+      "difficulty": "hard"
+    },
+    {
+      "id": 384,
+      "round": 16,
+      "cell_number": 9,
+      "word": "Ладошка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 385,
+      "round": 16,
+      "cell_number": 10,
+      "word": "Мошка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 386,
+      "round": 16,
+      "cell_number": 11,
+      "word": "Пушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 387,
+      "round": 16,
+      "cell_number": 12,
+      "word": "Подушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 388,
+      "round": 16,
+      "cell_number": 13,
+      "word": "Ловушка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 389,
+      "round": 16,
+      "cell_number": 14,
+      "word": "Лягушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 390,
+      "round": 16,
+      "cell_number": 15,
+      "word": "Ракушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 391,
+      "round": 16,
+      "cell_number": 16,
+      "word": "Ватрушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 392,
+      "round": 16,
+      "cell_number": 17,
+      "word": "Хлопушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 393,
+      "round": 16,
+      "cell_number": 18,
+      "word": "Опушка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 394,
+      "round": 16,
+      "cell_number": 19,
+      "word": "Кормушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 395,
+      "round": 16,
+      "cell_number": 20,
+      "word": "Погремушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 396,
+      "round": 16,
+      "cell_number": 21,
+      "word": "Клюшка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 397,
+      "round": 16,
+      "cell_number": 22,
+      "word": "Кружка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 398,
+      "round": 16,
+      "cell_number": 23,
+      "word": "Стружка",
+      "difficulty": "hard"
+    },
+    {
+      "id": 399,
+      "round": 16,
+      "cell_number": 24,
+      "word": "Мушка",
+      "difficulty": "easy"
+    },
+    {
+      "id": 400,
+      "round": 16,
+      "cell_number": 25,
+      "word": "Макушка",
+      "difficulty": "easy"
+    }
+  ]
+}

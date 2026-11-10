@@ -1,0 +1,4901 @@
+{
+  "game_title": "Художник-склеротик",
+  "rounds": {
+    "3": {
+      "round": 3,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Puck",
+      "persona": "Sports commentator",
+      "scene": "A packed stadium in the last seconds of a cup final",
+      "performance": "Yell every line at the top of your voice with wild excitement, as if each word were a winning goal",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_03/dictation.mp3",
+      "dictation_ms": 94730,
+      "gain_db": -2.3,
+      "segmentation": {
+        "shortest_gap_s": 0.3,
+        "longest_inner_gap_s": 0.1
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_03/lines/time_30s.wav",
+          "ms": 4290
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_03/lines/quiz_intro.wav",
+          "ms": 4440
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Лук",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/01.wav",
+          "word_clip": "rounds/round_03/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 860,
+          "word_start_ms": 1860,
+          "word_ms": 1010
+        },
+        {
+          "cell": 2,
+          "word": "Чемодан",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/02.wav",
+          "word_clip": "rounds/round_03/words/02.wav",
+          "number_start_ms": 3870,
+          "number_ms": 800,
+          "word_start_ms": 5670,
+          "word_ms": 1030
+        },
+        {
+          "cell": 3,
+          "word": "Швабра",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/03.wav",
+          "word_clip": "rounds/round_03/words/03.wav",
+          "number_start_ms": 7700,
+          "number_ms": 580,
+          "word_start_ms": 9280,
+          "word_ms": 890
+        },
+        {
+          "cell": 4,
+          "word": "Ковш",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/04.wav",
+          "word_clip": "rounds/round_03/words/04.wav",
+          "number_start_ms": 11170,
+          "number_ms": 690,
+          "word_start_ms": 12860,
+          "word_ms": 710
+        },
+        {
+          "cell": 5,
+          "word": "Звено",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/05.wav",
+          "word_clip": "rounds/round_03/words/05.wav",
+          "number_start_ms": 14570,
+          "number_ms": 640,
+          "word_start_ms": 16210,
+          "word_ms": 1060
+        },
+        {
+          "cell": 6,
+          "word": "Станок",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/06.wav",
+          "word_clip": "rounds/round_03/words/06.wav",
+          "number_start_ms": 18270,
+          "number_ms": 780,
+          "word_start_ms": 20050,
+          "word_ms": 910
+        },
+        {
+          "cell": 7,
+          "word": "Пульт",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/07.wav",
+          "word_clip": "rounds/round_03/words/07.wav",
+          "number_start_ms": 21960,
+          "number_ms": 750,
+          "word_start_ms": 23710,
+          "word_ms": 610
+        },
+        {
+          "cell": 8,
+          "word": "Ларёк",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/08.wav",
+          "word_clip": "rounds/round_03/words/08.wav",
+          "number_start_ms": 25320,
+          "number_ms": 830,
+          "word_start_ms": 27150,
+          "word_ms": 910
+        },
+        {
+          "cell": 9,
+          "word": "Кресло-качалка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/09.wav",
+          "word_clip": "rounds/round_03/words/09.wav",
+          "number_start_ms": 29060,
+          "number_ms": 760,
+          "word_start_ms": 30820,
+          "word_ms": 1380
+        },
+        {
+          "cell": 10,
+          "word": "Брызги",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/10.wav",
+          "word_clip": "rounds/round_03/words/10.wav",
+          "number_start_ms": 33200,
+          "number_ms": 770,
+          "word_start_ms": 34970,
+          "word_ms": 1000
+        },
+        {
+          "cell": 11,
+          "word": "Зеркало",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/11.wav",
+          "word_clip": "rounds/round_03/words/11.wav",
+          "number_start_ms": 36970,
+          "number_ms": 970,
+          "word_start_ms": 38940,
+          "word_ms": 850
+        },
+        {
+          "cell": 12,
+          "word": "Звук",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/12.wav",
+          "word_clip": "rounds/round_03/words/12.wav",
+          "number_start_ms": 40790,
+          "number_ms": 1080,
+          "word_start_ms": 42870,
+          "word_ms": 740
+        },
+        {
+          "cell": 13,
+          "word": "Тон",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/13.wav",
+          "word_clip": "rounds/round_03/words/13.wav",
+          "number_start_ms": 44610,
+          "number_ms": 880,
+          "word_start_ms": 46490,
+          "word_ms": 540
+        },
+        {
+          "cell": 14,
+          "word": "Кот",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/14.wav",
+          "word_clip": "rounds/round_03/words/14.wav",
+          "number_start_ms": 48030,
+          "number_ms": 1000,
+          "word_start_ms": 50030,
+          "word_ms": 540
+        },
+        {
+          "cell": 15,
+          "word": "Скот",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/15.wav",
+          "word_clip": "rounds/round_03/words/15.wav",
+          "number_start_ms": 51570,
+          "number_ms": 880,
+          "word_start_ms": 53450,
+          "word_ms": 740
+        },
+        {
+          "cell": 16,
+          "word": "Клапан",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_03/numbers/16.wav",
+          "word_clip": "rounds/round_03/words/16.wav",
+          "number_start_ms": 55190,
+          "number_ms": 960,
+          "word_start_ms": 57150,
+          "word_ms": 700
+        },
+        {
+          "cell": 17,
+          "word": "Спичечный коробок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/17.wav",
+          "word_clip": "rounds/round_03/words/17.wav",
+          "number_start_ms": 58850,
+          "number_ms": 950,
+          "word_start_ms": 60800,
+          "word_ms": 1710
+        },
+        {
+          "cell": 18,
+          "word": "Тарелка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/18.wav",
+          "word_clip": "rounds/round_03/words/18.wav",
+          "number_start_ms": 63510,
+          "number_ms": 1090,
+          "word_start_ms": 65600,
+          "word_ms": 790
+        },
+        {
+          "cell": 19,
+          "word": "Качок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/19.wav",
+          "word_clip": "rounds/round_03/words/19.wav",
+          "number_start_ms": 67390,
+          "number_ms": 1030,
+          "word_start_ms": 69420,
+          "word_ms": 760
+        },
+        {
+          "cell": 20,
+          "word": "Лопата",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/20.wav",
+          "word_clip": "rounds/round_03/words/20.wav",
+          "number_start_ms": 71180,
+          "number_ms": 780,
+          "word_start_ms": 72960,
+          "word_ms": 900
+        },
+        {
+          "cell": 21,
+          "word": "Ситечко",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/21.wav",
+          "word_clip": "rounds/round_03/words/21.wav",
+          "number_start_ms": 74860,
+          "number_ms": 960,
+          "word_start_ms": 76820,
+          "word_ms": 950
+        },
+        {
+          "cell": 22,
+          "word": "Елочная игрушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/22.wav",
+          "word_clip": "rounds/round_03/words/22.wav",
+          "number_start_ms": 78770,
+          "number_ms": 960,
+          "word_start_ms": 80730,
+          "word_ms": 1570
+        },
+        {
+          "cell": 23,
+          "word": "Коктейль",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/23.wav",
+          "word_clip": "rounds/round_03/words/23.wav",
+          "number_start_ms": 83300,
+          "number_ms": 910,
+          "word_start_ms": 85210,
+          "word_ms": 810
+        },
+        {
+          "cell": 24,
+          "word": "Кирпич",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/24.wav",
+          "word_clip": "rounds/round_03/words/24.wav",
+          "number_start_ms": 87020,
+          "number_ms": 1130,
+          "word_start_ms": 89150,
+          "word_ms": 820
+        },
+        {
+          "cell": 25,
+          "word": "Конь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_03/numbers/25.wav",
+          "word_clip": "rounds/round_03/words/25.wav",
+          "number_start_ms": 90970,
+          "number_ms": 1010,
+          "word_start_ms": 92980,
+          "word_ms": 750
+        }
+      ]
+    },
+    "6": {
+      "round": 6,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Leda",
+      "persona": "Tired station announcer",
+      "scene": "A nearly empty train station at the end of a double shift",
+      "performance": "Drone in a flat, exhausted, utterly bored monotone, sighing and barely caring",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_06/dictation.mp3",
+      "dictation_ms": 94430,
+      "gain_db": -2.1,
+      "segmentation": {
+        "shortest_gap_s": 0.44,
+        "longest_inner_gap_s": 0.25
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_06/lines/time_30s.wav",
+          "ms": 6570
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_06/lines/quiz_intro.wav",
+          "ms": 6810
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Колесо",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/01.wav",
+          "word_clip": "rounds/round_06/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 1420,
+          "word_start_ms": 2420,
+          "word_ms": 1280
+        },
+        {
+          "cell": 2,
+          "word": "Кольцо",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/02.wav",
+          "word_clip": "rounds/round_06/words/02.wav",
+          "number_start_ms": 4700,
+          "number_ms": 1300,
+          "word_start_ms": 7000,
+          "word_ms": 1180
+        },
+        {
+          "cell": 3,
+          "word": "Крыльцо",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_06/numbers/03.wav",
+          "word_clip": "rounds/round_06/words/03.wav",
+          "number_start_ms": 9180,
+          "number_ms": 480,
+          "word_start_ms": 10660,
+          "word_ms": 1240
+        },
+        {
+          "cell": 4,
+          "word": "Пальто",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/04.wav",
+          "word_clip": "rounds/round_06/words/04.wav",
+          "number_start_ms": 12900,
+          "number_ms": 830,
+          "word_start_ms": 14730,
+          "word_ms": 1200
+        },
+        {
+          "cell": 5,
+          "word": "Ведро",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/05.wav",
+          "word_clip": "rounds/round_06/words/05.wav",
+          "number_start_ms": 16930,
+          "number_ms": 670,
+          "word_start_ms": 18600,
+          "word_ms": 1150
+        },
+        {
+          "cell": 6,
+          "word": "Фонарь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/06.wav",
+          "word_clip": "rounds/round_06/words/06.wav",
+          "number_start_ms": 20750,
+          "number_ms": 930,
+          "word_start_ms": 22680,
+          "word_ms": 980
+        },
+        {
+          "cell": 7,
+          "word": "Якорь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/07.wav",
+          "word_clip": "rounds/round_06/words/07.wav",
+          "number_start_ms": 24660,
+          "number_ms": 810,
+          "word_start_ms": 26470,
+          "word_ms": 740
+        },
+        {
+          "cell": 8,
+          "word": "Токарь",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_06/numbers/08.wav",
+          "word_clip": "rounds/round_06/words/08.wav",
+          "number_start_ms": 28210,
+          "number_ms": 800,
+          "word_start_ms": 30010,
+          "word_ms": 650
+        },
+        {
+          "cell": 9,
+          "word": "Сухарь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/09.wav",
+          "word_clip": "rounds/round_06/words/09.wav",
+          "number_start_ms": 31660,
+          "number_ms": 800,
+          "word_start_ms": 33460,
+          "word_ms": 920
+        },
+        {
+          "cell": 10,
+          "word": "Словарь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/10.wav",
+          "word_clip": "rounds/round_06/words/10.wav",
+          "number_start_ms": 35380,
+          "number_ms": 760,
+          "word_start_ms": 37140,
+          "word_ms": 740
+        },
+        {
+          "cell": 11,
+          "word": "Ножницы",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/11.wav",
+          "word_clip": "rounds/round_06/words/11.wav",
+          "number_start_ms": 38880,
+          "number_ms": 980,
+          "word_start_ms": 40860,
+          "word_ms": 850
+        },
+        {
+          "cell": 12,
+          "word": "Лестница",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/12.wav",
+          "word_clip": "rounds/round_06/words/12.wav",
+          "number_start_ms": 42710,
+          "number_ms": 1070,
+          "word_start_ms": 44780,
+          "word_ms": 850
+        },
+        {
+          "cell": 13,
+          "word": "Кузница",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_06/numbers/13.wav",
+          "word_clip": "rounds/round_06/words/13.wav",
+          "number_start_ms": 46630,
+          "number_ms": 960,
+          "word_start_ms": 48590,
+          "word_ms": 760
+        },
+        {
+          "cell": 14,
+          "word": "Мельница",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/14.wav",
+          "word_clip": "rounds/round_06/words/14.wav",
+          "number_start_ms": 50350,
+          "number_ms": 1000,
+          "word_start_ms": 52350,
+          "word_ms": 820
+        },
+        {
+          "cell": 15,
+          "word": "Гусеница",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/15.wav",
+          "word_clip": "rounds/round_06/words/15.wav",
+          "number_start_ms": 54170,
+          "number_ms": 980,
+          "word_start_ms": 56150,
+          "word_ms": 970
+        },
+        {
+          "cell": 16,
+          "word": "Барабан",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/16.wav",
+          "word_clip": "rounds/round_06/words/16.wav",
+          "number_start_ms": 58120,
+          "number_ms": 870,
+          "word_start_ms": 59990,
+          "word_ms": 720
+        },
+        {
+          "cell": 17,
+          "word": "Кабан",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/17.wav",
+          "word_clip": "rounds/round_06/words/17.wav",
+          "number_start_ms": 61710,
+          "number_ms": 930,
+          "word_start_ms": 63640,
+          "word_ms": 600
+        },
+        {
+          "cell": 18,
+          "word": "Обман",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_06/numbers/18.wav",
+          "word_clip": "rounds/round_06/words/18.wav",
+          "number_start_ms": 65240,
+          "number_ms": 1040,
+          "word_start_ms": 67280,
+          "word_ms": 610
+        },
+        {
+          "cell": 19,
+          "word": "Карман",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/19.wav",
+          "word_clip": "rounds/round_06/words/19.wav",
+          "number_start_ms": 68890,
+          "number_ms": 990,
+          "word_start_ms": 70880,
+          "word_ms": 590
+        },
+        {
+          "cell": 20,
+          "word": "Стаканчик",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/20.wav",
+          "word_clip": "rounds/round_06/words/20.wav",
+          "number_start_ms": 72470,
+          "number_ms": 860,
+          "word_start_ms": 74330,
+          "word_ms": 930
+        },
+        {
+          "cell": 21,
+          "word": "Робот",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/21.wav",
+          "word_clip": "rounds/round_06/words/21.wav",
+          "number_start_ms": 76260,
+          "number_ms": 950,
+          "word_start_ms": 78210,
+          "word_ms": 670
+        },
+        {
+          "cell": 22,
+          "word": "Хобот",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/22.wav",
+          "word_clip": "rounds/round_06/words/22.wav",
+          "number_start_ms": 79880,
+          "number_ms": 870,
+          "word_start_ms": 81750,
+          "word_ms": 670
+        },
+        {
+          "cell": 23,
+          "word": "Шепот",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_06/numbers/23.wav",
+          "word_clip": "rounds/round_06/words/23.wav",
+          "number_start_ms": 83420,
+          "number_ms": 870,
+          "word_start_ms": 85290,
+          "word_ms": 750
+        },
+        {
+          "cell": 24,
+          "word": "Сапог",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/24.wav",
+          "word_clip": "rounds/round_06/words/24.wav",
+          "number_start_ms": 87040,
+          "number_ms": 1120,
+          "word_start_ms": 89160,
+          "word_ms": 720
+        },
+        {
+          "cell": 25,
+          "word": "Пирог",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_06/numbers/25.wav",
+          "word_clip": "rounds/round_06/words/25.wav",
+          "number_start_ms": 90880,
+          "number_ms": 960,
+          "word_start_ms": 92840,
+          "word_ms": 590
+        }
+      ]
+    },
+    "7": {
+      "round": 7,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Orus",
+      "persona": "Drill sergeant",
+      "scene": "A parade ground at dawn in front of new recruits",
+      "performance": "Bark every line, loud, harsh and stern, as an order that nobody dares to disobey",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_07/dictation.mp3",
+      "dictation_ms": 84730,
+      "gain_db": -6.9,
+      "segmentation": {
+        "shortest_gap_s": 0.4,
+        "longest_inner_gap_s": 0.16
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_07/lines/time_30s.wav",
+          "ms": 5550
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_07/lines/quiz_intro.wav",
+          "ms": 5410
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Утюг",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/01.wav",
+          "word_clip": "rounds/round_07/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 630,
+          "word_start_ms": 1630,
+          "word_ms": 660
+        },
+        {
+          "cell": 2,
+          "word": "Паук",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/02.wav",
+          "word_clip": "rounds/round_07/words/02.wav",
+          "number_start_ms": 3290,
+          "number_ms": 530,
+          "word_start_ms": 4820,
+          "word_ms": 540
+        },
+        {
+          "cell": 3,
+          "word": "Испуг",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_07/numbers/03.wav",
+          "word_clip": "rounds/round_07/words/03.wav",
+          "number_start_ms": 6360,
+          "number_ms": 390,
+          "word_start_ms": 7750,
+          "word_ms": 690
+        },
+        {
+          "cell": 4,
+          "word": "Сундук",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/04.wav",
+          "word_clip": "rounds/round_07/words/04.wav",
+          "number_start_ms": 9440,
+          "number_ms": 600,
+          "word_start_ms": 11040,
+          "word_ms": 720
+        },
+        {
+          "cell": 5,
+          "word": "Каблук",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/05.wav",
+          "word_clip": "rounds/round_07/words/05.wav",
+          "number_start_ms": 12760,
+          "number_ms": 410,
+          "word_start_ms": 14170,
+          "word_ms": 620
+        },
+        {
+          "cell": 6,
+          "word": "Замок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/06.wav",
+          "word_clip": "rounds/round_07/words/06.wav",
+          "number_start_ms": 15790,
+          "number_ms": 560,
+          "word_start_ms": 17350,
+          "word_ms": 670
+        },
+        {
+          "cell": 7,
+          "word": "Венок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/07.wav",
+          "word_clip": "rounds/round_07/words/07.wav",
+          "number_start_ms": 19020,
+          "number_ms": 540,
+          "word_start_ms": 20560,
+          "word_ms": 600
+        },
+        {
+          "cell": 8,
+          "word": "Рынок",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_07/numbers/08.wav",
+          "word_clip": "rounds/round_07/words/08.wav",
+          "number_start_ms": 22160,
+          "number_ms": 620,
+          "word_start_ms": 23780,
+          "word_ms": 620
+        },
+        {
+          "cell": 9,
+          "word": "Щенок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/09.wav",
+          "word_clip": "rounds/round_07/words/09.wav",
+          "number_start_ms": 25400,
+          "number_ms": 610,
+          "word_start_ms": 27010,
+          "word_ms": 700
+        },
+        {
+          "cell": 10,
+          "word": "Звонок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/10.wav",
+          "word_clip": "rounds/round_07/words/10.wav",
+          "number_start_ms": 28710,
+          "number_ms": 630,
+          "word_start_ms": 30340,
+          "word_ms": 680
+        },
+        {
+          "cell": 11,
+          "word": "Пингвин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/11.wav",
+          "word_clip": "rounds/round_07/words/11.wav",
+          "number_start_ms": 32020,
+          "number_ms": 810,
+          "word_start_ms": 33830,
+          "word_ms": 670
+        },
+        {
+          "cell": 12,
+          "word": "Дельфин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/12.wav",
+          "word_clip": "rounds/round_07/words/12.wav",
+          "number_start_ms": 35500,
+          "number_ms": 790,
+          "word_start_ms": 37290,
+          "word_ms": 740
+        },
+        {
+          "cell": 13,
+          "word": "Бензин",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_07/numbers/13.wav",
+          "word_clip": "rounds/round_07/words/13.wav",
+          "number_start_ms": 39030,
+          "number_ms": 740,
+          "word_start_ms": 40770,
+          "word_ms": 770
+        },
+        {
+          "cell": 14,
+          "word": "Камин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/14.wav",
+          "word_clip": "rounds/round_07/words/14.wav",
+          "number_start_ms": 42540,
+          "number_ms": 850,
+          "word_start_ms": 44390,
+          "word_ms": 710
+        },
+        {
+          "cell": 15,
+          "word": "Рубин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/15.wav",
+          "word_clip": "rounds/round_07/words/15.wav",
+          "number_start_ms": 46100,
+          "number_ms": 750,
+          "word_start_ms": 47850,
+          "word_ms": 660
+        },
+        {
+          "cell": 16,
+          "word": "Гантель",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/16.wav",
+          "word_clip": "rounds/round_07/words/16.wav",
+          "number_start_ms": 49510,
+          "number_ms": 800,
+          "word_start_ms": 51310,
+          "word_ms": 740
+        },
+        {
+          "cell": 17,
+          "word": "Портфель",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/17.wav",
+          "word_clip": "rounds/round_07/words/17.wav",
+          "number_start_ms": 53050,
+          "number_ms": 790,
+          "word_start_ms": 54840,
+          "word_ms": 690
+        },
+        {
+          "cell": 18,
+          "word": "Метель",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_07/numbers/18.wav",
+          "word_clip": "rounds/round_07/words/18.wav",
+          "number_start_ms": 56530,
+          "number_ms": 830,
+          "word_start_ms": 58360,
+          "word_ms": 640
+        },
+        {
+          "cell": 19,
+          "word": "Качели",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/19.wav",
+          "word_clip": "rounds/round_07/words/19.wav",
+          "number_start_ms": 60000,
+          "number_ms": 890,
+          "word_start_ms": 61890,
+          "word_ms": 650
+        },
+        {
+          "cell": 20,
+          "word": "Туннель",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/20.wav",
+          "word_clip": "rounds/round_07/words/20.wav",
+          "number_start_ms": 63540,
+          "number_ms": 690,
+          "word_start_ms": 65230,
+          "word_ms": 540
+        },
+        {
+          "cell": 21,
+          "word": "Шляпа",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/21.wav",
+          "word_clip": "rounds/round_07/words/21.wav",
+          "number_start_ms": 66770,
+          "number_ms": 940,
+          "word_start_ms": 68710,
+          "word_ms": 660
+        },
+        {
+          "cell": 22,
+          "word": "Лапа",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/22.wav",
+          "word_clip": "rounds/round_07/words/22.wav",
+          "number_start_ms": 70370,
+          "number_ms": 890,
+          "word_start_ms": 72260,
+          "word_ms": 570
+        },
+        {
+          "cell": 23,
+          "word": "Этап",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_07/numbers/23.wav",
+          "word_clip": "rounds/round_07/words/23.wav",
+          "number_start_ms": 73830,
+          "number_ms": 910,
+          "word_start_ms": 75740,
+          "word_ms": 590
+        },
+        {
+          "cell": 24,
+          "word": "Штамп",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/24.wav",
+          "word_clip": "rounds/round_07/words/24.wav",
+          "number_start_ms": 77330,
+          "number_ms": 1030,
+          "word_start_ms": 79360,
+          "word_ms": 610
+        },
+        {
+          "cell": 25,
+          "word": "Лампа",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_07/numbers/25.wav",
+          "word_clip": "rounds/round_07/words/25.wav",
+          "number_start_ms": 80970,
+          "number_ms": 960,
+          "word_start_ms": 82930,
+          "word_ms": 800
+        }
+      ]
+    },
+    "9": {
+      "round": 9,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Fenrir",
+      "persona": "Scatterbrained old professor",
+      "scene": "A cluttered study piled with lost glasses and notes",
+      "performance": "Speak in a flustered, quavering, elderly voice, hurried and worried, desperately trying not to forget each word",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_09/dictation.mp3",
+      "dictation_ms": 99330,
+      "gain_db": 0.1,
+      "segmentation": {
+        "shortest_gap_s": 0.3,
+        "longest_inner_gap_s": 0.16
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_09/lines/time_30s.wav",
+          "ms": 6360
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_09/lines/quiz_intro.wav",
+          "ms": 6330
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Шприц",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/01.wav",
+          "word_clip": "rounds/round_09/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 1070,
+          "word_start_ms": 2070,
+          "word_ms": 820
+        },
+        {
+          "cell": 2,
+          "word": "Принц",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/02.wav",
+          "word_clip": "rounds/round_09/words/02.wav",
+          "number_start_ms": 3890,
+          "number_ms": 1190,
+          "word_start_ms": 6080,
+          "word_ms": 980
+        },
+        {
+          "cell": 3,
+          "word": "Принцип",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_09/numbers/03.wav",
+          "word_clip": "rounds/round_09/words/03.wav",
+          "number_start_ms": 8060,
+          "number_ms": 910,
+          "word_start_ms": 9970,
+          "word_ms": 700
+        },
+        {
+          "cell": 4,
+          "word": "Перец",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/04.wav",
+          "word_clip": "rounds/round_09/words/04.wav",
+          "number_start_ms": 11670,
+          "number_ms": 1050,
+          "word_start_ms": 13720,
+          "word_ms": 760
+        },
+        {
+          "cell": 5,
+          "word": "Огурец",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/05.wav",
+          "word_clip": "rounds/round_09/words/05.wav",
+          "number_start_ms": 15480,
+          "number_ms": 800,
+          "word_start_ms": 17280,
+          "word_ms": 1000
+        },
+        {
+          "cell": 6,
+          "word": "Санки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/06.wav",
+          "word_clip": "rounds/round_09/words/06.wav",
+          "number_start_ms": 19280,
+          "number_ms": 820,
+          "word_start_ms": 21100,
+          "word_ms": 1040
+        },
+        {
+          "cell": 7,
+          "word": "Банка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/07.wav",
+          "word_clip": "rounds/round_09/words/07.wav",
+          "number_start_ms": 23140,
+          "number_ms": 900,
+          "word_start_ms": 25040,
+          "word_ms": 720
+        },
+        {
+          "cell": 8,
+          "word": "Изнанка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_09/numbers/08.wav",
+          "word_clip": "rounds/round_09/words/08.wav",
+          "number_start_ms": 26760,
+          "number_ms": 720,
+          "word_start_ms": 28480,
+          "word_ms": 1080
+        },
+        {
+          "cell": 9,
+          "word": "Шарманка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/09.wav",
+          "word_clip": "rounds/round_09/words/09.wav",
+          "number_start_ms": 30560,
+          "number_ms": 900,
+          "word_start_ms": 32460,
+          "word_ms": 1010
+        },
+        {
+          "cell": 10,
+          "word": "Скакалка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/10.wav",
+          "word_clip": "rounds/round_09/words/10.wav",
+          "number_start_ms": 34470,
+          "number_ms": 950,
+          "word_start_ms": 36420,
+          "word_ms": 1350
+        },
+        {
+          "cell": 11,
+          "word": "Пчела",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/11.wav",
+          "word_clip": "rounds/round_09/words/11.wav",
+          "number_start_ms": 38770,
+          "number_ms": 1190,
+          "word_start_ms": 40960,
+          "word_ms": 790
+        },
+        {
+          "cell": 12,
+          "word": "Пила",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/12.wav",
+          "word_clip": "rounds/round_09/words/12.wav",
+          "number_start_ms": 42750,
+          "number_ms": 960,
+          "word_start_ms": 44710,
+          "word_ms": 610
+        },
+        {
+          "cell": 13,
+          "word": "Смола",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_09/numbers/13.wav",
+          "word_clip": "rounds/round_09/words/13.wav",
+          "number_start_ms": 46320,
+          "number_ms": 1220,
+          "word_start_ms": 48540,
+          "word_ms": 830
+        },
+        {
+          "cell": 14,
+          "word": "Стрела",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/14.wav",
+          "word_clip": "rounds/round_09/words/14.wav",
+          "number_start_ms": 50370,
+          "number_ms": 1230,
+          "word_start_ms": 52600,
+          "word_ms": 820
+        },
+        {
+          "cell": 15,
+          "word": "Метла",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/15.wav",
+          "word_clip": "rounds/round_09/words/15.wav",
+          "number_start_ms": 54420,
+          "number_ms": 1120,
+          "word_start_ms": 56540,
+          "word_ms": 710
+        },
+        {
+          "cell": 16,
+          "word": "Компас",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/16.wav",
+          "word_clip": "rounds/round_09/words/16.wav",
+          "number_start_ms": 58250,
+          "number_ms": 1170,
+          "word_start_ms": 60420,
+          "word_ms": 940
+        },
+        {
+          "cell": 17,
+          "word": "Кактус в горшке",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/17.wav",
+          "word_clip": "rounds/round_09/words/17.wav",
+          "number_start_ms": 62360,
+          "number_ms": 1290,
+          "word_start_ms": 64650,
+          "word_ms": 1280
+        },
+        {
+          "cell": 18,
+          "word": "Космос",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_09/numbers/18.wav",
+          "word_clip": "rounds/round_09/words/18.wav",
+          "number_start_ms": 66930,
+          "number_ms": 1220,
+          "word_start_ms": 69150,
+          "word_ms": 1000
+        },
+        {
+          "cell": 19,
+          "word": "Термос",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/19.wav",
+          "word_clip": "rounds/round_09/words/19.wav",
+          "number_start_ms": 71150,
+          "number_ms": 1250,
+          "word_start_ms": 73400,
+          "word_ms": 890
+        },
+        {
+          "cell": 20,
+          "word": "Поднос",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/20.wav",
+          "word_clip": "rounds/round_09/words/20.wav",
+          "number_start_ms": 75290,
+          "number_ms": 930,
+          "word_start_ms": 77220,
+          "word_ms": 760
+        },
+        {
+          "cell": 21,
+          "word": "Кровать",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/21.wav",
+          "word_clip": "rounds/round_09/words/21.wav",
+          "number_start_ms": 78980,
+          "number_ms": 1370,
+          "word_start_ms": 81350,
+          "word_ms": 1030
+        },
+        {
+          "cell": 22,
+          "word": "Тетрадь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/22.wav",
+          "word_clip": "rounds/round_09/words/22.wav",
+          "number_start_ms": 83380,
+          "number_ms": 1180,
+          "word_start_ms": 85560,
+          "word_ms": 990
+        },
+        {
+          "cell": 23,
+          "word": "Печать",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_09/numbers/23.wav",
+          "word_clip": "rounds/round_09/words/23.wav",
+          "number_start_ms": 87550,
+          "number_ms": 1240,
+          "word_start_ms": 89790,
+          "word_ms": 720
+        },
+        {
+          "cell": 24,
+          "word": "Меч",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/24.wav",
+          "word_clip": "rounds/round_09/words/24.wav",
+          "number_start_ms": 91510,
+          "number_ms": 1380,
+          "word_start_ms": 93890,
+          "word_ms": 660
+        },
+        {
+          "cell": 25,
+          "word": "Мяч",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_09/numbers/25.wav",
+          "word_clip": "rounds/round_09/words/25.wav",
+          "number_start_ms": 95550,
+          "number_ms": 1170,
+          "word_start_ms": 97720,
+          "word_ms": 610
+        }
+      ]
+    },
+    "12": {
+      "round": 12,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Zephyr",
+      "persona": "Fitness coach",
+      "scene": "A gym in the middle of a hard workout",
+      "performance": "Shout in a punchy, breathless, pumped-up voice, driving the listener on with every line",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_12/dictation.mp3",
+      "dictation_ms": 83040,
+      "gain_db": -3.0,
+      "segmentation": {
+        "shortest_gap_s": 0.54,
+        "longest_inner_gap_s": 0.08
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_12/lines/time_30s.wav",
+          "ms": 4700
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_12/lines/quiz_intro.wav",
+          "ms": 5340
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Грабли",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/01.wav",
+          "word_clip": "rounds/round_12/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 570,
+          "word_start_ms": 1570,
+          "word_ms": 620
+        },
+        {
+          "cell": 2,
+          "word": "Корабль",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/02.wav",
+          "word_clip": "rounds/round_12/words/02.wav",
+          "number_start_ms": 3190,
+          "number_ms": 460,
+          "word_start_ms": 4650,
+          "word_ms": 600
+        },
+        {
+          "cell": 3,
+          "word": "Ансамбль",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_12/numbers/03.wav",
+          "word_clip": "rounds/round_12/words/03.wav",
+          "number_start_ms": 6250,
+          "number_ms": 440,
+          "word_start_ms": 7690,
+          "word_ms": 730
+        },
+        {
+          "cell": 4,
+          "word": "Капля",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/04.wav",
+          "word_clip": "rounds/round_12/words/04.wav",
+          "number_start_ms": 9420,
+          "number_ms": 600,
+          "word_start_ms": 11020,
+          "word_ms": 530
+        },
+        {
+          "cell": 5,
+          "word": "Цапля",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/05.wav",
+          "word_clip": "rounds/round_12/words/05.wav",
+          "number_start_ms": 12550,
+          "number_ms": 460,
+          "word_start_ms": 14010,
+          "word_ms": 590
+        },
+        {
+          "cell": 6,
+          "word": "Шарф",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/06.wav",
+          "word_clip": "rounds/round_12/words/06.wav",
+          "number_start_ms": 15600,
+          "number_ms": 600,
+          "word_start_ms": 17200,
+          "word_ms": 540
+        },
+        {
+          "cell": 7,
+          "word": "Арфа",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/07.wav",
+          "word_clip": "rounds/round_12/words/07.wav",
+          "number_start_ms": 18740,
+          "number_ms": 570,
+          "word_start_ms": 20310,
+          "word_ms": 550
+        },
+        {
+          "cell": 8,
+          "word": "Штраф",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_12/numbers/08.wav",
+          "word_clip": "rounds/round_12/words/08.wav",
+          "number_start_ms": 21860,
+          "number_ms": 570,
+          "word_start_ms": 23430,
+          "word_ms": 640
+        },
+        {
+          "cell": 9,
+          "word": "Сейф",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/09.wav",
+          "word_clip": "rounds/round_12/words/09.wav",
+          "number_start_ms": 25070,
+          "number_ms": 610,
+          "word_start_ms": 26680,
+          "word_ms": 630
+        },
+        {
+          "cell": 10,
+          "word": "Серф",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/10.wav",
+          "word_clip": "rounds/round_12/words/10.wav",
+          "number_start_ms": 28310,
+          "number_ms": 610,
+          "word_start_ms": 29920,
+          "word_ms": 610
+        },
+        {
+          "cell": 11,
+          "word": "Ботинок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/11.wav",
+          "word_clip": "rounds/round_12/words/11.wav",
+          "number_start_ms": 31530,
+          "number_ms": 770,
+          "word_start_ms": 33300,
+          "word_ms": 700
+        },
+        {
+          "cell": 12,
+          "word": "Пластинка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/12.wav",
+          "word_clip": "rounds/round_12/words/12.wav",
+          "number_start_ms": 35000,
+          "number_ms": 740,
+          "word_start_ms": 36740,
+          "word_ms": 730
+        },
+        {
+          "cell": 13,
+          "word": "Разминка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_12/numbers/13.wav",
+          "word_clip": "rounds/round_12/words/13.wav",
+          "number_start_ms": 38470,
+          "number_ms": 710,
+          "word_start_ms": 40180,
+          "word_ms": 690
+        },
+        {
+          "cell": 14,
+          "word": "Корзинка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/14.wav",
+          "word_clip": "rounds/round_12/words/14.wav",
+          "number_start_ms": 41870,
+          "number_ms": 770,
+          "word_start_ms": 43640,
+          "word_ms": 700
+        },
+        {
+          "cell": 15,
+          "word": "Снежинка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/15.wav",
+          "word_clip": "rounds/round_12/words/15.wav",
+          "number_start_ms": 45340,
+          "number_ms": 650,
+          "word_start_ms": 46990,
+          "word_ms": 830
+        },
+        {
+          "cell": 16,
+          "word": "Пружина",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/16.wav",
+          "word_clip": "rounds/round_12/words/16.wav",
+          "number_start_ms": 48820,
+          "number_ms": 750,
+          "word_start_ms": 50570,
+          "word_ms": 620
+        },
+        {
+          "cell": 17,
+          "word": "Машина",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/17.wav",
+          "word_clip": "rounds/round_12/words/17.wav",
+          "number_start_ms": 52190,
+          "number_ms": 840,
+          "word_start_ms": 54030,
+          "word_ms": 630
+        },
+        {
+          "cell": 18,
+          "word": "Вершина",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_12/numbers/18.wav",
+          "word_clip": "rounds/round_12/words/18.wav",
+          "number_start_ms": 55660,
+          "number_ms": 860,
+          "word_start_ms": 57520,
+          "word_ms": 700
+        },
+        {
+          "cell": 19,
+          "word": "Кувшин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/19.wav",
+          "word_clip": "rounds/round_12/words/19.wav",
+          "number_start_ms": 59220,
+          "number_ms": 810,
+          "word_start_ms": 61030,
+          "word_ms": 620
+        },
+        {
+          "cell": 20,
+          "word": "Пинцет",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/20.wav",
+          "word_clip": "rounds/round_12/words/20.wav",
+          "number_start_ms": 62650,
+          "number_ms": 700,
+          "word_start_ms": 64350,
+          "word_ms": 590
+        },
+        {
+          "cell": 21,
+          "word": "Билет",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/21.wav",
+          "word_clip": "rounds/round_12/words/21.wav",
+          "number_start_ms": 65940,
+          "number_ms": 840,
+          "word_start_ms": 67780,
+          "word_ms": 640
+        },
+        {
+          "cell": 22,
+          "word": "Скелет",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/22.wav",
+          "word_clip": "rounds/round_12/words/22.wav",
+          "number_start_ms": 69420,
+          "number_ms": 740,
+          "word_start_ms": 71160,
+          "word_ms": 670
+        },
+        {
+          "cell": 23,
+          "word": "Секрет",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_12/numbers/23.wav",
+          "word_clip": "rounds/round_12/words/23.wav",
+          "number_start_ms": 72830,
+          "number_ms": 720,
+          "word_start_ms": 74550,
+          "word_ms": 680
+        },
+        {
+          "cell": 24,
+          "word": "Букет",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/24.wav",
+          "word_clip": "rounds/round_12/words/24.wav",
+          "number_start_ms": 76230,
+          "number_ms": 850,
+          "word_start_ms": 78080,
+          "word_ms": 610
+        },
+        {
+          "cell": 25,
+          "word": "Пакет",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_12/numbers/25.wav",
+          "word_clip": "rounds/round_12/words/25.wav",
+          "number_start_ms": 79690,
+          "number_ms": 810,
+          "word_start_ms": 81500,
+          "word_ms": 540
+        }
+      ]
+    },
+    "15": {
+      "round": 15,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Sadachbia",
+      "persona": "Fairground barker",
+      "scene": "A noisy fairground",
+      "performance": "Bellow in a loud, sing-song, teasing voice, rolling out every word like a fabulous prize",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_15/dictation.mp3",
+      "dictation_ms": 102860,
+      "gain_db": -1.1,
+      "segmentation": {
+        "shortest_gap_s": 0.26,
+        "longest_inner_gap_s": 0.15
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_15/lines/time_30s.wav",
+          "ms": 5580
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_15/lines/quiz_intro.wav",
+          "ms": 5690
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Рога",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/01.wav",
+          "word_clip": "rounds/round_15/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 910,
+          "word_start_ms": 1910,
+          "word_ms": 1130
+        },
+        {
+          "cell": 2,
+          "word": "Фляга",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/02.wav",
+          "word_clip": "rounds/round_15/words/02.wav",
+          "number_start_ms": 4040,
+          "number_ms": 740,
+          "word_start_ms": 5780,
+          "word_ms": 960
+        },
+        {
+          "cell": 3,
+          "word": "Отвага",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_15/numbers/03.wav",
+          "word_clip": "rounds/round_15/words/03.wav",
+          "number_start_ms": 7740,
+          "number_ms": 630,
+          "word_start_ms": 9370,
+          "word_ms": 1070
+        },
+        {
+          "cell": 4,
+          "word": "Бумага",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/04.wav",
+          "word_clip": "rounds/round_15/words/04.wav",
+          "number_start_ms": 11440,
+          "number_ms": 980,
+          "word_start_ms": 13420,
+          "word_ms": 1290
+        },
+        {
+          "cell": 5,
+          "word": "Шпага",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/05.wav",
+          "word_clip": "rounds/round_15/words/05.wav",
+          "number_start_ms": 15710,
+          "number_ms": 670,
+          "word_start_ms": 17380,
+          "word_ms": 1330
+        },
+        {
+          "cell": 6,
+          "word": "Книга",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/06.wav",
+          "word_clip": "rounds/round_15/words/06.wav",
+          "number_start_ms": 19710,
+          "number_ms": 860,
+          "word_start_ms": 21570,
+          "word_ms": 950
+        },
+        {
+          "cell": 7,
+          "word": "Фига",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/07.wav",
+          "word_clip": "rounds/round_15/words/07.wav",
+          "number_start_ms": 23520,
+          "number_ms": 1150,
+          "word_start_ms": 25670,
+          "word_ms": 960
+        },
+        {
+          "cell": 8,
+          "word": "Интрига",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_15/numbers/08.wav",
+          "word_clip": "rounds/round_15/words/08.wav",
+          "number_start_ms": 27630,
+          "number_ms": 1110,
+          "word_start_ms": 29740,
+          "word_ms": 1080
+        },
+        {
+          "cell": 9,
+          "word": "Иголка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/09.wav",
+          "word_clip": "rounds/round_15/words/09.wav",
+          "number_start_ms": 31820,
+          "number_ms": 1130,
+          "word_start_ms": 33950,
+          "word_ms": 840
+        },
+        {
+          "cell": 10,
+          "word": "Футболка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/10.wav",
+          "word_clip": "rounds/round_15/words/10.wav",
+          "number_start_ms": 35790,
+          "number_ms": 960,
+          "word_start_ms": 37750,
+          "word_ms": 1210
+        },
+        {
+          "cell": 11,
+          "word": "Полка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/11.wav",
+          "word_clip": "rounds/round_15/words/11.wav",
+          "number_start_ms": 39960,
+          "number_ms": 1160,
+          "word_start_ms": 42120,
+          "word_ms": 590
+        },
+        {
+          "cell": 12,
+          "word": "Булка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/12.wav",
+          "word_clip": "rounds/round_15/words/12.wav",
+          "number_start_ms": 43710,
+          "number_ms": 1500,
+          "word_start_ms": 46210,
+          "word_ms": 750
+        },
+        {
+          "cell": 13,
+          "word": "Прогулка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_15/numbers/13.wav",
+          "word_clip": "rounds/round_15/words/13.wav",
+          "number_start_ms": 47960,
+          "number_ms": 1050,
+          "word_start_ms": 50010,
+          "word_ms": 950
+        },
+        {
+          "cell": 14,
+          "word": "Копилка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/14.wav",
+          "word_clip": "rounds/round_15/words/14.wav",
+          "number_start_ms": 51960,
+          "number_ms": 1390,
+          "word_start_ms": 54350,
+          "word_ms": 810
+        },
+        {
+          "cell": 15,
+          "word": "Бутылка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/15.wav",
+          "word_clip": "rounds/round_15/words/15.wav",
+          "number_start_ms": 56160,
+          "number_ms": 1080,
+          "word_start_ms": 58240,
+          "word_ms": 980
+        },
+        {
+          "cell": 16,
+          "word": "Посылка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/16.wav",
+          "word_clip": "rounds/round_15/words/16.wav",
+          "number_start_ms": 60220,
+          "number_ms": 1460,
+          "word_start_ms": 62680,
+          "word_ms": 920
+        },
+        {
+          "cell": 17,
+          "word": "Носилки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/17.wav",
+          "word_clip": "rounds/round_15/words/17.wav",
+          "number_start_ms": 64600,
+          "number_ms": 1490,
+          "word_start_ms": 67090,
+          "word_ms": 980
+        },
+        {
+          "cell": 18,
+          "word": "Опилки",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_15/numbers/18.wav",
+          "word_clip": "rounds/round_15/words/18.wav",
+          "number_start_ms": 69070,
+          "number_ms": 1220,
+          "word_start_ms": 71290,
+          "word_ms": 940
+        },
+        {
+          "cell": 19,
+          "word": "Варежка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/19.wav",
+          "word_clip": "rounds/round_15/words/19.wav",
+          "number_start_ms": 73230,
+          "number_ms": 1430,
+          "word_start_ms": 75660,
+          "word_ms": 990
+        },
+        {
+          "cell": 20,
+          "word": "Тележка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/20.wav",
+          "word_clip": "rounds/round_15/words/20.wav",
+          "number_start_ms": 77650,
+          "number_ms": 970,
+          "word_start_ms": 79620,
+          "word_ms": 860
+        },
+        {
+          "cell": 21,
+          "word": "Пешка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/21.wav",
+          "word_clip": "rounds/round_15/words/21.wav",
+          "number_start_ms": 81480,
+          "number_ms": 1330,
+          "word_start_ms": 83810,
+          "word_ms": 580
+        },
+        {
+          "cell": 22,
+          "word": "Орешки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/22.wav",
+          "word_clip": "rounds/round_15/words/22.wav",
+          "number_start_ms": 85390,
+          "number_ms": 1200,
+          "word_start_ms": 87590,
+          "word_ms": 780
+        },
+        {
+          "cell": 23,
+          "word": "Спешка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_15/numbers/23.wav",
+          "word_clip": "rounds/round_15/words/23.wav",
+          "number_start_ms": 89370,
+          "number_ms": 1580,
+          "word_start_ms": 91950,
+          "word_ms": 870
+        },
+        {
+          "cell": 24,
+          "word": "Флешка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/24.wav",
+          "word_clip": "rounds/round_15/words/24.wav",
+          "number_start_ms": 93820,
+          "number_ms": 1380,
+          "word_start_ms": 96200,
+          "word_ms": 920
+        },
+        {
+          "cell": 25,
+          "word": "Матрешка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_15/numbers/25.wav",
+          "word_clip": "rounds/round_15/words/25.wav",
+          "number_start_ms": 98120,
+          "number_ms": 1690,
+          "word_start_ms": 100810,
+          "word_ms": 1050
+        }
+      ]
+    },
+    "16": {
+      "round": 16,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Iapetus",
+      "persona": "Robot",
+      "scene": "A factory control room",
+      "performance": "Speak as a machine: perfectly flat, mechanical and robotic, with no emotion and an exactly equal rhythm",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_16/dictation.mp3",
+      "dictation_ms": 95380,
+      "gain_db": -5.9,
+      "segmentation": {
+        "shortest_gap_s": 0.41,
+        "longest_inner_gap_s": 0.19
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_16/lines/time_30s.wav",
+          "ms": 7490
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_16/lines/quiz_intro.wav",
+          "ms": 8850
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Картошка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/01.wav",
+          "word_clip": "rounds/round_16/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 770,
+          "word_start_ms": 1770,
+          "word_ms": 1220
+        },
+        {
+          "cell": 2,
+          "word": "Гармошка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/02.wav",
+          "word_clip": "rounds/round_16/words/02.wav",
+          "number_start_ms": 3990,
+          "number_ms": 700,
+          "word_start_ms": 5690,
+          "word_ms": 1230
+        },
+        {
+          "cell": 3,
+          "word": "Брошка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_16/numbers/03.wav",
+          "word_clip": "rounds/round_16/words/03.wav",
+          "number_start_ms": 7920,
+          "number_ms": 490,
+          "word_start_ms": 9410,
+          "word_ms": 870
+        },
+        {
+          "cell": 4,
+          "word": "Ложка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/04.wav",
+          "word_clip": "rounds/round_16/words/04.wav",
+          "number_start_ms": 11280,
+          "number_ms": 800,
+          "word_start_ms": 13080,
+          "word_ms": 820
+        },
+        {
+          "cell": 5,
+          "word": "Кошка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/05.wav",
+          "word_clip": "rounds/round_16/words/05.wav",
+          "number_start_ms": 14900,
+          "number_ms": 550,
+          "word_start_ms": 16450,
+          "word_ms": 710
+        },
+        {
+          "cell": 6,
+          "word": "Окошко",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/06.wav",
+          "word_clip": "rounds/round_16/words/06.wav",
+          "number_start_ms": 18160,
+          "number_ms": 650,
+          "word_start_ms": 19810,
+          "word_ms": 940
+        },
+        {
+          "cell": 7,
+          "word": "Лукошко",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/07.wav",
+          "word_clip": "rounds/round_16/words/07.wav",
+          "number_start_ms": 21750,
+          "number_ms": 580,
+          "word_start_ms": 23330,
+          "word_ms": 990
+        },
+        {
+          "cell": 8,
+          "word": "Понарошку",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_16/numbers/08.wav",
+          "word_clip": "rounds/round_16/words/08.wav",
+          "number_start_ms": 25320,
+          "number_ms": 970,
+          "word_start_ms": 27290,
+          "word_ms": 1010
+        },
+        {
+          "cell": 9,
+          "word": "Ладошка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/09.wav",
+          "word_clip": "rounds/round_16/words/09.wav",
+          "number_start_ms": 29300,
+          "number_ms": 800,
+          "word_start_ms": 31100,
+          "word_ms": 900
+        },
+        {
+          "cell": 10,
+          "word": "Мошка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/10.wav",
+          "word_clip": "rounds/round_16/words/10.wav",
+          "number_start_ms": 33000,
+          "number_ms": 740,
+          "word_start_ms": 34740,
+          "word_ms": 790
+        },
+        {
+          "cell": 11,
+          "word": "Пушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/11.wav",
+          "word_clip": "rounds/round_16/words/11.wav",
+          "number_start_ms": 36530,
+          "number_ms": 1060,
+          "word_start_ms": 38590,
+          "word_ms": 700
+        },
+        {
+          "cell": 12,
+          "word": "Подушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/12.wav",
+          "word_clip": "rounds/round_16/words/12.wav",
+          "number_start_ms": 40290,
+          "number_ms": 1020,
+          "word_start_ms": 42310,
+          "word_ms": 860
+        },
+        {
+          "cell": 13,
+          "word": "Ловушка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_16/numbers/13.wav",
+          "word_clip": "rounds/round_16/words/13.wav",
+          "number_start_ms": 44170,
+          "number_ms": 850,
+          "word_start_ms": 46020,
+          "word_ms": 950
+        },
+        {
+          "cell": 14,
+          "word": "Лягушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/14.wav",
+          "word_clip": "rounds/round_16/words/14.wav",
+          "number_start_ms": 47970,
+          "number_ms": 1040,
+          "word_start_ms": 50010,
+          "word_ms": 1000
+        },
+        {
+          "cell": 15,
+          "word": "Ракушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/15.wav",
+          "word_clip": "rounds/round_16/words/15.wav",
+          "number_start_ms": 52010,
+          "number_ms": 840,
+          "word_start_ms": 53850,
+          "word_ms": 1000
+        },
+        {
+          "cell": 16,
+          "word": "Ватрушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/16.wav",
+          "word_clip": "rounds/round_16/words/16.wav",
+          "number_start_ms": 55850,
+          "number_ms": 950,
+          "word_start_ms": 57800,
+          "word_ms": 950
+        },
+        {
+          "cell": 17,
+          "word": "Хлопушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/17.wav",
+          "word_clip": "rounds/round_16/words/17.wav",
+          "number_start_ms": 59750,
+          "number_ms": 1030,
+          "word_start_ms": 61780,
+          "word_ms": 940
+        },
+        {
+          "cell": 18,
+          "word": "Опушка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_16/numbers/18.wav",
+          "word_clip": "rounds/round_16/words/18.wav",
+          "number_start_ms": 63720,
+          "number_ms": 1010,
+          "word_start_ms": 65730,
+          "word_ms": 930
+        },
+        {
+          "cell": 19,
+          "word": "Кормушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/19.wav",
+          "word_clip": "rounds/round_16/words/19.wav",
+          "number_start_ms": 67660,
+          "number_ms": 1080,
+          "word_start_ms": 69740,
+          "word_ms": 870
+        },
+        {
+          "cell": 20,
+          "word": "Погремушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/20.wav",
+          "word_clip": "rounds/round_16/words/20.wav",
+          "number_start_ms": 71610,
+          "number_ms": 900,
+          "word_start_ms": 73510,
+          "word_ms": 990
+        },
+        {
+          "cell": 21,
+          "word": "Клюшка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/21.wav",
+          "word_clip": "rounds/round_16/words/21.wav",
+          "number_start_ms": 75500,
+          "number_ms": 1190,
+          "word_start_ms": 77690,
+          "word_ms": 910
+        },
+        {
+          "cell": 22,
+          "word": "Кружка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/22.wav",
+          "word_clip": "rounds/round_16/words/22.wav",
+          "number_start_ms": 79600,
+          "number_ms": 1010,
+          "word_start_ms": 81610,
+          "word_ms": 890
+        },
+        {
+          "cell": 23,
+          "word": "Стружка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_16/numbers/23.wav",
+          "word_clip": "rounds/round_16/words/23.wav",
+          "number_start_ms": 83500,
+          "number_ms": 1010,
+          "word_start_ms": 85510,
+          "word_ms": 870
+        },
+        {
+          "cell": 24,
+          "word": "Мушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/24.wav",
+          "word_clip": "rounds/round_16/words/24.wav",
+          "number_start_ms": 87380,
+          "number_ms": 1270,
+          "word_start_ms": 89650,
+          "word_ms": 750
+        },
+        {
+          "cell": 25,
+          "word": "Макушка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_16/numbers/25.wav",
+          "word_clip": "rounds/round_16/words/25.wav",
+          "number_start_ms": 91400,
+          "number_ms": 1090,
+          "word_start_ms": 93490,
+          "word_ms": 890
+        }
+      ]
+    },
+    "2": {
+      "round": 2,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Charon",
+      "persona": "Late-night radio host",
+      "scene": "A dim radio studio at three in the morning",
+      "performance": "Speak slowly in a very low, velvety, dreamy voice, lingering on every word",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_02/dictation.mp3",
+      "dictation_ms": 92220,
+      "gain_db": 0.3,
+      "segmentation": {
+        "shortest_gap_s": 0.53,
+        "longest_inner_gap_s": 0.11
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_02/lines/time_30s.wav",
+          "ms": 8610
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_02/lines/quiz_intro.wav",
+          "ms": 7860
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Сад",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/01.wav",
+          "word_clip": "rounds/round_02/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 880,
+          "word_start_ms": 1880,
+          "word_ms": 840
+        },
+        {
+          "cell": 2,
+          "word": "Мандарин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/02.wav",
+          "word_clip": "rounds/round_02/words/02.wav",
+          "number_start_ms": 3720,
+          "number_ms": 1200,
+          "word_start_ms": 5920,
+          "word_ms": 840
+        },
+        {
+          "cell": 3,
+          "word": "Арбуз",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/03.wav",
+          "word_clip": "rounds/round_02/words/03.wav",
+          "number_start_ms": 7760,
+          "number_ms": 490,
+          "word_start_ms": 9250,
+          "word_ms": 860
+        },
+        {
+          "cell": 4,
+          "word": "Ель",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/04.wav",
+          "word_clip": "rounds/round_02/words/04.wav",
+          "number_start_ms": 11110,
+          "number_ms": 730,
+          "word_start_ms": 12840,
+          "word_ms": 590
+        },
+        {
+          "cell": 5,
+          "word": "Зверь",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/05.wav",
+          "word_clip": "rounds/round_02/words/05.wav",
+          "number_start_ms": 14430,
+          "number_ms": 590,
+          "word_start_ms": 16020,
+          "word_ms": 730
+        },
+        {
+          "cell": 6,
+          "word": "Сундук с золотом",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/06.wav",
+          "word_clip": "rounds/round_02/words/06.wav",
+          "number_start_ms": 17750,
+          "number_ms": 800,
+          "word_start_ms": 19550,
+          "word_ms": 1570
+        },
+        {
+          "cell": 7,
+          "word": "Мышь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/07.wav",
+          "word_clip": "rounds/round_02/words/07.wav",
+          "number_start_ms": 22120,
+          "number_ms": 590,
+          "word_start_ms": 23710,
+          "word_ms": 580
+        },
+        {
+          "cell": 8,
+          "word": "Поршень",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/08.wav",
+          "word_clip": "rounds/round_02/words/08.wav",
+          "number_start_ms": 25290,
+          "number_ms": 730,
+          "word_start_ms": 27020,
+          "word_ms": 720
+        },
+        {
+          "cell": 9,
+          "word": "Гнездо",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/09.wav",
+          "word_clip": "rounds/round_02/words/09.wav",
+          "number_start_ms": 28740,
+          "number_ms": 890,
+          "word_start_ms": 30630,
+          "word_ms": 880
+        },
+        {
+          "cell": 10,
+          "word": "Стол",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/10.wav",
+          "word_clip": "rounds/round_02/words/10.wav",
+          "number_start_ms": 32510,
+          "number_ms": 760,
+          "word_start_ms": 34270,
+          "word_ms": 740
+        },
+        {
+          "cell": 11,
+          "word": "Кит",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/11.wav",
+          "word_clip": "rounds/round_02/words/11.wav",
+          "number_start_ms": 36010,
+          "number_ms": 960,
+          "word_start_ms": 37970,
+          "word_ms": 650
+        },
+        {
+          "cell": 12,
+          "word": "Вишня",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/12.wav",
+          "word_clip": "rounds/round_02/words/12.wav",
+          "number_start_ms": 39620,
+          "number_ms": 1060,
+          "word_start_ms": 41680,
+          "word_ms": 780
+        },
+        {
+          "cell": 13,
+          "word": "Лапта",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/13.wav",
+          "word_clip": "rounds/round_02/words/13.wav",
+          "number_start_ms": 43460,
+          "number_ms": 870,
+          "word_start_ms": 45330,
+          "word_ms": 760
+        },
+        {
+          "cell": 14,
+          "word": "Карабин",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/14.wav",
+          "word_clip": "rounds/round_02/words/14.wav",
+          "number_start_ms": 47090,
+          "number_ms": 1020,
+          "word_start_ms": 49110,
+          "word_ms": 790
+        },
+        {
+          "cell": 15,
+          "word": "Маховик",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/15.wav",
+          "word_clip": "rounds/round_02/words/15.wav",
+          "number_start_ms": 50900,
+          "number_ms": 1030,
+          "word_start_ms": 52930,
+          "word_ms": 900
+        },
+        {
+          "cell": 16,
+          "word": "Воронка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/16.wav",
+          "word_clip": "rounds/round_02/words/16.wav",
+          "number_start_ms": 54830,
+          "number_ms": 1060,
+          "word_start_ms": 56890,
+          "word_ms": 930
+        },
+        {
+          "cell": 17,
+          "word": "Посох",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/17.wav",
+          "word_clip": "rounds/round_02/words/17.wav",
+          "number_start_ms": 58820,
+          "number_ms": 950,
+          "word_start_ms": 60770,
+          "word_ms": 650
+        },
+        {
+          "cell": 18,
+          "word": "Штатив",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/18.wav",
+          "word_clip": "rounds/round_02/words/18.wav",
+          "number_start_ms": 62420,
+          "number_ms": 1060,
+          "word_start_ms": 64480,
+          "word_ms": 840
+        },
+        {
+          "cell": 19,
+          "word": "Мост",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/19.wav",
+          "word_clip": "rounds/round_02/words/19.wav",
+          "number_start_ms": 66320,
+          "number_ms": 1120,
+          "word_start_ms": 68440,
+          "word_ms": 690
+        },
+        {
+          "cell": 20,
+          "word": "Яйцо",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/20.wav",
+          "word_clip": "rounds/round_02/words/20.wav",
+          "number_start_ms": 70130,
+          "number_ms": 850,
+          "word_start_ms": 71980,
+          "word_ms": 800
+        },
+        {
+          "cell": 21,
+          "word": "Вьюга",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/21.wav",
+          "word_clip": "rounds/round_02/words/21.wav",
+          "number_start_ms": 73780,
+          "number_ms": 950,
+          "word_start_ms": 75730,
+          "word_ms": 730
+        },
+        {
+          "cell": 22,
+          "word": "Пень",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/22.wav",
+          "word_clip": "rounds/round_02/words/22.wav",
+          "number_start_ms": 77460,
+          "number_ms": 890,
+          "word_start_ms": 79350,
+          "word_ms": 480
+        },
+        {
+          "cell": 23,
+          "word": "Молния",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/23.wav",
+          "word_clip": "rounds/round_02/words/23.wav",
+          "number_start_ms": 80830,
+          "number_ms": 920,
+          "word_start_ms": 82750,
+          "word_ms": 870
+        },
+        {
+          "cell": 24,
+          "word": "Биатлон",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_02/numbers/24.wav",
+          "word_clip": "rounds/round_02/words/24.wav",
+          "number_start_ms": 84620,
+          "number_ms": 1100,
+          "word_start_ms": 86720,
+          "word_ms": 820
+        },
+        {
+          "cell": 25,
+          "word": "Шоколад",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_02/numbers/25.wav",
+          "word_clip": "rounds/round_02/words/25.wav",
+          "number_start_ms": 88540,
+          "number_ms": 940,
+          "word_start_ms": 90480,
+          "word_ms": 740
+        }
+      ]
+    },
+    "5": {
+      "round": 5,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Algenib",
+      "persona": "Old sea captain",
+      "scene": "The deck of a ship at anchor in the evening",
+      "performance": "Growl in a rough, gravelly, salty voice, like a weathered old sailor, and hold a long heavy pause after every line",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_05/dictation.mp3",
+      "dictation_ms": 100010,
+      "gain_db": 0.7,
+      "segmentation": {
+        "shortest_gap_s": 0.75,
+        "longest_inner_gap_s": 0.09
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_05/lines/time_30s.wav",
+          "ms": 8800
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_05/lines/quiz_intro.wav",
+          "ms": 6930
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Зонт",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/01.wav",
+          "word_clip": "rounds/round_05/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 2180,
+          "word_start_ms": 3180,
+          "word_ms": 1630
+        },
+        {
+          "cell": 2,
+          "word": "Бинт",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/02.wav",
+          "word_clip": "rounds/round_05/words/02.wav",
+          "number_start_ms": 5810,
+          "number_ms": 970,
+          "word_start_ms": 7780,
+          "word_ms": 890
+        },
+        {
+          "cell": 3,
+          "word": "Бунт",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_05/numbers/03.wav",
+          "word_clip": "rounds/round_05/words/03.wav",
+          "number_start_ms": 9670,
+          "number_ms": 1220,
+          "word_start_ms": 11890,
+          "word_ms": 910
+        },
+        {
+          "cell": 4,
+          "word": "Бант",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/04.wav",
+          "word_clip": "rounds/round_05/words/04.wav",
+          "number_start_ms": 13800,
+          "number_ms": 1380,
+          "word_start_ms": 16180,
+          "word_ms": 900
+        },
+        {
+          "cell": 5,
+          "word": "Торт",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/05.wav",
+          "word_clip": "rounds/round_05/words/05.wav",
+          "number_start_ms": 18080,
+          "number_ms": 650,
+          "word_start_ms": 19730,
+          "word_ms": 870
+        },
+        {
+          "cell": 6,
+          "word": "Краб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/06.wav",
+          "word_clip": "rounds/round_05/words/06.wav",
+          "number_start_ms": 21600,
+          "number_ms": 890,
+          "word_start_ms": 23490,
+          "word_ms": 780
+        },
+        {
+          "cell": 7,
+          "word": "Гриб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/07.wav",
+          "word_clip": "rounds/round_05/words/07.wav",
+          "number_start_ms": 25270,
+          "number_ms": 720,
+          "word_start_ms": 26990,
+          "word_ms": 900
+        },
+        {
+          "cell": 8,
+          "word": "Герб",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_05/numbers/08.wav",
+          "word_clip": "rounds/round_05/words/08.wav",
+          "number_start_ms": 28890,
+          "number_ms": 890,
+          "word_start_ms": 30780,
+          "word_ms": 790
+        },
+        {
+          "cell": 9,
+          "word": "Гроб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/09.wav",
+          "word_clip": "rounds/round_05/words/09.wav",
+          "number_start_ms": 32570,
+          "number_ms": 870,
+          "word_start_ms": 34440,
+          "word_ms": 790
+        },
+        {
+          "cell": 10,
+          "word": "Сугроб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/10.wav",
+          "word_clip": "rounds/round_05/words/10.wav",
+          "number_start_ms": 36230,
+          "number_ms": 840,
+          "word_start_ms": 38070,
+          "word_ms": 890
+        },
+        {
+          "cell": 11,
+          "word": "Лимон",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/11.wav",
+          "word_clip": "rounds/round_05/words/11.wav",
+          "number_start_ms": 39960,
+          "number_ms": 1070,
+          "word_start_ms": 42030,
+          "word_ms": 1100
+        },
+        {
+          "cell": 12,
+          "word": "Вагон",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/12.wav",
+          "word_clip": "rounds/round_05/words/12.wav",
+          "number_start_ms": 44130,
+          "number_ms": 1130,
+          "word_start_ms": 46260,
+          "word_ms": 970
+        },
+        {
+          "cell": 13,
+          "word": "Разгон",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_05/numbers/13.wav",
+          "word_clip": "rounds/round_05/words/13.wav",
+          "number_start_ms": 48230,
+          "number_ms": 990,
+          "word_start_ms": 50220,
+          "word_ms": 1030
+        },
+        {
+          "cell": 14,
+          "word": "Дракон",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/14.wav",
+          "word_clip": "rounds/round_05/words/14.wav",
+          "number_start_ms": 52250,
+          "number_ms": 1110,
+          "word_start_ms": 54360,
+          "word_ms": 940
+        },
+        {
+          "cell": 15,
+          "word": "Балкон",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/15.wav",
+          "word_clip": "rounds/round_05/words/15.wav",
+          "number_start_ms": 56300,
+          "number_ms": 1040,
+          "word_start_ms": 58340,
+          "word_ms": 960
+        },
+        {
+          "cell": 16,
+          "word": "Очки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/16.wav",
+          "word_clip": "rounds/round_05/words/16.wav",
+          "number_start_ms": 60300,
+          "number_ms": 1140,
+          "word_start_ms": 62440,
+          "word_ms": 780
+        },
+        {
+          "cell": 17,
+          "word": "Тапки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/17.wav",
+          "word_clip": "rounds/round_05/words/17.wav",
+          "number_start_ms": 64220,
+          "number_ms": 1120,
+          "word_start_ms": 66340,
+          "word_ms": 660
+        },
+        {
+          "cell": 18,
+          "word": "Щепки",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_05/numbers/18.wav",
+          "word_clip": "rounds/round_05/words/18.wav",
+          "number_start_ms": 68000,
+          "number_ms": 1200,
+          "word_start_ms": 70200,
+          "word_ms": 890
+        },
+        {
+          "cell": 19,
+          "word": "Кепка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/19.wav",
+          "word_clip": "rounds/round_05/words/19.wav",
+          "number_start_ms": 72090,
+          "number_ms": 1180,
+          "word_start_ms": 74270,
+          "word_ms": 680
+        },
+        {
+          "cell": 20,
+          "word": "Скрепка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/20.wav",
+          "word_clip": "rounds/round_05/words/20.wav",
+          "number_start_ms": 75950,
+          "number_ms": 960,
+          "word_start_ms": 77910,
+          "word_ms": 920
+        },
+        {
+          "cell": 21,
+          "word": "Чайник",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/21.wav",
+          "word_clip": "rounds/round_05/words/21.wav",
+          "number_start_ms": 79830,
+          "number_ms": 1140,
+          "word_start_ms": 81970,
+          "word_ms": 830
+        },
+        {
+          "cell": 22,
+          "word": "Памятник",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/22.wav",
+          "word_clip": "rounds/round_05/words/22.wav",
+          "number_start_ms": 83800,
+          "number_ms": 1090,
+          "word_start_ms": 85890,
+          "word_ms": 900
+        },
+        {
+          "cell": 23,
+          "word": "Спутник",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_05/numbers/23.wav",
+          "word_clip": "rounds/round_05/words/23.wav",
+          "number_start_ms": 87790,
+          "number_ms": 1080,
+          "word_start_ms": 89870,
+          "word_ms": 1020
+        },
+        {
+          "cell": 24,
+          "word": "Веник",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/24.wav",
+          "word_clip": "rounds/round_05/words/24.wav",
+          "number_start_ms": 91890,
+          "number_ms": 1280,
+          "word_start_ms": 94170,
+          "word_ms": 850
+        },
+        {
+          "cell": 25,
+          "word": "Пряник",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_05/numbers/25.wav",
+          "word_clip": "rounds/round_05/words/25.wav",
+          "number_start_ms": 96020,
+          "number_ms": 1140,
+          "word_start_ms": 98160,
+          "word_ms": 850
+        }
+      ]
+    },
+    "10": {
+      "round": 10,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Gacrux",
+      "persona": "Storytelling grandmother",
+      "scene": "A cosy room by the fireplace at bedtime",
+      "performance": "Speak softly and slowly in a kind old voice, lovingly drawing out every word like a fairy tale",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_10/dictation.mp3",
+      "dictation_ms": 100140,
+      "gain_db": -1.2,
+      "segmentation": {
+        "shortest_gap_s": 0.5,
+        "longest_inner_gap_s": 0.19
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_10/lines/time_30s.wav",
+          "ms": 8490
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_10/lines/quiz_intro.wav",
+          "ms": 8440
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Рыба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/01.wav",
+          "word_clip": "rounds/round_10/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 790,
+          "word_start_ms": 1790,
+          "word_ms": 1170
+        },
+        {
+          "cell": 2,
+          "word": "Глыба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/02.wav",
+          "word_clip": "rounds/round_10/words/02.wav",
+          "number_start_ms": 3960,
+          "number_ms": 980,
+          "word_start_ms": 5940,
+          "word_ms": 1140
+        },
+        {
+          "cell": 3,
+          "word": "Улыбка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_10/numbers/03.wav",
+          "word_clip": "rounds/round_10/words/03.wav",
+          "number_start_ms": 8080,
+          "number_ms": 520,
+          "word_start_ms": 9600,
+          "word_ms": 870
+        },
+        {
+          "cell": 4,
+          "word": "Скрипка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/04.wav",
+          "word_clip": "rounds/round_10/words/04.wav",
+          "number_start_ms": 11470,
+          "number_ms": 1010,
+          "word_start_ms": 13480,
+          "word_ms": 990
+        },
+        {
+          "cell": 5,
+          "word": "Прищепка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/05.wav",
+          "word_clip": "rounds/round_10/words/05.wav",
+          "number_start_ms": 15470,
+          "number_ms": 720,
+          "word_start_ms": 17190,
+          "word_ms": 1130
+        },
+        {
+          "cell": 6,
+          "word": "Коробка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/06.wav",
+          "word_clip": "rounds/round_10/words/06.wav",
+          "number_start_ms": 19320,
+          "number_ms": 860,
+          "word_start_ms": 21180,
+          "word_ms": 860
+        },
+        {
+          "cell": 7,
+          "word": "Пробка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/07.wav",
+          "word_clip": "rounds/round_10/words/07.wav",
+          "number_start_ms": 23040,
+          "number_ms": 1380,
+          "word_start_ms": 25420,
+          "word_ms": 930
+        },
+        {
+          "cell": 8,
+          "word": "Скорлупка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_10/numbers/08.wav",
+          "word_clip": "rounds/round_10/words/08.wav",
+          "number_start_ms": 27350,
+          "number_ms": 980,
+          "word_start_ms": 29330,
+          "word_ms": 1090
+        },
+        {
+          "cell": 9,
+          "word": "Шлюпка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/09.wav",
+          "word_clip": "rounds/round_10/words/09.wav",
+          "number_start_ms": 31420,
+          "number_ms": 1220,
+          "word_start_ms": 33640,
+          "word_ms": 1420
+        },
+        {
+          "cell": 10,
+          "word": "Юбка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/10.wav",
+          "word_clip": "rounds/round_10/words/10.wav",
+          "number_start_ms": 36060,
+          "number_ms": 890,
+          "word_start_ms": 37950,
+          "word_ms": 730
+        },
+        {
+          "cell": 11,
+          "word": "Забор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/11.wav",
+          "word_clip": "rounds/round_10/words/11.wav",
+          "number_start_ms": 39680,
+          "number_ms": 1020,
+          "word_start_ms": 41700,
+          "word_ms": 960
+        },
+        {
+          "cell": 12,
+          "word": "Топор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/12.wav",
+          "word_clip": "rounds/round_10/words/12.wav",
+          "number_start_ms": 43660,
+          "number_ms": 1090,
+          "word_start_ms": 45750,
+          "word_ms": 760
+        },
+        {
+          "cell": 13,
+          "word": "Мотор",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_10/numbers/13.wav",
+          "word_clip": "rounds/round_10/words/13.wav",
+          "number_start_ms": 47510,
+          "number_ms": 1020,
+          "word_start_ms": 49530,
+          "word_ms": 810
+        },
+        {
+          "cell": 14,
+          "word": "Костер",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/14.wav",
+          "word_clip": "rounds/round_10/words/14.wav",
+          "number_start_ms": 51340,
+          "number_ms": 1230,
+          "word_start_ms": 53570,
+          "word_ms": 840
+        },
+        {
+          "cell": 15,
+          "word": "Шатер",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/15.wav",
+          "word_clip": "rounds/round_10/words/15.wav",
+          "number_start_ms": 55410,
+          "number_ms": 940,
+          "word_start_ms": 57350,
+          "word_ms": 1190
+        },
+        {
+          "cell": 16,
+          "word": "Скейт",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/16.wav",
+          "word_clip": "rounds/round_10/words/16.wav",
+          "number_start_ms": 59540,
+          "number_ms": 1170,
+          "word_start_ms": 61710,
+          "word_ms": 1290
+        },
+        {
+          "cell": 17,
+          "word": "Флейта",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/17.wav",
+          "word_clip": "rounds/round_10/words/17.wav",
+          "number_start_ms": 64000,
+          "number_ms": 1340,
+          "word_start_ms": 66340,
+          "word_ms": 1000
+        },
+        {
+          "cell": 18,
+          "word": "Лейка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_10/numbers/18.wav",
+          "word_clip": "rounds/round_10/words/18.wav",
+          "number_start_ms": 68340,
+          "number_ms": 1280,
+          "word_start_ms": 70620,
+          "word_ms": 820
+        },
+        {
+          "cell": 19,
+          "word": "Скамейка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/19.wav",
+          "word_clip": "rounds/round_10/words/19.wav",
+          "number_start_ms": 72440,
+          "number_ms": 1200,
+          "word_start_ms": 74640,
+          "word_ms": 950
+        },
+        {
+          "cell": 20,
+          "word": "Батарейка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/20.wav",
+          "word_clip": "rounds/round_10/words/20.wav",
+          "number_start_ms": 76590,
+          "number_ms": 830,
+          "word_start_ms": 78420,
+          "word_ms": 1030
+        },
+        {
+          "cell": 21,
+          "word": "Снеговик",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/21.wav",
+          "word_clip": "rounds/round_10/words/21.wav",
+          "number_start_ms": 80450,
+          "number_ms": 1150,
+          "word_start_ms": 82600,
+          "word_ms": 930
+        },
+        {
+          "cell": 22,
+          "word": "Грузовик",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/22.wav",
+          "word_clip": "rounds/round_10/words/22.wav",
+          "number_start_ms": 84530,
+          "number_ms": 1100,
+          "word_start_ms": 86630,
+          "word_ms": 950
+        },
+        {
+          "cell": 23,
+          "word": "Тупик",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_10/numbers/23.wav",
+          "word_clip": "rounds/round_10/words/23.wav",
+          "number_start_ms": 88580,
+          "number_ms": 1180,
+          "word_start_ms": 90760,
+          "word_ms": 700
+        },
+        {
+          "cell": 24,
+          "word": "Парик",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/24.wav",
+          "word_clip": "rounds/round_10/words/24.wav",
+          "number_start_ms": 92460,
+          "number_ms": 1240,
+          "word_start_ms": 94700,
+          "word_ms": 660
+        },
+        {
+          "cell": 25,
+          "word": "Родник",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_10/numbers/25.wav",
+          "word_clip": "rounds/round_10/words/25.wav",
+          "number_start_ms": 96360,
+          "number_ms": 1060,
+          "word_start_ms": 98420,
+          "word_ms": 720
+        }
+      ]
+    },
+    "11": {
+      "round": 11,
+      "model": "gemini-3.1-flash-tts-preview",
+      "voice": "Alnilam",
+      "persona": "TV news anchor",
+      "scene": "A state television studio during an important announcement",
+      "performance": "Declaim with grave solemnity, formal, stately and resonant, every word of historic importance",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_11/dictation.mp3",
+      "dictation_ms": 96660,
+      "gain_db": -3.1,
+      "segmentation": {
+        "shortest_gap_s": 0.56,
+        "longest_inner_gap_s": 0.19
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_11/lines/time_30s.wav",
+          "ms": 10220
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_11/lines/quiz_intro.wav",
+          "ms": 9940
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Ключ",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/01.wav",
+          "word_clip": "rounds/round_11/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 910,
+          "word_start_ms": 1910,
+          "word_ms": 920
+        },
+        {
+          "cell": 2,
+          "word": "Обруч",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/02.wav",
+          "word_clip": "rounds/round_11/words/02.wav",
+          "number_start_ms": 3830,
+          "number_ms": 700,
+          "word_start_ms": 5530,
+          "word_ms": 950
+        },
+        {
+          "cell": 3,
+          "word": "Луч",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_11/numbers/03.wav",
+          "word_clip": "rounds/round_11/words/03.wav",
+          "number_start_ms": 7480,
+          "number_ms": 480,
+          "word_start_ms": 8960,
+          "word_ms": 960
+        },
+        {
+          "cell": 4,
+          "word": "Туча",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/04.wav",
+          "word_clip": "rounds/round_11/words/04.wav",
+          "number_start_ms": 10920,
+          "number_ms": 870,
+          "word_start_ms": 12790,
+          "word_ms": 660
+        },
+        {
+          "cell": 5,
+          "word": "Куча",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/05.wav",
+          "word_clip": "rounds/round_11/words/05.wav",
+          "number_start_ms": 14450,
+          "number_ms": 630,
+          "word_start_ms": 16080,
+          "word_ms": 690
+        },
+        {
+          "cell": 6,
+          "word": "Пальма",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/06.wav",
+          "word_clip": "rounds/round_11/words/06.wav",
+          "number_start_ms": 17770,
+          "number_ms": 910,
+          "word_start_ms": 19680,
+          "word_ms": 710
+        },
+        {
+          "cell": 7,
+          "word": "Шлем",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/07.wav",
+          "word_clip": "rounds/round_11/words/07.wav",
+          "number_start_ms": 21390,
+          "number_ms": 700,
+          "word_start_ms": 23090,
+          "word_ms": 950
+        },
+        {
+          "cell": 8,
+          "word": "Проблема",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_11/numbers/08.wav",
+          "word_clip": "rounds/round_11/words/08.wav",
+          "number_start_ms": 25040,
+          "number_ms": 790,
+          "word_start_ms": 26830,
+          "word_ms": 1010
+        },
+        {
+          "cell": 9,
+          "word": "Коромысло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/09.wav",
+          "word_clip": "rounds/round_11/words/09.wav",
+          "number_start_ms": 28840,
+          "number_ms": 810,
+          "word_start_ms": 30650,
+          "word_ms": 970
+        },
+        {
+          "cell": 10,
+          "word": "Весло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/10.wav",
+          "word_clip": "rounds/round_11/words/10.wav",
+          "number_start_ms": 32620,
+          "number_ms": 820,
+          "word_start_ms": 34440,
+          "word_ms": 850
+        },
+        {
+          "cell": 11,
+          "word": "Седло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/11.wav",
+          "word_clip": "rounds/round_11/words/11.wav",
+          "number_start_ms": 36290,
+          "number_ms": 970,
+          "word_start_ms": 38260,
+          "word_ms": 830
+        },
+        {
+          "cell": 12,
+          "word": "Стекло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/12.wav",
+          "word_clip": "rounds/round_11/words/12.wav",
+          "number_start_ms": 40090,
+          "number_ms": 1120,
+          "word_start_ms": 42210,
+          "word_ms": 920
+        },
+        {
+          "cell": 13,
+          "word": "Тепло",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_11/numbers/13.wav",
+          "word_clip": "rounds/round_11/words/13.wav",
+          "number_start_ms": 44130,
+          "number_ms": 1030,
+          "word_start_ms": 46160,
+          "word_ms": 710
+        },
+        {
+          "cell": 14,
+          "word": "Дупло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/14.wav",
+          "word_clip": "rounds/round_11/words/14.wav",
+          "number_start_ms": 47870,
+          "number_ms": 1190,
+          "word_start_ms": 50060,
+          "word_ms": 810
+        },
+        {
+          "cell": 15,
+          "word": "Крыло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/15.wav",
+          "word_clip": "rounds/round_11/words/15.wav",
+          "number_start_ms": 51870,
+          "number_ms": 1050,
+          "word_start_ms": 53920,
+          "word_ms": 730
+        },
+        {
+          "cell": 16,
+          "word": "Монета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/16.wav",
+          "word_clip": "rounds/round_11/words/16.wav",
+          "number_start_ms": 55650,
+          "number_ms": 1210,
+          "word_start_ms": 57860,
+          "word_ms": 910
+        },
+        {
+          "cell": 17,
+          "word": "Ракета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/17.wav",
+          "word_clip": "rounds/round_11/words/17.wav",
+          "number_start_ms": 59770,
+          "number_ms": 1180,
+          "word_start_ms": 61950,
+          "word_ms": 920
+        },
+        {
+          "cell": 18,
+          "word": "Диета",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_11/numbers/18.wav",
+          "word_clip": "rounds/round_11/words/18.wav",
+          "number_start_ms": 63870,
+          "number_ms": 1250,
+          "word_start_ms": 66120,
+          "word_ms": 850
+        },
+        {
+          "cell": 19,
+          "word": "Конфета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/19.wav",
+          "word_clip": "rounds/round_11/words/19.wav",
+          "number_start_ms": 67970,
+          "number_ms": 1230,
+          "word_start_ms": 70200,
+          "word_ms": 890
+        },
+        {
+          "cell": 20,
+          "word": "Котлета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/20.wav",
+          "word_clip": "rounds/round_11/words/20.wav",
+          "number_start_ms": 72090,
+          "number_ms": 960,
+          "word_start_ms": 74050,
+          "word_ms": 880
+        },
+        {
+          "cell": 21,
+          "word": "Планета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/21.wav",
+          "word_clip": "rounds/round_11/words/21.wav",
+          "number_start_ms": 75930,
+          "number_ms": 1400,
+          "word_start_ms": 78330,
+          "word_ms": 860
+        },
+        {
+          "cell": 22,
+          "word": "Карета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/22.wav",
+          "word_clip": "rounds/round_11/words/22.wav",
+          "number_start_ms": 80190,
+          "number_ms": 1180,
+          "word_start_ms": 82370,
+          "word_ms": 730
+        },
+        {
+          "cell": 23,
+          "word": "Примета",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_11/numbers/23.wav",
+          "word_clip": "rounds/round_11/words/23.wav",
+          "number_start_ms": 84100,
+          "number_ms": 1190,
+          "word_start_ms": 86290,
+          "word_ms": 830
+        },
+        {
+          "cell": 24,
+          "word": "Кассета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/24.wav",
+          "word_clip": "rounds/round_11/words/24.wav",
+          "number_start_ms": 88120,
+          "number_ms": 1400,
+          "word_start_ms": 90520,
+          "word_ms": 880
+        },
+        {
+          "cell": 25,
+          "word": "Антенна",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_11/numbers/25.wav",
+          "word_clip": "rounds/round_11/words/25.wav",
+          "number_start_ms": 92400,
+          "number_ms": 1300,
+          "word_start_ms": 94700,
+          "word_ms": 960
+        }
+      ]
+    },
+    "14": {
+      "round": 14,
+      "model": "gemini-3.1-flash-tts-preview",
+      "voice": "Sulafat",
+      "persona": "Museum guide",
+      "scene": "The grand hall of a great museum",
+      "performance": "Speak with refined, awed admiration, breathing out every word as a priceless masterpiece",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_14/dictation.mp3",
+      "dictation_ms": 115210,
+      "gain_db": 0.5,
+      "segmentation": {
+        "shortest_gap_s": 0.66,
+        "longest_inner_gap_s": 0.29
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_14/lines/time_30s.wav",
+          "ms": 9980
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_14/lines/quiz_intro.wav",
+          "ms": 9150
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Зуб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/01.wav",
+          "word_clip": "rounds/round_14/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 1330,
+          "word_start_ms": 2330,
+          "word_ms": 900
+        },
+        {
+          "cell": 2,
+          "word": "Дуб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/02.wav",
+          "word_clip": "rounds/round_14/words/02.wav",
+          "number_start_ms": 4230,
+          "number_ms": 840,
+          "word_start_ms": 6070,
+          "word_ms": 1010
+        },
+        {
+          "cell": 3,
+          "word": "Клуб",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_14/numbers/03.wav",
+          "word_clip": "rounds/round_14/words/03.wav",
+          "number_start_ms": 8080,
+          "number_ms": 690,
+          "word_start_ms": 9770,
+          "word_ms": 2050
+        },
+        {
+          "cell": 4,
+          "word": "Куб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/04.wav",
+          "word_clip": "rounds/round_14/words/04.wav",
+          "number_start_ms": 12820,
+          "number_ms": 1000,
+          "word_start_ms": 14820,
+          "word_ms": 710
+        },
+        {
+          "cell": 5,
+          "word": "Труба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/05.wav",
+          "word_clip": "rounds/round_14/words/05.wav",
+          "number_start_ms": 16530,
+          "number_ms": 1550,
+          "word_start_ms": 19080,
+          "word_ms": 890
+        },
+        {
+          "cell": 6,
+          "word": "Губы",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/06.wav",
+          "word_clip": "rounds/round_14/words/06.wav",
+          "number_start_ms": 20970,
+          "number_ms": 960,
+          "word_start_ms": 22930,
+          "word_ms": 700
+        },
+        {
+          "cell": 7,
+          "word": "Шуба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/07.wav",
+          "word_clip": "rounds/round_14/words/07.wav",
+          "number_start_ms": 24630,
+          "number_ms": 890,
+          "word_start_ms": 26520,
+          "word_ms": 1000
+        },
+        {
+          "cell": 8,
+          "word": "Дружба",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_14/numbers/08.wav",
+          "word_clip": "rounds/round_14/words/08.wav",
+          "number_start_ms": 28520,
+          "number_ms": 1040,
+          "word_start_ms": 30560,
+          "word_ms": 1080
+        },
+        {
+          "cell": 9,
+          "word": "Шайба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/09.wav",
+          "word_clip": "rounds/round_14/words/09.wav",
+          "number_start_ms": 32640,
+          "number_ms": 980,
+          "word_start_ms": 34620,
+          "word_ms": 940
+        },
+        {
+          "cell": 10,
+          "word": "Колба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/10.wav",
+          "word_clip": "rounds/round_14/words/10.wav",
+          "number_start_ms": 36560,
+          "number_ms": 1030,
+          "word_start_ms": 38590,
+          "word_ms": 820
+        },
+        {
+          "cell": 11,
+          "word": "Бомба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/11.wav",
+          "word_clip": "rounds/round_14/words/11.wav",
+          "number_start_ms": 40410,
+          "number_ms": 1980,
+          "word_start_ms": 43390,
+          "word_ms": 1680
+        },
+        {
+          "cell": 12,
+          "word": "Тумба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/12.wav",
+          "word_clip": "rounds/round_14/words/12.wav",
+          "number_start_ms": 46070,
+          "number_ms": 2410,
+          "word_start_ms": 49480,
+          "word_ms": 860
+        },
+        {
+          "cell": 13,
+          "word": "Пломба",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_14/numbers/13.wav",
+          "word_clip": "rounds/round_14/words/13.wav",
+          "number_start_ms": 51340,
+          "number_ms": 1950,
+          "word_start_ms": 54290,
+          "word_ms": 1980
+        },
+        {
+          "cell": 14,
+          "word": "Клумба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/14.wav",
+          "word_clip": "rounds/round_14/words/14.wav",
+          "number_start_ms": 57270,
+          "number_ms": 1360,
+          "word_start_ms": 59630,
+          "word_ms": 1590
+        },
+        {
+          "cell": 15,
+          "word": "Изба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/15.wav",
+          "word_clip": "rounds/round_14/words/15.wav",
+          "number_start_ms": 62220,
+          "number_ms": 2220,
+          "word_start_ms": 65440,
+          "word_ms": 1390
+        },
+        {
+          "cell": 16,
+          "word": "Резьба",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/16.wav",
+          "word_clip": "rounds/round_14/words/16.wav",
+          "number_start_ms": 67830,
+          "number_ms": 1280,
+          "word_start_ms": 70110,
+          "word_ms": 1760
+        },
+        {
+          "cell": 17,
+          "word": "Серьга",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/17.wav",
+          "word_clip": "rounds/round_14/words/17.wav",
+          "number_start_ms": 72870,
+          "number_ms": 1270,
+          "word_start_ms": 75140,
+          "word_ms": 1710
+        },
+        {
+          "cell": 18,
+          "word": "Тайга",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_14/numbers/18.wav",
+          "word_clip": "rounds/round_14/words/18.wav",
+          "number_start_ms": 77850,
+          "number_ms": 1430,
+          "word_start_ms": 80280,
+          "word_ms": 1730
+        },
+        {
+          "cell": 19,
+          "word": "Нога",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/19.wav",
+          "word_clip": "rounds/round_14/words/19.wav",
+          "number_start_ms": 83010,
+          "number_ms": 2420,
+          "word_start_ms": 86430,
+          "word_ms": 730
+        },
+        {
+          "cell": 20,
+          "word": "Радуга",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/20.wav",
+          "word_clip": "rounds/round_14/words/20.wav",
+          "number_start_ms": 88160,
+          "number_ms": 1620,
+          "word_start_ms": 90780,
+          "word_ms": 890
+        },
+        {
+          "cell": 21,
+          "word": "Телега",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/21.wav",
+          "word_clip": "rounds/round_14/words/21.wav",
+          "number_start_ms": 92670,
+          "number_ms": 1400,
+          "word_start_ms": 95070,
+          "word_ms": 1560
+        },
+        {
+          "cell": 22,
+          "word": "Коллега",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/22.wav",
+          "word_clip": "rounds/round_14/words/22.wav",
+          "number_start_ms": 97630,
+          "number_ms": 1170,
+          "word_start_ms": 99800,
+          "word_ms": 1660
+        },
+        {
+          "cell": 23,
+          "word": "Тревога",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_14/numbers/23.wav",
+          "word_clip": "rounds/round_14/words/23.wav",
+          "number_start_ms": 102460,
+          "number_ms": 1140,
+          "word_start_ms": 104600,
+          "word_ms": 900
+        },
+        {
+          "cell": 24,
+          "word": "Дорога",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/24.wav",
+          "word_clip": "rounds/round_14/words/24.wav",
+          "number_start_ms": 106500,
+          "number_ms": 1420,
+          "word_start_ms": 108920,
+          "word_ms": 940
+        },
+        {
+          "cell": 25,
+          "word": "Берлога",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_14/numbers/25.wav",
+          "word_clip": "rounds/round_14/words/25.wav",
+          "number_start_ms": 110860,
+          "number_ms": 1300,
+          "word_start_ms": 113160,
+          "word_ms": 1050
+        }
+      ]
+    },
+    "4": {
+      "round": 4,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Aoede",
+      "persona": "Children's party host",
+      "scene": "A birthday party with balloons and confetti",
+      "performance": "Squeal with delight, high-pitched and bubbly, as if every word were the best present ever",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_04/dictation.mp3",
+      "dictation_ms": 92810,
+      "gain_db": -3.6,
+      "segmentation": {
+        "shortest_gap_s": 0.5,
+        "longest_inner_gap_s": 0.2
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_04/lines/time_30s.wav",
+          "ms": 6040
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_04/lines/quiz_intro.wav",
+          "ms": 5060
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Стон",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/01.wav",
+          "word_clip": "rounds/round_04/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 720,
+          "word_start_ms": 1720,
+          "word_ms": 1050
+        },
+        {
+          "cell": 2,
+          "word": "Кондуктор",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/02.wav",
+          "word_clip": "rounds/round_04/words/02.wav",
+          "number_start_ms": 3770,
+          "number_ms": 880,
+          "word_start_ms": 5650,
+          "word_ms": 1030
+        },
+        {
+          "cell": 3,
+          "word": "Хвоя",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/03.wav",
+          "word_clip": "rounds/round_04/words/03.wav",
+          "number_start_ms": 7680,
+          "number_ms": 540,
+          "word_start_ms": 9220,
+          "word_ms": 850
+        },
+        {
+          "cell": 4,
+          "word": "Черта",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/04.wav",
+          "word_clip": "rounds/round_04/words/04.wav",
+          "number_start_ms": 11070,
+          "number_ms": 700,
+          "word_start_ms": 12770,
+          "word_ms": 880
+        },
+        {
+          "cell": 5,
+          "word": "Сабля",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/05.wav",
+          "word_clip": "rounds/round_04/words/05.wav",
+          "number_start_ms": 14650,
+          "number_ms": 530,
+          "word_start_ms": 16180,
+          "word_ms": 770
+        },
+        {
+          "cell": 6,
+          "word": "Лес",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/06.wav",
+          "word_clip": "rounds/round_04/words/06.wav",
+          "number_start_ms": 17950,
+          "number_ms": 770,
+          "word_start_ms": 19720,
+          "word_ms": 780
+        },
+        {
+          "cell": 7,
+          "word": "Лев",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/07.wav",
+          "word_clip": "rounds/round_04/words/07.wav",
+          "number_start_ms": 21500,
+          "number_ms": 660,
+          "word_start_ms": 23160,
+          "word_ms": 1110
+        },
+        {
+          "cell": 8,
+          "word": "Слив",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/08.wav",
+          "word_clip": "rounds/round_04/words/08.wav",
+          "number_start_ms": 25270,
+          "number_ms": 880,
+          "word_start_ms": 27150,
+          "word_ms": 860
+        },
+        {
+          "cell": 9,
+          "word": "Вилка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/09.wav",
+          "word_clip": "rounds/round_04/words/09.wav",
+          "number_start_ms": 29010,
+          "number_ms": 720,
+          "word_start_ms": 30730,
+          "word_ms": 780
+        },
+        {
+          "cell": 10,
+          "word": "Саморез",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/10.wav",
+          "word_clip": "rounds/round_04/words/10.wav",
+          "number_start_ms": 32510,
+          "number_ms": 800,
+          "word_start_ms": 34310,
+          "word_ms": 900
+        },
+        {
+          "cell": 11,
+          "word": "Сачок",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/11.wav",
+          "word_clip": "rounds/round_04/words/11.wav",
+          "number_start_ms": 36210,
+          "number_ms": 970,
+          "word_start_ms": 38180,
+          "word_ms": 880
+        },
+        {
+          "cell": 12,
+          "word": "Бабочка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/12.wav",
+          "word_clip": "rounds/round_04/words/12.wav",
+          "number_start_ms": 40060,
+          "number_ms": 970,
+          "word_start_ms": 42030,
+          "word_ms": 960
+        },
+        {
+          "cell": 13,
+          "word": "Почка",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/13.wav",
+          "word_clip": "rounds/round_04/words/13.wav",
+          "number_start_ms": 43990,
+          "number_ms": 850,
+          "word_start_ms": 45840,
+          "word_ms": 750
+        },
+        {
+          "cell": 14,
+          "word": "Печка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/14.wav",
+          "word_clip": "rounds/round_04/words/14.wav",
+          "number_start_ms": 47590,
+          "number_ms": 1100,
+          "word_start_ms": 49690,
+          "word_ms": 590
+        },
+        {
+          "cell": 15,
+          "word": "Клон",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/15.wav",
+          "word_clip": "rounds/round_04/words/15.wav",
+          "number_start_ms": 51280,
+          "number_ms": 910,
+          "word_start_ms": 53190,
+          "word_ms": 780
+        },
+        {
+          "cell": 16,
+          "word": "Будка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/16.wav",
+          "word_clip": "rounds/round_04/words/16.wav",
+          "number_start_ms": 54970,
+          "number_ms": 1090,
+          "word_start_ms": 57060,
+          "word_ms": 670
+        },
+        {
+          "cell": 17,
+          "word": "Гудок",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/17.wav",
+          "word_clip": "rounds/round_04/words/17.wav",
+          "number_start_ms": 58730,
+          "number_ms": 990,
+          "word_start_ms": 60720,
+          "word_ms": 800
+        },
+        {
+          "cell": 18,
+          "word": "Трактор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/18.wav",
+          "word_clip": "rounds/round_04/words/18.wav",
+          "number_start_ms": 62520,
+          "number_ms": 1190,
+          "word_start_ms": 64710,
+          "word_ms": 700
+        },
+        {
+          "cell": 19,
+          "word": "Крик",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/19.wav",
+          "word_clip": "rounds/round_04/words/19.wav",
+          "number_start_ms": 66410,
+          "number_ms": 1180,
+          "word_start_ms": 68590,
+          "word_ms": 590
+        },
+        {
+          "cell": 20,
+          "word": "Сигнал",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/20.wav",
+          "word_clip": "rounds/round_04/words/20.wav",
+          "number_start_ms": 70180,
+          "number_ms": 750,
+          "word_start_ms": 71930,
+          "word_ms": 870
+        },
+        {
+          "cell": 21,
+          "word": "Сигара",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/21.wav",
+          "word_clip": "rounds/round_04/words/21.wav",
+          "number_start_ms": 73800,
+          "number_ms": 1040,
+          "word_start_ms": 75840,
+          "word_ms": 860
+        },
+        {
+          "cell": 22,
+          "word": "Гитара",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/22.wav",
+          "word_clip": "rounds/round_04/words/22.wav",
+          "number_start_ms": 77700,
+          "number_ms": 980,
+          "word_start_ms": 79680,
+          "word_ms": 890
+        },
+        {
+          "cell": 23,
+          "word": "Тариф",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_04/numbers/23.wav",
+          "word_clip": "rounds/round_04/words/23.wav",
+          "number_start_ms": 81570,
+          "number_ms": 970,
+          "word_start_ms": 83540,
+          "word_ms": 680
+        },
+        {
+          "cell": 24,
+          "word": "Жираф",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/24.wav",
+          "word_clip": "rounds/round_04/words/24.wav",
+          "number_start_ms": 85220,
+          "number_ms": 1100,
+          "word_start_ms": 87320,
+          "word_ms": 840
+        },
+        {
+          "cell": 25,
+          "word": "Шкаф",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_04/numbers/25.wav",
+          "word_clip": "rounds/round_04/words/25.wav",
+          "number_start_ms": 89160,
+          "number_ms": 1060,
+          "word_start_ms": 91220,
+          "word_ms": 590
+        }
+      ]
+    },
+    "8": {
+      "round": 8,
+      "model": "gemini-3.1-flash-tts-preview",
+      "voice": "Achernar",
+      "persona": "Keeper of secrets",
+      "scene": "A dark library at midnight; nobody must overhear",
+      "performance": "Speak very quietly and secretively in a low, hushed voice, close to the microphone. Do not whisper: keep the voice sounding and every consonant distinct",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_08/dictation.mp3",
+      "dictation_ms": 90690,
+      "gain_db": 0.3,
+      "segmentation": {
+        "shortest_gap_s": 0.41,
+        "longest_inner_gap_s": 0.24
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_08/lines/time_30s.wav",
+          "ms": 9390
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_08/lines/quiz_intro.wav",
+          "ms": 8080
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Кость",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/01.wav",
+          "word_clip": "rounds/round_08/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 770,
+          "word_start_ms": 1770,
+          "word_ms": 1000
+        },
+        {
+          "cell": 2,
+          "word": "Гвоздь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/02.wav",
+          "word_clip": "rounds/round_08/words/02.wav",
+          "number_start_ms": 3770,
+          "number_ms": 510,
+          "word_start_ms": 5280,
+          "word_ms": 1550
+        },
+        {
+          "cell": 3,
+          "word": "Гость",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_08/numbers/03.wav",
+          "word_clip": "rounds/round_08/words/03.wav",
+          "number_start_ms": 7830,
+          "number_ms": 440,
+          "word_start_ms": 9270,
+          "word_ms": 730
+        },
+        {
+          "cell": 4,
+          "word": "Трость",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/04.wav",
+          "word_clip": "rounds/round_08/words/04.wav",
+          "number_start_ms": 11000,
+          "number_ms": 770,
+          "word_start_ms": 12770,
+          "word_ms": 810
+        },
+        {
+          "cell": 5,
+          "word": "Гроздь",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/05.wav",
+          "word_clip": "rounds/round_08/words/05.wav",
+          "number_start_ms": 14580,
+          "number_ms": 600,
+          "word_start_ms": 16180,
+          "word_ms": 840
+        },
+        {
+          "cell": 6,
+          "word": "Крюк",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/06.wav",
+          "word_clip": "rounds/round_08/words/06.wav",
+          "number_start_ms": 18020,
+          "number_ms": 790,
+          "word_start_ms": 19810,
+          "word_ms": 680
+        },
+        {
+          "cell": 7,
+          "word": "Люк",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/07.wav",
+          "word_clip": "rounds/round_08/words/07.wav",
+          "number_start_ms": 21490,
+          "number_ms": 660,
+          "word_start_ms": 23150,
+          "word_ms": 700
+        },
+        {
+          "cell": 8,
+          "word": "Трюк",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_08/numbers/08.wav",
+          "word_clip": "rounds/round_08/words/08.wav",
+          "number_start_ms": 24850,
+          "number_ms": 800,
+          "word_start_ms": 26650,
+          "word_ms": 650
+        },
+        {
+          "cell": 9,
+          "word": "Брюки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/09.wav",
+          "word_clip": "rounds/round_08/words/09.wav",
+          "number_start_ms": 28300,
+          "number_ms": 690,
+          "word_start_ms": 29990,
+          "word_ms": 640
+        },
+        {
+          "cell": 10,
+          "word": "Руки",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/10.wav",
+          "word_clip": "rounds/round_08/words/10.wav",
+          "number_start_ms": 31630,
+          "number_ms": 740,
+          "word_start_ms": 33370,
+          "word_ms": 710
+        },
+        {
+          "cell": 11,
+          "word": "Маяк",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/11.wav",
+          "word_clip": "rounds/round_08/words/11.wav",
+          "number_start_ms": 35080,
+          "number_ms": 990,
+          "word_start_ms": 37070,
+          "word_ms": 780
+        },
+        {
+          "cell": 12,
+          "word": "Гамак",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/12.wav",
+          "word_clip": "rounds/round_08/words/12.wav",
+          "number_start_ms": 38850,
+          "number_ms": 900,
+          "word_start_ms": 40750,
+          "word_ms": 710
+        },
+        {
+          "cell": 13,
+          "word": "Сквозняк",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_08/numbers/13.wav",
+          "word_clip": "rounds/round_08/words/13.wav",
+          "number_start_ms": 42460,
+          "number_ms": 880,
+          "word_start_ms": 44340,
+          "word_ms": 1020
+        },
+        {
+          "cell": 14,
+          "word": "Червяк",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/14.wav",
+          "word_clip": "rounds/round_08/words/14.wav",
+          "number_start_ms": 46360,
+          "number_ms": 1010,
+          "word_start_ms": 48370,
+          "word_ms": 780
+        },
+        {
+          "cell": 15,
+          "word": "Рюкзак",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/15.wav",
+          "word_clip": "rounds/round_08/words/15.wav",
+          "number_start_ms": 50150,
+          "number_ms": 890,
+          "word_start_ms": 52040,
+          "word_ms": 830
+        },
+        {
+          "cell": 16,
+          "word": "Сыр",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/16.wav",
+          "word_clip": "rounds/round_08/words/16.wav",
+          "number_start_ms": 53870,
+          "number_ms": 950,
+          "word_start_ms": 55820,
+          "word_ms": 580
+        },
+        {
+          "cell": 17,
+          "word": "Тир",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/17.wav",
+          "word_clip": "rounds/round_08/words/17.wav",
+          "number_start_ms": 57400,
+          "number_ms": 980,
+          "word_start_ms": 59380,
+          "word_ms": 510
+        },
+        {
+          "cell": 18,
+          "word": "Мир",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_08/numbers/18.wav",
+          "word_clip": "rounds/round_08/words/18.wav",
+          "number_start_ms": 60890,
+          "number_ms": 1050,
+          "word_start_ms": 62940,
+          "word_ms": 560
+        },
+        {
+          "cell": 19,
+          "word": "Пир",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/19.wav",
+          "word_clip": "rounds/round_08/words/19.wav",
+          "number_start_ms": 64500,
+          "number_ms": 990,
+          "word_start_ms": 66490,
+          "word_ms": 450
+        },
+        {
+          "cell": 20,
+          "word": "Гиря",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/20.wav",
+          "word_clip": "rounds/round_08/words/20.wav",
+          "number_start_ms": 67940,
+          "number_ms": 740,
+          "word_start_ms": 69680,
+          "word_ms": 1460
+        },
+        {
+          "cell": 21,
+          "word": "Корона",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/21.wav",
+          "word_clip": "rounds/round_08/words/21.wav",
+          "number_start_ms": 72140,
+          "number_ms": 1010,
+          "word_start_ms": 74150,
+          "word_ms": 670
+        },
+        {
+          "cell": 22,
+          "word": "Ворона",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/22.wav",
+          "word_clip": "rounds/round_08/words/22.wav",
+          "number_start_ms": 75820,
+          "number_ms": 880,
+          "word_start_ms": 77700,
+          "word_ms": 760
+        },
+        {
+          "cell": 23,
+          "word": "Оборона",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_08/numbers/23.wav",
+          "word_clip": "rounds/round_08/words/23.wav",
+          "number_start_ms": 79460,
+          "number_ms": 870,
+          "word_start_ms": 81330,
+          "word_ms": 780
+        },
+        {
+          "cell": 24,
+          "word": "Колонна",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/24.wav",
+          "word_clip": "rounds/round_08/words/24.wav",
+          "number_start_ms": 83110,
+          "number_ms": 1050,
+          "word_start_ms": 85160,
+          "word_ms": 730
+        },
+        {
+          "cell": 25,
+          "word": "Лимонад",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_08/numbers/25.wav",
+          "word_clip": "rounds/round_08/words/25.wav",
+          "number_start_ms": 86890,
+          "number_ms": 950,
+          "word_start_ms": 88840,
+          "word_ms": 850
+        }
+      ]
+    },
+    "1": {
+      "round": 1,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "persona": "Art teacher",
+      "scene": "A sunny art class full of small children",
+      "performance": "Speak warmly and very gently, with a smile, as if every word were a lovely surprise for a child",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_01/dictation.mp3",
+      "dictation_ms": 95890,
+      "gain_db": -2.4,
+      "segmentation": {
+        "shortest_gap_s": 0.41,
+        "longest_inner_gap_s": 0.14
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_01/lines/time_30s.wav",
+          "ms": 5780
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_01/lines/quiz_intro.wav",
+          "ms": 7730
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Простыня",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/01.wav",
+          "word_clip": "rounds/round_01/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 840,
+          "word_start_ms": 1840,
+          "word_ms": 910
+        },
+        {
+          "cell": 2,
+          "word": "Кактус",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/02.wav",
+          "word_clip": "rounds/round_01/words/02.wav",
+          "number_start_ms": 3750,
+          "number_ms": 750,
+          "word_start_ms": 5500,
+          "word_ms": 870
+        },
+        {
+          "cell": 3,
+          "word": "Ворота",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/03.wav",
+          "word_clip": "rounds/round_01/words/03.wav",
+          "number_start_ms": 7370,
+          "number_ms": 650,
+          "word_start_ms": 9020,
+          "word_ms": 870
+        },
+        {
+          "cell": 4,
+          "word": "Яхта",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/04.wav",
+          "word_clip": "rounds/round_01/words/04.wav",
+          "number_start_ms": 10890,
+          "number_ms": 1010,
+          "word_start_ms": 12900,
+          "word_ms": 890
+        },
+        {
+          "cell": 5,
+          "word": "Газета",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/05.wav",
+          "word_clip": "rounds/round_01/words/05.wav",
+          "number_start_ms": 14790,
+          "number_ms": 680,
+          "word_start_ms": 16470,
+          "word_ms": 950
+        },
+        {
+          "cell": 6,
+          "word": "Мыло",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/06.wav",
+          "word_clip": "rounds/round_01/words/06.wav",
+          "number_start_ms": 18420,
+          "number_ms": 880,
+          "word_start_ms": 20300,
+          "word_ms": 810
+        },
+        {
+          "cell": 7,
+          "word": "Вафля",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/07.wav",
+          "word_clip": "rounds/round_01/words/07.wav",
+          "number_start_ms": 22110,
+          "number_ms": 720,
+          "word_start_ms": 23830,
+          "word_ms": 770
+        },
+        {
+          "cell": 8,
+          "word": "Туман",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_01/numbers/08.wav",
+          "word_clip": "rounds/round_01/words/08.wav",
+          "number_start_ms": 25600,
+          "number_ms": 790,
+          "word_start_ms": 27390,
+          "word_ms": 830
+        },
+        {
+          "cell": 9,
+          "word": "Стакан",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/09.wav",
+          "word_clip": "rounds/round_01/words/09.wav",
+          "number_start_ms": 29220,
+          "number_ms": 820,
+          "word_start_ms": 31040,
+          "word_ms": 790
+        },
+        {
+          "cell": 10,
+          "word": "Колода карт",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/10.wav",
+          "word_clip": "rounds/round_01/words/10.wav",
+          "number_start_ms": 32830,
+          "number_ms": 950,
+          "word_start_ms": 34780,
+          "word_ms": 1100
+        },
+        {
+          "cell": 11,
+          "word": "Наковальня",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/11.wav",
+          "word_clip": "rounds/round_01/words/11.wav",
+          "number_start_ms": 36880,
+          "number_ms": 1050,
+          "word_start_ms": 38930,
+          "word_ms": 980
+        },
+        {
+          "cell": 12,
+          "word": "Луна",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/12.wav",
+          "word_clip": "rounds/round_01/words/12.wav",
+          "number_start_ms": 40910,
+          "number_ms": 1040,
+          "word_start_ms": 42950,
+          "word_ms": 690
+        },
+        {
+          "cell": 13,
+          "word": "Бочка",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/13.wav",
+          "word_clip": "rounds/round_01/words/13.wav",
+          "number_start_ms": 44640,
+          "number_ms": 930,
+          "word_start_ms": 46570,
+          "word_ms": 850
+        },
+        {
+          "cell": 14,
+          "word": "Небоскреб",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/14.wav",
+          "word_clip": "rounds/round_01/words/14.wav",
+          "number_start_ms": 48420,
+          "number_ms": 1170,
+          "word_start_ms": 50590,
+          "word_ms": 950
+        },
+        {
+          "cell": 15,
+          "word": "Шлейф",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_01/numbers/15.wav",
+          "word_clip": "rounds/round_01/words/15.wav",
+          "number_start_ms": 52540,
+          "number_ms": 990,
+          "word_start_ms": 54530,
+          "word_ms": 870
+        },
+        {
+          "cell": 16,
+          "word": "Мангал",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/16.wav",
+          "word_clip": "rounds/round_01/words/16.wav",
+          "number_start_ms": 56400,
+          "number_ms": 1040,
+          "word_start_ms": 58440,
+          "word_ms": 810
+        },
+        {
+          "cell": 17,
+          "word": "Дирижабль",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/17.wav",
+          "word_clip": "rounds/round_01/words/17.wav",
+          "number_start_ms": 60250,
+          "number_ms": 1040,
+          "word_start_ms": 62290,
+          "word_ms": 990
+        },
+        {
+          "cell": 18,
+          "word": "Шоколадный батончик",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/18.wav",
+          "word_clip": "rounds/round_01/words/18.wav",
+          "number_start_ms": 64280,
+          "number_ms": 990,
+          "word_start_ms": 66270,
+          "word_ms": 1660
+        },
+        {
+          "cell": 19,
+          "word": "Фонтан",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/19.wav",
+          "word_clip": "rounds/round_01/words/19.wav",
+          "number_start_ms": 68930,
+          "number_ms": 980,
+          "word_start_ms": 70910,
+          "word_ms": 870
+        },
+        {
+          "cell": 20,
+          "word": "Паутина",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/20.wav",
+          "word_clip": "rounds/round_01/words/20.wav",
+          "number_start_ms": 72780,
+          "number_ms": 800,
+          "word_start_ms": 74580,
+          "word_ms": 800
+        },
+        {
+          "cell": 21,
+          "word": "Подъезд",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/21.wav",
+          "word_clip": "rounds/round_01/words/21.wav",
+          "number_start_ms": 76380,
+          "number_ms": 1160,
+          "word_start_ms": 78540,
+          "word_ms": 730
+        },
+        {
+          "cell": 22,
+          "word": "Медуза",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/22.wav",
+          "word_clip": "rounds/round_01/words/22.wav",
+          "number_start_ms": 80270,
+          "number_ms": 1070,
+          "word_start_ms": 82340,
+          "word_ms": 850
+        },
+        {
+          "cell": 23,
+          "word": "Свеча",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_01/numbers/23.wav",
+          "word_clip": "rounds/round_01/words/23.wav",
+          "number_start_ms": 84190,
+          "number_ms": 1090,
+          "word_start_ms": 86280,
+          "word_ms": 780
+        },
+        {
+          "cell": 24,
+          "word": "Мель",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_01/numbers/24.wav",
+          "word_clip": "rounds/round_01/words/24.wav",
+          "number_start_ms": 88060,
+          "number_ms": 1210,
+          "word_start_ms": 90270,
+          "word_ms": 620
+        },
+        {
+          "cell": 25,
+          "word": "Ветеринар",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_01/numbers/25.wav",
+          "word_clip": "rounds/round_01/words/25.wav",
+          "number_start_ms": 91890,
+          "number_ms": 1090,
+          "word_start_ms": 93980,
+          "word_ms": 910
+        }
+      ]
+    },
+    "13": {
+      "round": 13,
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Algieba",
+      "persona": "Film noir detective",
+      "scene": "A rainy night in a smoky office",
+      "performance": "Mutter in a low, husky, world-weary voice, slowly and cynically",
+      "sample_rate": 24000,
+      "pause_ms": 1000,
+      "dictation": "rounds/round_13/dictation.mp3",
+      "dictation_ms": 94840,
+      "gain_db": 0.4,
+      "segmentation": {
+        "shortest_gap_s": 0.47,
+        "longest_inner_gap_s": 0.11
+      },
+      "lines": {
+        "time_30s": {
+          "text": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
+          "clip": "rounds/round_13/lines/time_30s.wav",
+          "ms": 6280
+        },
+        "quiz_intro": {
+          "text": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+          "clip": "rounds/round_13/lines/quiz_intro.wav",
+          "ms": 6870
+        }
+      },
+      "cells": [
+        {
+          "cell": 1,
+          "word": "Кран",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/01.wav",
+          "word_clip": "rounds/round_13/words/01.wav",
+          "number_start_ms": 0,
+          "number_ms": 1310,
+          "word_start_ms": 2310,
+          "word_ms": 2290
+        },
+        {
+          "cell": 2,
+          "word": "Экран",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/02.wav",
+          "word_clip": "rounds/round_13/words/02.wav",
+          "number_start_ms": 5600,
+          "number_ms": 790,
+          "word_start_ms": 7390,
+          "word_ms": 800
+        },
+        {
+          "cell": 3,
+          "word": "Обманщик",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_13/numbers/03.wav",
+          "word_clip": "rounds/round_13/words/03.wav",
+          "number_start_ms": 9190,
+          "number_ms": 590,
+          "word_start_ms": 10780,
+          "word_ms": 1110
+        },
+        {
+          "cell": 4,
+          "word": "Диван",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/04.wav",
+          "word_clip": "rounds/round_13/words/04.wav",
+          "number_start_ms": 12890,
+          "number_ms": 840,
+          "word_start_ms": 14730,
+          "word_ms": 740
+        },
+        {
+          "cell": 5,
+          "word": "Вулкан",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/05.wav",
+          "word_clip": "rounds/round_13/words/05.wav",
+          "number_start_ms": 16470,
+          "number_ms": 700,
+          "word_start_ms": 18170,
+          "word_ms": 930
+        },
+        {
+          "cell": 6,
+          "word": "Остров",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/06.wav",
+          "word_clip": "rounds/round_13/words/06.wav",
+          "number_start_ms": 20100,
+          "number_ms": 830,
+          "word_start_ms": 21930,
+          "word_ms": 760
+        },
+        {
+          "cell": 7,
+          "word": "Ковер",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/07.wav",
+          "word_clip": "rounds/round_13/words/07.wav",
+          "number_start_ms": 23690,
+          "number_ms": 590,
+          "word_start_ms": 25280,
+          "word_ms": 710
+        },
+        {
+          "cell": 8,
+          "word": "Заговор",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_13/numbers/08.wav",
+          "word_clip": "rounds/round_13/words/08.wav",
+          "number_start_ms": 26990,
+          "number_ms": 760,
+          "word_start_ms": 28750,
+          "word_ms": 880
+        },
+        {
+          "cell": 9,
+          "word": "Светофор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/09.wav",
+          "word_clip": "rounds/round_13/words/09.wav",
+          "number_start_ms": 30630,
+          "number_ms": 730,
+          "word_start_ms": 32360,
+          "word_ms": 980
+        },
+        {
+          "cell": 10,
+          "word": "Помидор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/10.wav",
+          "word_clip": "rounds/round_13/words/10.wav",
+          "number_start_ms": 34340,
+          "number_ms": 790,
+          "word_start_ms": 36130,
+          "word_ms": 710
+        },
+        {
+          "cell": 11,
+          "word": "Мухомор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/11.wav",
+          "word_clip": "rounds/round_13/words/11.wav",
+          "number_start_ms": 37840,
+          "number_ms": 980,
+          "word_start_ms": 39820,
+          "word_ms": 900
+        },
+        {
+          "cell": 12,
+          "word": "Зазор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/12.wav",
+          "word_clip": "rounds/round_13/words/12.wav",
+          "number_start_ms": 41720,
+          "number_ms": 930,
+          "word_start_ms": 43650,
+          "word_ms": 780
+        },
+        {
+          "cell": 13,
+          "word": "Позор",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_13/numbers/13.wav",
+          "word_clip": "rounds/round_13/words/13.wav",
+          "number_start_ms": 45430,
+          "number_ms": 930,
+          "word_start_ms": 47360,
+          "word_ms": 720
+        },
+        {
+          "cell": 14,
+          "word": "Узор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/14.wav",
+          "word_clip": "rounds/round_13/words/14.wav",
+          "number_start_ms": 49080,
+          "number_ms": 990,
+          "word_start_ms": 51070,
+          "word_ms": 1550
+        },
+        {
+          "cell": 15,
+          "word": "Телевизор",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/15.wav",
+          "word_clip": "rounds/round_13/words/15.wav",
+          "number_start_ms": 53620,
+          "number_ms": 920,
+          "word_start_ms": 55540,
+          "word_ms": 830
+        },
+        {
+          "cell": 16,
+          "word": "Кактус в пустыне",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/16.wav",
+          "word_clip": "rounds/round_13/words/16.wav",
+          "number_start_ms": 57370,
+          "number_ms": 910,
+          "word_start_ms": 59280,
+          "word_ms": 1220
+        },
+        {
+          "cell": 17,
+          "word": "Верблюд",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/17.wav",
+          "word_clip": "rounds/round_13/words/17.wav",
+          "number_start_ms": 61500,
+          "number_ms": 940,
+          "word_start_ms": 63440,
+          "word_ms": 720
+        },
+        {
+          "cell": 18,
+          "word": "Уют",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_13/numbers/18.wav",
+          "word_clip": "rounds/round_13/words/18.wav",
+          "number_start_ms": 65160,
+          "number_ms": 970,
+          "word_start_ms": 67130,
+          "word_ms": 620
+        },
+        {
+          "cell": 19,
+          "word": "Парашют",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/19.wav",
+          "word_clip": "rounds/round_13/words/19.wav",
+          "number_start_ms": 68750,
+          "number_ms": 1010,
+          "word_start_ms": 70760,
+          "word_ms": 710
+        },
+        {
+          "cell": 20,
+          "word": "Салют",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/20.wav",
+          "word_clip": "rounds/round_13/words/20.wav",
+          "number_start_ms": 72470,
+          "number_ms": 820,
+          "word_start_ms": 74290,
+          "word_ms": 690
+        },
+        {
+          "cell": 21,
+          "word": "Батут",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/21.wav",
+          "word_clip": "rounds/round_13/words/21.wav",
+          "number_start_ms": 75980,
+          "number_ms": 1010,
+          "word_start_ms": 77990,
+          "word_ms": 720
+        },
+        {
+          "cell": 22,
+          "word": "Жгут",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/22.wav",
+          "word_clip": "rounds/round_13/words/22.wav",
+          "number_start_ms": 79710,
+          "number_ms": 1020,
+          "word_start_ms": 81730,
+          "word_ms": 700
+        },
+        {
+          "cell": 23,
+          "word": "Маршрут",
+          "difficulty": "hard",
+          "number_clip": "rounds/round_13/numbers/23.wav",
+          "word_clip": "rounds/round_13/words/23.wav",
+          "number_start_ms": 83430,
+          "number_ms": 970,
+          "word_start_ms": 85400,
+          "word_ms": 790
+        },
+        {
+          "cell": 24,
+          "word": "Шуруп",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/24.wav",
+          "word_clip": "rounds/round_13/words/24.wav",
+          "number_start_ms": 87190,
+          "number_ms": 1150,
+          "word_start_ms": 89340,
+          "word_ms": 730
+        },
+        {
+          "cell": 25,
+          "word": "Суп",
+          "difficulty": "easy",
+          "number_clip": "rounds/round_13/numbers/25.wav",
+          "word_clip": "rounds/round_13/words/25.wav",
+          "number_start_ms": 91070,
+          "number_ms": 1020,
+          "word_start_ms": 93090,
+          "word_ms": 750
+        }
+      ]
+    }
+  }
+}

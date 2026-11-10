@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Кэш и журналы генерации озвучки
+voiceover/.state/
