@@ -1,0 +1,112 @@
+{
+ "duration": 60.364,
+ "events": [
+  {
+   "type": "line",
+   "id": "board",
+   "t": 0.3
+  },
+  {
+   "type": "line",
+   "id": "number",
+   "t": 3.83
+  },
+  {
+   "type": "dictation",
+   "t": 6.906,
+   "offset": 11.83,
+   "duration": 3.99
+  },
+  {
+   "type": "line",
+   "id": "word",
+   "t": 10.756
+  },
+  {
+   "type": "line",
+   "id": "zoom",
+   "t": 14.11
+  },
+  {
+   "type": "line",
+   "id": "draw",
+   "t": 17.395
+  },
+  {
+   "type": "line",
+   "id": "oops",
+   "t": 23.511
+  },
+  {
+   "type": "line",
+   "id": "undo",
+   "t": 25.211
+  },
+  {
+   "type": "line",
+   "id": "next",
+   "t": 27.24
+  },
+  {
+   "type": "line",
+   "id": "zoomout",
+   "t": 29.68
+  },
+  {
+   "type": "dictation",
+   "t": 32.155,
+   "offset": 29.07,
+   "duration": 1.41
+  },
+  {
+   "type": "line",
+   "id": "speaker",
+   "t": 33.465
+  },
+  {
+   "type": "line",
+   "id": "final",
+   "t": 39.774
+  },
+  {
+   "type": "line",
+   "id": "done",
+   "t": 43.985
+  },
+  {
+   "type": "game",
+   "file": "numbers/03.wav",
+   "t": 47.274
+  },
+  {
+   "type": "line",
+   "id": "quiz",
+   "t": 48.182
+  },
+  {
+   "type": "sfx",
+   "kind": "correct",
+   "t": 53.652
+  },
+  {
+   "type": "line",
+   "id": "right",
+   "t": 53.695
+  },
+  {
+   "type": "game",
+   "file": "numbers/08.wav",
+   "t": 55.393
+  },
+  {
+   "type": "line",
+   "id": "wrong",
+   "t": 56.492
+  },
+  {
+   "type": "sfx",
+   "kind": "wrong",
+   "t": 58.414
+  }
+ ]
+}

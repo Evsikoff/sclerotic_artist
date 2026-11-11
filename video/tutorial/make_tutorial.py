@@ -1,17 +1,18 @@
-"""Обучающее видео «Как играть»: сцены из Gemini Omni 1.2 Flash, голос диктора из Gemini TTS.
+"""Обучающее видео «Как играть»: художник из Gemini Omni 1.2 Flash и запись настоящего экрана игры.
 
-Сценарий — SCRIPT.md, здесь те же сцены в виде данных. Omni снимает картинку и шумы студии,
-говорить художнику запрещено: у отдельно снятых сцен голос каждый раз был бы другим.
-Поэтому текст читает один диктор через TTS, а под всё подложена музыка игры.
+Сценарий — SCRIPT.md. Начало и конец снимает Omni: художник в студии, говорить ему запрещено,
+текст читает один диктор через Gemini TTS. Середина — запись настоящей игры (record_ui.mjs):
+«палец» касается ячеек и кнопок, а диктор объясняет каждое действие. Под всё подложена музыка игры.
 
     set GEMINI_API_KEY=...
-    python -X utf8 make_tutorial.py voice              # озвучка сцен -> voice/
-    python -X utf8 make_tutorial.py video --scenes 1   # сцены -> clips/ (≈ $0.07 за секунду 720p)
-    python -X utf8 make_tutorial.py check              # есть ли в сценах речь или музыка
+    python -X utf8 make_tutorial.py voice              # озвучка -> voice/ и voice/lines.json
+    python -X utf8 make_tutorial.py record             # запись экрана (нужен npm run dev) -> clips/02-gameplay.*
+    python -X utf8 make_tutorial.py video --scenes 1   # сцены Omni -> clips/ (≈ $0.07 за секунду 720p)
+    python -X utf8 make_tutorial.py check              # есть ли в сценах Omni речь или музыка
     python -X utf8 make_tutorial.py assemble           # склейка -> ../tutorial.mp4
 
-Готовая сцена повторно не запрашивается; переснять: video --scenes 3 --retake,
-поправить словами: edit --scene 4 --prompt "...". Прежний вариант сцены уходит в .state/rejected.
+Готовая сцена повторно не запрашивается; переснять: video --scenes 2 --retake,
+поправить словами: edit --scene 1 --prompt "...". Прежний вариант сцены уходит в .state/rejected.
 """
 import argparse
 import base64
@@ -31,14 +32,19 @@ from pathlib import Path
 import numpy as np
 
 BASE = Path(__file__).resolve().parent
+ROOT = BASE.parent.parent
 REFS = BASE / "refs"
-UI = BASE / "ui"
 VOICE_DIR = BASE / "voice"
 CLIPS_DIR = BASE / "clips"
 STATE = BASE / ".state"
 USAGE_LOG = STATE / "usage_log.jsonl"
-MUSIC = BASE.parent.parent / "music" / "Midday_at_the_Atelier.mp3"
+RECORDING = STATE / "ui"
+MUSIC = ROOT / "music" / "Midday_at_the_Atelier.mp3"
+ROUND_AUDIO = ROOT / "voiceover" / "rounds" / "round_10"
 OUTPUT = BASE.parent / "tutorial.mp4"
+GAMEPLAY = CLIPS_DIR / "02-gameplay.mp4"
+GAMEPLAY_EVENTS = CLIPS_DIR / "02-gameplay.json"
+LINES_JSON = VOICE_DIR / "lines.json"
 
 API = "https://generativelanguage.googleapis.com/v1beta"
 VIDEO_MODEL = "gemini-omni-1.2-flash"
@@ -46,21 +52,26 @@ TTS_MODEL = "gemini-3.8-flash-tts"
 CHECK_MODEL = "gemini-3.8-flash"
 TTS_VOICE = "Laomedeia"
 RESOLUTION = "720p"
+FPS = 30
+WIDTH, HEIGHT = 720, 1280
 
-# Голос вступает чуть позже начала сцены и заканчивается чуть раньше её конца.
+# В сценах Omni голос вступает чуть позже начала и заканчивается чуть раньше конца.
 LEAD_S = 0.5
 TAIL_S = 0.7
 SILENCE_DB = -45.0
 # Шумы студии из Omni под голосом диктора; у сцены может быть своя громкость (ключ sfx).
 SFX_VOLUME = 0.45
+# Склейка Omni и записи экрана — наплывом.
+CROSSFADE_S = 0.4
+GAME_VOICE_VOLUME = 0.9
+MUSIC_VOLUME = 0.14
 
 TTS_DIRECTION = (
     "# AUDIO PROFILE: Narrator of a funny animated tutorial\n"
     "## THE SCENE: A cozy art studio; you explain a drawing-and-memory game to a new player\n"
     "### DIRECTOR'S NOTES\n"
     "Performance: warm, playful and lively, like a storyteller in a family cartoon; smiling voice, crisp diction, "
-    "a brisk but unhurried pace. Words in «» are what the game's announcer says: say them as a clear, slightly "
-    "theatrical announcer, with a short pause between the number and the word.\n"
+    "a brisk but unhurried pace. Words in «» are names of on-screen buttons: say them clearly with a light emphasis.\n"
     "Language: Russian. Read the transcript exactly as written and add nothing.\n"
     "#### TRANSCRIPT\n"
 )
@@ -68,69 +79,57 @@ TTS_DIRECTION = (
 STYLE = """Stylized 3D animated cartoon with the same look as the reference images: soft warm golden light, rich detail, cozy atmosphere. Vertical 9:16 framing.
 SETTING: the artist's studio from the studio reference image: wooden plank floor, shelves with paint jars, a cork board with pinned sketches, rolled papers and a wooden easel with a large portrait canvas.
 CHARACTER: the artist from the character reference image: a lanky young man with curly brown hair, a red beret, round wire glasses, a big nose, a blue-and-white striped shirt with rolled sleeves, a paint-splattered beige apron, dark trousers and worn brown boots. Keep his face and outfit identical.
-THE CANVAS on the easel shows the game board from the board reference image: a 5 by 5 grid of white square cards with rounded corners on a beige background; each card has a small grey handwritten number in its top-left corner, from 1 to 25, left to right, top to bottom. The artist draws on the cards with a thick black marker; his drawings are simple bold black line doodles like in the board reference.
-AUDIO: no dialogue, no voice-over, no singing, no music. The artist never speaks and keeps his mouth closed; he acts only with facial expressions and gestures. Only natural sound effects: marker squeaks on the canvas, footsteps on the wooden floor, soft room tone.
-No subtitles, no captions and no on-screen text except what is described below."""
+THE PHONE: a modern smartphone in a plain dark case. Its screen shows the game from the phone screen reference image: a 5 by 5 grid of white square cards with small handwritten numbers on a beige background, a light top bar and a row of round buttons at the bottom.
+AUDIO: no dialogue, no voice-over, no singing, no music. The artist never speaks and keeps his mouth closed; he acts only with facial expressions and gestures. Only natural sound effects: marker squeaks, footsteps on the wooden floor, cloth rustle, soft room tone.
+No subtitles, no captions and no on-screen text."""
 
+# Сцены Omni. Между ними — запись экрана (clips/02-gameplay.mp4).
 SCENES = [
     {
         "slug": "01-intro",
         "title": "Знакомство",
-        "narration": "Это художник-склеротик. Рисует он лихо, а вот память… дырявая. Его холст — двадцать пять ячеек с номерами.",
-        "refs": [REFS / "studio.jpg", REFS / "artist.jpg", UI / "board-empty.png"],
-        "roles": "The first image is the opening frame: the empty studio. The second image is the artist. The third image is the game board that appears on the canvas.",
+        "narration": "Это художник-склеротик. Рисует он лихо, а вот память — дырявая! Сейчас покажу, как играть.",
+        "min_seconds": 8,
+        "refs": [REFS / "studio.jpg", REFS / "artist.jpg", REFS / "phone-screen.png"],
+        "roles": "The first image is the opening frame: the studio. The second image is the artist. "
+                 "The third image is what the smartphone screen shows.",
         "action": """Single continuous shot, no scene cuts.
-[0-3s] The video opens exactly on the first image: the empty studio with a blank white canvas on the easel. The artist walks into the frame from the left with a black marker in his hand, cheerful and confident.
-[3-6s] He stops in front of the canvas and lifts the marker to draw, then freezes: he has forgotten what he wanted to draw. He looks puzzled and scratches his head under the beret.
-[6s-end] He shrugs, smiles and flicks the marker at the canvas: with a soft magical shimmer the blank canvas turns into the empty game board, the 5 by 5 grid of numbered cards. The camera slowly pushes in toward the board while the artist presents it with an open-hand gesture, like a showman.""",
+[0-3s] The video opens exactly on the first image: the studio with a blank canvas on the easel. The artist walks into the frame from the left with a black marker, raises it to draw on the blank canvas, then freezes: he has forgotten what he wanted to draw. He looks puzzled and scratches his head under the beret.
+[3-5s] An idea: he pulls a smartphone out of his apron pocket, looks at its screen and smiles brightly.
+[5s-end] He turns the phone toward the camera and holds it up at arm's length. The camera pushes in smoothly until the phone screen, showing the game from the third image, fills most of the frame.""",
     },
     {
-        "slug": "02-dictation",
-        "title": "Диктовка",
-        "narration": "Голос называет номер ячейки, а через секунду — слово. «Семь… Кот!» Рисуйте кота в седьмой ячейке — она подсвечена.",
-        "refs": [REFS / "artist.jpg", REFS / "studio.jpg", UI / "board-dictation-empty.png", UI / "cell-cat.png"],
-        "roles": "The first image is the artist, the second is the studio. The third image is the board on the canvas at the start of the shot. The fourth image is the cat doodle he draws.",
-        "action": """Single continuous shot, no scene cuts. Medium shot of the artist beside the easel; the canvas fills most of the frame. Cards 1 to 6 already have small doodles (sun, house, fish, tree, glasses, key), and card 7, the second card in the second row, is empty, exactly as in the third image.
-[0-5s] The artist stands ready with the marker raised and listens intently, one hand cupped to his ear, eyes wide.
-[5-7s] Card 7 lights up with a glowing orange-yellow outline. The artist nods quickly.
-[7s-end] The camera moves closer to card 7. With a few quick, confident strokes of the thick black marker he draws a simple cat face inside card 7: a round head, two pointy ears, dot eyes, a little smile and whiskers, just like the fourth image. The marker squeaks. He finishes and taps the card proudly.""",
-    },
-    {
-        "slug": "03-tempo",
-        "title": "Темп",
-        "narration": "Слова идут одно за другим — рисуйте быстро, хватит пары штрихов. После диктовки будет ещё тридцать секунд, чтобы дорисовать.",
-        # Omni подложила сюда свою музыку вопреки промпту: прячем её под музыкой игры.
-        "sfx": 0.15,
-        "refs": [REFS / "artist.jpg", REFS / "studio.jpg", UI / "board-dictation.png", UI / "board-full.png"],
-        "roles": "The first image is the artist, the second is the studio. The third image is the board at the start of the shot; the fourth image is the board at the end of the shot.",
-        "action": """Single continuous shot, no scene cuts, energetic comedic pace.
-[0-6s] Card after card on the canvas lights up with an orange outline, and the artist rushes from card to card, sketching a quick doodle in each in a second or two: an umbrella, a cup, a star, a heart, a ladder. His beret slips, his glasses slide down his nose, the marker squeaks fast. The board fills up with doodles.
-[6s-end] The whole grid is full of doodles, like the fourth image. The artist steps back, out of breath, pulls a big old-fashioned stopwatch from his apron pocket, glances at it, then darts back to add one last stroke to a drawing.""",
-    },
-    {
-        "slug": "04-quiz",
-        "title": "Опрос",
-        "narration": "Потом голос спросит про девять ячеек: «Что было в ячейке номер семь?» Посмотрите на рисунок, вспомните слово и впишите его. Верно — плюс балл!",
-        "refs": [REFS / "artist.jpg", UI / "board-full.png", UI / "cell-cat.png"],
-        "roles": "The first image is the artist. The second image is the board on the canvas, full of doodles. The third image is the cat doodle on card 7.",
-        "action": """Single continuous shot, no scene cuts. Close shot of the artist and the canvas full of doodles, like the second image.
-[0-5s] Card 7 with the cat doodle glows with an orange outline and all the other cards dim a little. The artist leans in very close to it, squinting through his round glasses and rubbing his chin, puzzled: what was this word?
-[5-9s] His face lights up: he remembers! He snaps his fingers with a big smile.
-[9s-end] A big bright green "+1" pops up next to the cat card with a cheerful chime and a few sparkles. The artist pumps his fist with joy.""",
-    },
-    {
-        "slug": "05-finale",
-        "title": "Ошибка и финал",
-        "narration": "Ошиблись или не вспомнили — минус балл. Так что рисуйте понятно! Готовы? Берите маркер!",
-        "refs": [REFS / "artist.jpg", REFS / "studio.jpg", UI / "board-full.png"],
-        "roles": "The first image is the artist, the second is the studio, the third is the board on the canvas.",
+        "slug": "03-finale",
+        "title": "Финал",
+        "narration": "Так что рисуйте понятно — и память не подведёт! Готовы? Берите маркер!",
+        "min_seconds": 7,
+        "refs": [REFS / "artist.jpg", REFS / "studio.jpg", REFS / "phone-screen.png"],
+        "roles": "The first image is the artist, the second is the studio, the third is what the smartphone screen shows.",
         "action": """Single continuous shot, no scene cuts.
-[0-2s] The artist peers at card 8 with the umbrella doodle, unsure, and shrugs.
-[2-4s] A red "-1" pops up next to the card with a soft comic bonk, and he winces comically.
-[4-6s] He turns to the camera and smiles warmly.
-[6s-end] He holds the black marker out toward the viewer, offering it, and winks. The camera gently pushes in on his friendly face.""",
+[0-2s] Medium close shot: the artist looks at the smartphone in his hand, winces comically and slaps his forehead, as if he has just forgotten a word.
+[2-4s] He laughs it off, slips the phone into his apron pocket and picks up a thick black marker from the easel.
+[4s-end] He turns to the camera, smiles warmly, holds the marker out toward the viewer, offering it, and winks. The camera gently pushes in on his friendly face.""",
     },
 ]
+
+# Реплики диктора к записи экрана; когда какая звучит, решает record_ui.mjs.
+UI_LINES = {
+    "board": "Вот поле: двадцать пять ячеек с номерами.",
+    "number": "Голос называет номер — и ячейка загорается…",
+    "word": "…а следом звучит слово. Его и рисуем!",
+    "zoom": "Коснитесь ячейки — она приблизится.",
+    "draw": "Рисуйте прямо пальцем.",
+    "oops": "Лишняя линия?",
+    "undo": "«Отменить» уберёт последнюю.",
+    "next": "Стрелка — к следующей ячейке.",
+    "zoomout": "«Отдалить» — снова всё поле.",
+    "speaker": "Отстали от голоса? Кнопка с динамиком перенесёт к ячейке, о которой он уже договорил.",
+    "final": "Список закончился? Есть ещё тридцать секунд, чтобы дорисовать.",
+    "done": "Закончили раньше — жмите «Готово».",
+    "quiz": "Потом голос спросит про девять ячеек. Вспомните слово и впишите его.",
+    "right": "Верно — плюс балл!",
+    "wrong": "Не вспомнили или ошиблись — минус балл.",
+}
 
 
 # ——— API ———
@@ -179,7 +178,8 @@ def image_part(path):
 
 def read_wav(path):
     with wave.open(str(path)) as w:
-        return np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float64) / 32768, w.getframerate()
+        x = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float64) / 32768
+        return x.reshape(-1, w.getnchannels()).mean(axis=1), w.getframerate()
 
 
 def write_wav(path, x, rate):
@@ -220,35 +220,85 @@ def tts(text):
     return np.frombuffer(raw, dtype=np.int16).astype(np.float64) / 32768, rate
 
 
-def voice_path(scene):
-    return VOICE_DIR / f"{scene['slug']}.wav"
+def all_lines():
+    """Все реплики диктора: {id: текст}. У сцен Omni id — slug, у записи экрана — ui-<ключ>."""
+    return {**{s["slug"]: s["narration"] for s in SCENES}, **{f"ui-{k}": v for k, v in UI_LINES.items()}}
 
 
-def voice_seconds(scene):
-    x, rate = read_wav(voice_path(scene))
+def voice_path(line_id):
+    return VOICE_DIR / f"{line_id}.wav"
+
+
+def voice_seconds(line_id):
+    x, rate = read_wav(voice_path(line_id))
     return len(x) / rate
 
 
 def scene_seconds(scene):
-    """Длина сцены в целых секундах (так её принимает Omni): голос плюс поля."""
-    return min(15, max(3, math.ceil(LEAD_S + voice_seconds(scene) + TAIL_S)))
+    """Длина сцены Omni в целых секундах (так её принимает Omni): голос плюс поля."""
+    return min(15, max(scene.get("min_seconds", 3), math.ceil(LEAD_S + voice_seconds(scene["slug"]) + TAIL_S)))
 
 
 def cmd_voice(args):
-    for i, scene in enumerate(SCENES, 1):
-        path = voice_path(scene)
-        if path.exists() and i not in args.retake:
-            print(f"{scene['slug']}: {voice_seconds(scene):.1f} с (готово)")
+    lines = all_lines()
+    for line_id, text in lines.items():
+        path = voice_path(line_id)
+        if path.exists() and line_id not in args.retake:
             continue
-        print(f"{scene['slug']}: запрос к {TTS_MODEL} ({TTS_VOICE})", flush=True)
-        x, rate = tts(scene["narration"])
+        print(f"{line_id}: запрос к {TTS_MODEL} ({TTS_VOICE})", flush=True)
+        x, rate = tts(text)
         x = trim(x, rate)
         x *= 10 ** (-1 / 20) / max(1e-9, np.abs(x).max())
         write_wav(path, x, rate)
-        print(f"  {voice_seconds(scene):.1f} с голоса -> сцена {scene_seconds(scene)} с")
+    durations = {line_id: round(voice_seconds(line_id), 3) for line_id in lines}
+    LINES_JSON.write_text(json.dumps(durations, ensure_ascii=False, indent=1), encoding="utf-8")
+    for line_id, seconds in durations.items():
+        print(f"{line_id}: {seconds:.1f} с")
 
 
-# ——— Видео ———
+# ——— Запись экрана ———
+
+def cmd_record(args):
+    """Записывает игру (record_ui.mjs) и собирает из кадров clips/02-gameplay.mp4 и события к нему."""
+    if not args.render_only:
+        subprocess.run(["node", str(BASE / "record_ui.mjs"), args.url], check=True)
+    timeline = json.loads((RECORDING / "timeline.json").read_text(encoding="utf-8"))
+    frames = timeline["frames"]
+    parts, events, offset = [], [], 0.0
+    for k, seg in enumerate(timeline["segments"]):
+        start, end = seg["start"], seg["end"]
+        # Кадр приходит, только когда экран меняется: первый кадр отрезка — последний перед его началом.
+        first = max(i for i, f in enumerate(frames) if f["t"] <= start)
+        chosen = [f for f in frames[first:] if f["t"] < end]
+        lines = []
+        for i, f in enumerate(chosen):
+            t0 = max(f["t"], start)
+            t1 = chosen[i + 1]["t"] if i + 1 < len(chosen) else end
+            lines += [f"file '{(RECORDING / 'frames' / f['file']).as_posix()}'", f"duration {t1 - t0:.4f}"]
+        lines.append(f"file '{(RECORDING / 'frames' / chosen[-1]['file']).as_posix()}'")
+        listing = RECORDING / f"segment-{k}.txt"
+        listing.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        part = RECORDING / f"segment-{k}.mp4"
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(listing),
+                        "-vf", f"fps={FPS},scale={WIDTH}:{HEIGHT},setsar=1", "-t", f"{end - start:.3f}",
+                        "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p", str(part)], check=True)
+        parts.append(part)
+        for e in timeline["events"]:
+            if start <= e["t"] < end:
+                events.append({**e, "t": round(offset + e["t"] - start, 3)})
+        print(f"  отрезок {seg['name']}: {end - start:.1f} с, кадров {len(chosen)}")
+        offset += end - start
+    listing = RECORDING / "segments.txt"
+    listing.write_text("".join(f"file '{p.as_posix()}'\n" for p in parts), encoding="utf-8")
+    CLIPS_DIR.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(listing), "-c", "copy",
+                    "-movflags", "+faststart", str(GAMEPLAY)], check=True)
+    GAMEPLAY_EVENTS.write_text(json.dumps({"duration": round(offset, 3), "events": events}, ensure_ascii=False, indent=1),
+                               encoding="utf-8")
+    print(f"{GAMEPLAY.name}: {offset:.1f} с, событий {len(events)}")
+
+
+# ——— Видео Omni ———
 
 def scene_prompt(scene):
     seconds = scene_seconds(scene)
@@ -356,41 +406,102 @@ def probe(path):
     return float(info["format"]["duration"]), any(s["codec_type"] == "audio" for s in info["streams"])
 
 
+SFX_RATE = 48000
+
+
+def tone(freq, at, duration, kind, volume, out):
+    """Повторяет audio.ts: звук с атакой 10 мс и экспоненциальным затуханием."""
+    n = int(duration * SFX_RATE)
+    t = np.arange(n) / SFX_RATE
+    phase = freq * t
+    wave_ = {"sine": np.sin(2 * np.pi * phase), "square": np.sign(np.sin(2 * np.pi * phase)),
+             "sawtooth": 2 * (phase - np.floor(phase + 0.5)), "triangle": 2 * np.abs(2 * (phase - np.floor(phase + 0.5))) - 1}[kind]
+    env = np.where(t < 0.01, t / 0.01 * volume, volume * (0.0001 / volume) ** ((t - 0.01) / max(1e-6, duration - 0.01)))
+    start = int(at * SFX_RATE)
+    out[start:start + n] += wave_ * env
+
+
+def sfx_wav(kind):
+    """Звуки игры (correct, wrong, tick) — те же тоны, что в src/audio.ts."""
+    path = STATE / "sfx" / f"{kind}.wav"
+    if not path.exists():
+        out = np.zeros(int(0.6 * SFX_RATE))
+        notes = {"correct": [(784, 0, 0.14, "sine", 0.22), (1175, 0.1, 0.3, "sine", 0.22)],
+                 "wrong": [(233, 0, 0.18, "sawtooth", 0.07), (175, 0.15, 0.32, "sawtooth", 0.07)],
+                 "tick": [(1250, 0, 0.06, "square", 0.05)]}[kind]
+        for note in notes:
+            tone(*note, out)
+        write_wav(path, out, SFX_RATE)
+    return path
+
+
+def game_clip(event):
+    """Голос раунда для события записи: файл и отрезок в нём (секунды)."""
+    if event["type"] == "dictation":
+        return ROUND_AUDIO / "dictation.mp3", event["offset"], event["duration"]
+    path = ROUND_AUDIO / event["file"]
+    return path, 0.0, None
+
+
 def cmd_assemble(args):
-    clips = [clip_path(s) for s in SCENES]
-    missing = [c.name for c in clips if not c.exists()]
+    intro, finale = (clip_path(s) for s in SCENES)
+    missing = [p.name for p in (intro, GAMEPLAY, finale) if not p.exists()]
     if missing:
-        sys.exit(f"Нет сцен: {', '.join(missing)}")
-    inputs, video, sfx, voices = [], [], [], []
-    offset = 0.0
-    for i, (scene, clip) in enumerate(zip(SCENES, clips)):
-        seconds, has_audio = probe(clip)
-        inputs += ["-i", str(clip)]
-        video.append(f"[{i}:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,setsar=1,fps=24,"
-                     f"trim=duration={seconds:.3f},setpts=PTS-STARTPTS[v{i}]")
-        if has_audio:
-            sfx.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=duration={seconds:.3f},asetpts=PTS-STARTPTS,"
-                       f"volume={scene.get('sfx', SFX_VOLUME)}[s{i}]")
+        sys.exit(f"Нет частей: {', '.join(missing)}")
+    gameplay = json.loads(GAMEPLAY_EVENTS.read_text(encoding="utf-8"))
+    d_intro, _ = probe(intro)
+    d_game, _ = probe(GAMEPLAY)
+    d_finale, _ = probe(finale)
+    t_game = d_intro - CROSSFADE_S
+    t_finale = t_game + d_game - CROSSFADE_S
+    total = t_finale + d_finale
+
+    inputs = ["-i", str(intro), "-i", str(GAMEPLAY), "-i", str(finale)]
+    norm = f"scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=increase,crop={WIDTH}:{HEIGHT},setsar=1,fps={FPS},format=yuv420p"
+    graph = [
+        f"[0:v]{norm},trim=duration={d_intro:.3f},setpts=PTS-STARTPTS[v0]",
+        f"[1:v]{norm},trim=duration={d_game:.3f},setpts=PTS-STARTPTS[v1]",
+        f"[2:v]{norm},trim=duration={d_finale:.3f},setpts=PTS-STARTPTS[v2]",
+        f"[v0][v1]xfade=transition=fade:duration={CROSSFADE_S}:offset={t_game:.3f}[v01]",
+        f"[v01][v2]xfade=transition=fade:duration={CROSSFADE_S}:offset={t_finale:.3f},"
+        f"fade=in:d=0.3,fade=out:st={total - 0.6:.3f}:d=0.6[v]",
+    ]
+
+    # Звук: шумы студии из сцен Omni, диктор, голос раунда, звуки игры и музыка.
+    layers = []
+
+    def add(path, at, volume=1.0, offset=0.0, duration=None):
+        k = len(inputs) // 2
+        inputs.extend(["-i", str(path)])
+        ms = max(0, int(round(at * 1000)))
+        cut = f"atrim=start={offset:.3f}" + (f":duration={duration:.3f}" if duration else "") + ",asetpts=PTS-STARTPTS,"
+        graph.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,{cut}volume={volume},adelay={ms}|{ms}[a{len(layers)}]")
+        layers.append(f"[a{len(layers)}]")
+
+    for scene, at, length in ((SCENES[0], 0.0, d_intro), (SCENES[1], t_finale, d_finale)):
+        if probe(clip_path(scene))[1]:
+            add(clip_path(scene), at, scene.get("sfx", SFX_VOLUME), duration=length)
+        add(voice_path(scene["slug"]), at + LEAD_S)
+    for e in gameplay["events"]:
+        at = t_game + e["t"]
+        if e["type"] == "line":
+            add(voice_path(f"ui-{e['id']}"), at)
+        elif e["type"] == "sfx":
+            add(sfx_wav(e["kind"]), at, 0.8)
         else:
-            sfx.append(f"anullsrc=r=48000:cl=stereo,atrim=duration={seconds:.3f}[s{i}]")
-        voices.append((voice_path(scene), offset + LEAD_S))
-        offset += seconds
-    n = len(clips)
-    for k, (path, start) in enumerate(voices):
-        inputs += ["-i", str(path)]
-        ms = int(start * 1000)
-        sfx.append(f"[{n + k}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={ms}|{ms}[n{k}]")
-    inputs += ["-i", str(MUSIC)]
-    total = offset
-    graph = ";".join(video + sfx + [
-        "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0,fade=in:d=0.3,fade=out:st={total - 0.6:.3f}:d=0.6[v]",
-        "".join(f"[s{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[sfx]",
-        "".join(f"[n{k}]" for k in range(n)) + f"amix=inputs={n}:normalize=0,apad,atrim=duration={total:.3f}[voice]",
-        f"[{2 * n}:a]aresample=48000,atrim=duration={total:.3f},volume=0.16,afade=in:d=1,afade=out:st={total - 1.5:.3f}:d=1.5[music]",
-        "[voice][sfx][music]amix=inputs=3:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[a]",
-    ])
-    cmd = ["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
-           "-c:v", "libx264", "-preset", "slow", "-crf", "24", "-pix_fmt", "yuv420p", "-r", "24",
+            path, offset, duration = game_clip(e)
+            add(path, at, GAME_VOICE_VOLUME, offset, duration)
+    k = len(inputs) // 2
+    inputs.extend(["-i", str(MUSIC)])
+    graph.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=duration={total:.3f},volume={MUSIC_VOLUME},"
+                 f"afade=in:d=1,afade=out:st={total - 1.5:.3f}:d=1.5[music]")
+    graph.append("".join(layers) + f"[music]amix=inputs={len(layers) + 1}:normalize=0,apad,atrim=duration={total:.3f},"
+                 "loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[a]")
+
+    script = STATE / "assemble.filter"
+    script.write_text(";\n".join(graph), encoding="utf-8")
+    cmd = ["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex_script", str(script), "-map", "[v]", "-map", "[a]",
+           "-c:v", "libx264", "-preset", "slow", "-crf", "23", "-pix_fmt", "yuv420p", "-r", str(FPS),
            "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(OUTPUT)]
     subprocess.run(cmd, check=True)
     print(f"{OUTPUT.name}: {total:.1f} с, {OUTPUT.stat().st_size / 1e6:.1f} МБ")
@@ -404,18 +515,22 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("voice")
-    p.add_argument("--retake", type=scene_list, default=set(), help="переозвучить сцены, например 2,4")
+    p.add_argument("--retake", type=lambda s: set(s.split(",")), default=set(), help="переозвучить реплики, например ui-done,01-intro")
+    p = sub.add_parser("record")
+    p.add_argument("--url", default="http://127.0.0.1:5173/", help="адрес npm run dev")
+    p.add_argument("--render-only", action="store_true", help="не записывать заново, только пересобрать клип из кадров")
     p = sub.add_parser("video")
-    p.add_argument("--scenes", type=scene_list, default=set(), help="номера сцен, например 1,3")
+    p.add_argument("--scenes", type=scene_list, default=set(), help="номера сцен Omni, например 1,2")
     p.add_argument("--retake", action="store_true", help="переснять готовые сцены")
     p = sub.add_parser("edit")
-    p.add_argument("--scene", type=int, required=True, help="номер сцены")
-    p.add_argument("--prompt", required=True, help="что изменить, например: Make the card number 7")
+    p.add_argument("--scene", type=int, required=True, help="номер сцены Omni")
+    p.add_argument("--prompt", required=True, help="что изменить словами")
     p = sub.add_parser("check")
-    p.add_argument("--scenes", type=scene_list, default=set(), help="номера сцен, например 1,3")
+    p.add_argument("--scenes", type=scene_list, default=set(), help="номера сцен Omni, например 1,2")
     sub.add_parser("assemble")
     args = parser.parse_args()
-    {"voice": cmd_voice, "video": cmd_video, "edit": cmd_edit, "check": cmd_check, "assemble": cmd_assemble}[args.cmd](args)
+    {"voice": cmd_voice, "record": cmd_record, "video": cmd_video, "edit": cmd_edit, "check": cmd_check,
+     "assemble": cmd_assemble}[args.cmd](args)
 
 
 if __name__ == "__main__":
