@@ -8,7 +8,7 @@ interface ManifestRound {
   persona: string;
   dictation: string;
   dictation_ms: number;
-  lines: Record<'time_30s' | 'quiz_intro', { clip: string }>;
+  lines: Record<'time_30s' | 'quiz_intro' | 'quiz_intro_early', { clip: string }>;
   cells: { cell: number; word: string; number_start_ms: number; number_ms: number }[];
 }
 
@@ -27,6 +27,8 @@ export interface RoundInfo {
   dictationMs: number;
   time30sUrl: string;
   quizIntroUrl: string;
+  /** Звучит вместо quizIntro, если игрок нажал «Готово» до конца 30 секунд. */
+  quizIntroEarlyUrl: string;
   /** Индекс в массиве = номер ячейки − 1. */
   cells: CellInfo[];
 }
@@ -64,6 +66,7 @@ export const ROUNDS: RoundInfo[] = Object.values(manifest.rounds)
     dictationMs: r.dictation_ms,
     time30sUrl: voiceover(r.lines.time_30s.clip),
     quizIntroUrl: voiceover(r.lines.quiz_intro.clip),
+    quizIntroEarlyUrl: voiceover(r.lines.quiz_intro_early.clip),
     cells: [...r.cells]
       .sort((a, b) => a.cell - b.cell)
       .map((c) => ({ word: c.word, numberStartMs: c.number_start_ms, numberMs: c.number_ms })),
