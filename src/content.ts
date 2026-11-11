@@ -3,11 +3,16 @@ import manifestJson from '../voiceover/manifest.json';
 /** Сколько ячеек игра спрашивает после рисования. */
 export const QUIZ_SIZE = 9;
 
+/** Раунды, где после слова голос молчит не дольше этого, — сложные. */
+const HARD_WORD_PAUSE_MS = 1000;
+
 interface ManifestRound {
   round: number;
   persona: string;
   dictation: string;
   dictation_ms: number;
+  number_pause_ms: number;
+  word_pause_ms: number;
   lines: Record<'time_30s' | 'quiz_intro' | 'quiz_intro_early', { clip: string }>;
   cells: { cell: number; word: string; number_start_ms: number; number_ms: number }[];
 }
@@ -25,6 +30,10 @@ export interface RoundInfo {
   narrator: string;
   dictationUrl: string;
   dictationMs: number;
+  /** Сколько голос молчит между номером и словом. */
+  numberPauseMs: number;
+  /** Сложный раунд: короткая пауза после слова и своя цветовая гамма. */
+  hard: boolean;
   time30sUrl: string;
   quizIntroUrl: string;
   /** Звучит вместо quizIntro, если игрок нажал «Готово» до конца 30 секунд. */
@@ -64,6 +73,8 @@ export const ROUNDS: RoundInfo[] = Object.values(manifest.rounds)
     narrator: NARRATORS[r.persona] ?? 'таинственный голос',
     dictationUrl: voiceover(r.dictation),
     dictationMs: r.dictation_ms,
+    numberPauseMs: r.number_pause_ms,
+    hard: r.word_pause_ms <= HARD_WORD_PAUSE_MS,
     time30sUrl: voiceover(r.lines.time_30s.clip),
     quizIntroUrl: voiceover(r.lines.quiz_intro.clip),
     quizIntroEarlyUrl: voiceover(r.lines.quiz_intro_early.clip),

@@ -22,16 +22,43 @@ const FOCUS_SHARE = 0.68;
 const ANIM_MS = 280;
 const MAX_DPR = 2;
 
-const COLORS = {
-  desk: '#efe4cf',
-  board: '#e2d0ae',
-  paper: '#fffdf8',
-  shadow: 'rgba(96, 66, 24, 0.2)',
-  number: '#a8987f',
-  numberFocused: '#6a2ea8',
-  ink: 'rgba(22, 20, 28, 0.93)',
-  highlight: '246, 172, 30',
-};
+export interface Palette {
+  /** Фон за полем; совпадает с --desk в styles.css. */
+  desk: string;
+  board: string;
+  paper: string;
+  shadow: string;
+  number: string;
+  /** Совпадает с --accent в styles.css. */
+  numberFocused: string;
+  ink: string;
+  /** Подсветка ячейки, которую диктуют: r, g, b. */
+  highlight: string;
+}
+
+export const PALETTES = {
+  normal: {
+    desk: '#efe4cf',
+    board: '#e2d0ae',
+    paper: '#fffdf8',
+    shadow: 'rgba(96, 66, 24, 0.2)',
+    number: '#a8987f',
+    numberFocused: '#6a2ea8',
+    ink: 'rgba(22, 20, 28, 0.93)',
+    highlight: '246, 172, 30',
+  },
+  /** Сложные раунды: прохладная «ночная» гамма, как .hard в styles.css. */
+  hard: {
+    desk: '#dde3ec',
+    board: '#bfcbdb',
+    paper: '#fcfdff',
+    shadow: 'rgba(24, 40, 78, 0.22)',
+    number: '#8b97ad',
+    numberFocused: '#2b50b8',
+    ink: 'rgba(22, 20, 28, 0.93)',
+    highlight: '246, 172, 30',
+  },
+} satisfies Record<string, Palette>;
 
 /** Камера: какая точка мира (x, y) стоит в точке экрана (sx, sy) и с каким увеличением z. */
 interface Camera {
@@ -78,8 +105,8 @@ export function drawStroke(c: CanvasRenderingContext2D, stroke: Stroke) {
   c.stroke();
 }
 
-function setInk(c: CanvasRenderingContext2D) {
-  c.strokeStyle = c.fillStyle = COLORS.ink;
+function setInk(c: CanvasRenderingContext2D, colors: Palette) {
+  c.strokeStyle = c.fillStyle = colors.ink;
   c.lineCap = 'round';
   c.lineJoin = 'round';
 }
@@ -91,40 +118,40 @@ function clipToCell(c: CanvasRenderingContext2D) {
 }
 
 /** Рисует лист с номером и рисунком; контекст уже смещён в левый верхний угол ячейки. */
-function drawCell(c: CanvasRenderingContext2D, number: number, strokes: Stroke[], focused: boolean) {
-  c.fillStyle = COLORS.shadow;
+function drawCell(c: CanvasRenderingContext2D, colors: Palette, number: number, strokes: Stroke[], focused: boolean) {
+  c.fillStyle = colors.shadow;
   c.beginPath();
   c.roundRect(1.5, 2.5, CELL, CELL, RADIUS);
   c.fill();
-  c.fillStyle = COLORS.paper;
+  c.fillStyle = colors.paper;
   c.beginPath();
   c.roundRect(0, 0, CELL, CELL, RADIUS);
   c.fill();
-  c.fillStyle = focused ? COLORS.numberFocused : COLORS.number;
+  c.fillStyle = focused ? colors.numberFocused : colors.number;
   c.font = '700 17px Caveat, cursive';
   c.textBaseline = 'top';
   c.fillText(String(number), 6, 4);
   c.save();
   clipToCell(c);
-  setInk(c);
+  setInk(c, colors);
   for (const s of strokes) drawStroke(c, s);
   c.restore();
 }
 
 /** Отдельная картинка ячейки — для итогов раунда. */
-export function renderThumb(strokes: Stroke[], number: number, size = 200): HTMLCanvasElement {
+export function renderThumb(strokes: Stroke[], number: number, colors: Palette = PALETTES.normal, size = 200): HTMLCanvasElement {
   const canvas = document.createElement('canvas');
   canvas.width = canvas.height = size;
   const c = canvas.getContext('2d')!;
   const k = size / CELL;
   c.setTransform(k, 0, 0, k, 0, 0);
-  c.fillStyle = COLORS.paper;
+  c.fillStyle = colors.paper;
   c.fillRect(0, 0, CELL, CELL);
-  c.fillStyle = COLORS.number;
+  c.fillStyle = colors.number;
   c.font = '700 17px Caveat, cursive';
   c.textBaseline = 'top';
   c.fillText(String(number), 6, 4);
-  setInk(c);
+  setInk(c, colors);
   for (const s of strokes) drawStroke(c, s);
   return canvas;
 }
@@ -156,7 +183,10 @@ export class Board {
   private dirty = true;
   private pen: Pen | null = null;
 
-  constructor(private readonly canvas: HTMLCanvasElement) {
+  constructor(
+    private readonly canvas: HTMLCanvasElement,
+    readonly colors: Palette = PALETTES.normal,
+  ) {
     this.ctx = canvas.getContext('2d')!;
     this.layerCtx = this.layer.getContext('2d')!;
     canvas.addEventListener('pointerdown', this.onDown);
@@ -249,7 +279,7 @@ export class Board {
       c.save();
       c.translate(o.x, o.y);
       clipToCell(c);
-      setInk(c);
+      setInk(c, this.colors);
       drawStroke(c, this.pen.stroke);
       c.restore();
     }
@@ -303,10 +333,10 @@ export class Board {
 
   private drawScene(c: CanvasRenderingContext2D) {
     c.setTransform(1, 0, 0, 1, 0, 0);
-    c.fillStyle = COLORS.desk;
+    c.fillStyle = this.colors.desk;
     c.fillRect(0, 0, this.layer.width, this.layer.height);
     this.applyCamera(c);
-    c.fillStyle = COLORS.board;
+    c.fillStyle = this.colors.board;
     c.beginPath();
     c.roundRect(0, 0, BOARD, BOARD, 14);
     c.fill();
@@ -320,7 +350,7 @@ export class Board {
       c.translate(o.x, o.y);
       // При приближении соседние ячейки приглушены, чтобы было видно, где рисуешь.
       c.globalAlpha = this.focusedCell === null || this.focusedCell === i ? 1 : 0.5;
-      drawCell(c, i + 1, this.strokes[i], this.focusedCell === i);
+      drawCell(c, this.colors, i + 1, this.strokes[i], this.focusedCell === i);
       c.restore();
     }
   }
@@ -330,7 +360,7 @@ export class Board {
     const pulse = 0.5 + 0.5 * Math.sin(now / 170);
     const width = (3 + 2.5 * pulse) / this.cam.z;
     const out = width / 2 + 1.5 / this.cam.z;
-    c.strokeStyle = `rgba(${COLORS.highlight}, ${0.55 + 0.45 * pulse})`;
+    c.strokeStyle = `rgba(${this.colors.highlight}, ${0.55 + 0.45 * pulse})`;
     c.lineWidth = width;
     c.beginPath();
     c.roundRect(o.x - out, o.y - out, CELL + out * 2, CELL + out * 2, RADIUS + out);

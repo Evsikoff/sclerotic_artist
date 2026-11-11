@@ -1,0 +1,19 @@
+{
+ "01-intro": 6.65,
+ "03-finale": 5.64,
+ "ui-board": 3.28,
+ "ui-number": 2.97,
+ "ui-word": 3.1,
+ "ui-zoom": 3.03,
+ "ui-draw": 1.48,
+ "ui-oops": 1.35,
+ "ui-undo": 1.77,
+ "ui-next": 2.19,
+ "ui-zoomout": 2.22,
+ "ui-speaker": 5.24,
+ "ui-final": 3.95,
+ "ui-done": 2.48,
+ "ui-quiz": 5.26,
+ "ui-right": 1.59,
+ "ui-wrong": 3.22
+}

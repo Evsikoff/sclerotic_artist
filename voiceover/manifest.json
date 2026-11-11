@@ -9,9 +9,10 @@
       "scene": "A sunny art class full of small children",
       "performance": "Speak warmly and very gently, with a smile, as if every word were a lovely surprise for a child",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_01/dictation.mp3",
-      "dictation_ms": 95890,
+      "dictation_ms": 120890,
       "gain_db": -2.4,
       "segmentation": {
         "shortest_gap_s": 0.41,
@@ -52,9 +53,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/02.wav",
           "word_clip": "rounds/round_01/words/02.wav",
-          "number_start_ms": 3750,
+          "number_start_ms": 4750,
           "number_ms": 750,
-          "word_start_ms": 5500,
+          "word_start_ms": 6500,
           "word_ms": 870
         },
         {
@@ -63,9 +64,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/03.wav",
           "word_clip": "rounds/round_01/words/03.wav",
-          "number_start_ms": 7370,
+          "number_start_ms": 9370,
           "number_ms": 650,
-          "word_start_ms": 9020,
+          "word_start_ms": 11020,
           "word_ms": 870
         },
         {
@@ -74,9 +75,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/04.wav",
           "word_clip": "rounds/round_01/words/04.wav",
-          "number_start_ms": 10890,
+          "number_start_ms": 13890,
           "number_ms": 1010,
-          "word_start_ms": 12900,
+          "word_start_ms": 15900,
           "word_ms": 890
         },
         {
@@ -85,9 +86,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/05.wav",
           "word_clip": "rounds/round_01/words/05.wav",
-          "number_start_ms": 14790,
+          "number_start_ms": 18790,
           "number_ms": 680,
-          "word_start_ms": 16470,
+          "word_start_ms": 20470,
           "word_ms": 950
         },
         {
@@ -96,9 +97,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/06.wav",
           "word_clip": "rounds/round_01/words/06.wav",
-          "number_start_ms": 18420,
+          "number_start_ms": 23420,
           "number_ms": 880,
-          "word_start_ms": 20300,
+          "word_start_ms": 25300,
           "word_ms": 810
         },
         {
@@ -107,9 +108,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/07.wav",
           "word_clip": "rounds/round_01/words/07.wav",
-          "number_start_ms": 22110,
+          "number_start_ms": 28110,
           "number_ms": 720,
-          "word_start_ms": 23830,
+          "word_start_ms": 29830,
           "word_ms": 770
         },
         {
@@ -118,9 +119,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_01/numbers/08.wav",
           "word_clip": "rounds/round_01/words/08.wav",
-          "number_start_ms": 25600,
+          "number_start_ms": 32600,
           "number_ms": 790,
-          "word_start_ms": 27390,
+          "word_start_ms": 34390,
           "word_ms": 830
         },
         {
@@ -129,9 +130,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/09.wav",
           "word_clip": "rounds/round_01/words/09.wav",
-          "number_start_ms": 29220,
+          "number_start_ms": 37220,
           "number_ms": 820,
-          "word_start_ms": 31040,
+          "word_start_ms": 39040,
           "word_ms": 790
         },
         {
@@ -140,9 +141,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/10.wav",
           "word_clip": "rounds/round_01/words/10.wav",
-          "number_start_ms": 32830,
+          "number_start_ms": 41830,
           "number_ms": 950,
-          "word_start_ms": 34780,
+          "word_start_ms": 43780,
           "word_ms": 1100
         },
         {
@@ -151,9 +152,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/11.wav",
           "word_clip": "rounds/round_01/words/11.wav",
-          "number_start_ms": 36880,
+          "number_start_ms": 46880,
           "number_ms": 1050,
-          "word_start_ms": 38930,
+          "word_start_ms": 48930,
           "word_ms": 980
         },
         {
@@ -162,9 +163,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/12.wav",
           "word_clip": "rounds/round_01/words/12.wav",
-          "number_start_ms": 40910,
+          "number_start_ms": 51910,
           "number_ms": 1040,
-          "word_start_ms": 42950,
+          "word_start_ms": 53950,
           "word_ms": 690
         },
         {
@@ -173,9 +174,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/13.wav",
           "word_clip": "rounds/round_01/words/13.wav",
-          "number_start_ms": 44640,
+          "number_start_ms": 56640,
           "number_ms": 930,
-          "word_start_ms": 46570,
+          "word_start_ms": 58570,
           "word_ms": 850
         },
         {
@@ -184,9 +185,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/14.wav",
           "word_clip": "rounds/round_01/words/14.wav",
-          "number_start_ms": 48420,
+          "number_start_ms": 61420,
           "number_ms": 1170,
-          "word_start_ms": 50590,
+          "word_start_ms": 63590,
           "word_ms": 950
         },
         {
@@ -195,9 +196,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_01/numbers/15.wav",
           "word_clip": "rounds/round_01/words/15.wav",
-          "number_start_ms": 52540,
+          "number_start_ms": 66540,
           "number_ms": 990,
-          "word_start_ms": 54530,
+          "word_start_ms": 68530,
           "word_ms": 870
         },
         {
@@ -206,9 +207,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/16.wav",
           "word_clip": "rounds/round_01/words/16.wav",
-          "number_start_ms": 56400,
+          "number_start_ms": 71400,
           "number_ms": 1040,
-          "word_start_ms": 58440,
+          "word_start_ms": 73440,
           "word_ms": 810
         },
         {
@@ -217,9 +218,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/17.wav",
           "word_clip": "rounds/round_01/words/17.wav",
-          "number_start_ms": 60250,
+          "number_start_ms": 76250,
           "number_ms": 1040,
-          "word_start_ms": 62290,
+          "word_start_ms": 78290,
           "word_ms": 990
         },
         {
@@ -228,9 +229,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/18.wav",
           "word_clip": "rounds/round_01/words/18.wav",
-          "number_start_ms": 64280,
+          "number_start_ms": 81280,
           "number_ms": 990,
-          "word_start_ms": 66270,
+          "word_start_ms": 83270,
           "word_ms": 1660
         },
         {
@@ -239,9 +240,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/19.wav",
           "word_clip": "rounds/round_01/words/19.wav",
-          "number_start_ms": 68930,
+          "number_start_ms": 86930,
           "number_ms": 980,
-          "word_start_ms": 70910,
+          "word_start_ms": 88910,
           "word_ms": 870
         },
         {
@@ -250,9 +251,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/20.wav",
           "word_clip": "rounds/round_01/words/20.wav",
-          "number_start_ms": 72780,
+          "number_start_ms": 91780,
           "number_ms": 800,
-          "word_start_ms": 74580,
+          "word_start_ms": 93580,
           "word_ms": 800
         },
         {
@@ -261,9 +262,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/21.wav",
           "word_clip": "rounds/round_01/words/21.wav",
-          "number_start_ms": 76380,
+          "number_start_ms": 96380,
           "number_ms": 1160,
-          "word_start_ms": 78540,
+          "word_start_ms": 98540,
           "word_ms": 730
         },
         {
@@ -272,9 +273,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/22.wav",
           "word_clip": "rounds/round_01/words/22.wav",
-          "number_start_ms": 80270,
+          "number_start_ms": 101270,
           "number_ms": 1070,
-          "word_start_ms": 82340,
+          "word_start_ms": 103340,
           "word_ms": 850
         },
         {
@@ -283,9 +284,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_01/numbers/23.wav",
           "word_clip": "rounds/round_01/words/23.wav",
-          "number_start_ms": 84190,
+          "number_start_ms": 106190,
           "number_ms": 1090,
-          "word_start_ms": 86280,
+          "word_start_ms": 108280,
           "word_ms": 780
         },
         {
@@ -294,9 +295,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_01/numbers/24.wav",
           "word_clip": "rounds/round_01/words/24.wav",
-          "number_start_ms": 88060,
+          "number_start_ms": 111060,
           "number_ms": 1210,
-          "word_start_ms": 90270,
+          "word_start_ms": 113270,
           "word_ms": 620
         },
         {
@@ -305,9 +306,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_01/numbers/25.wav",
           "word_clip": "rounds/round_01/words/25.wav",
-          "number_start_ms": 91890,
+          "number_start_ms": 115890,
           "number_ms": 1090,
-          "word_start_ms": 93980,
+          "word_start_ms": 117980,
           "word_ms": 910
         }
       ]
@@ -320,9 +321,10 @@
       "scene": "A dim radio studio at three in the morning",
       "performance": "Speak slowly in a very low, velvety, dreamy voice, lingering on every word",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_02/dictation.mp3",
-      "dictation_ms": 92220,
+      "dictation_ms": 117220,
       "gain_db": 0.3,
       "segmentation": {
         "shortest_gap_s": 0.53,
@@ -363,9 +365,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/02.wav",
           "word_clip": "rounds/round_02/words/02.wav",
-          "number_start_ms": 3720,
+          "number_start_ms": 4720,
           "number_ms": 1200,
-          "word_start_ms": 5920,
+          "word_start_ms": 6920,
           "word_ms": 840
         },
         {
@@ -374,9 +376,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/03.wav",
           "word_clip": "rounds/round_02/words/03.wav",
-          "number_start_ms": 7760,
+          "number_start_ms": 9760,
           "number_ms": 490,
-          "word_start_ms": 9250,
+          "word_start_ms": 11250,
           "word_ms": 860
         },
         {
@@ -385,9 +387,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/04.wav",
           "word_clip": "rounds/round_02/words/04.wav",
-          "number_start_ms": 11110,
+          "number_start_ms": 14110,
           "number_ms": 730,
-          "word_start_ms": 12840,
+          "word_start_ms": 15840,
           "word_ms": 590
         },
         {
@@ -396,9 +398,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/05.wav",
           "word_clip": "rounds/round_02/words/05.wav",
-          "number_start_ms": 14430,
+          "number_start_ms": 18430,
           "number_ms": 590,
-          "word_start_ms": 16020,
+          "word_start_ms": 20020,
           "word_ms": 730
         },
         {
@@ -407,9 +409,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/06.wav",
           "word_clip": "rounds/round_02/words/06.wav",
-          "number_start_ms": 17750,
+          "number_start_ms": 22750,
           "number_ms": 800,
-          "word_start_ms": 19550,
+          "word_start_ms": 24550,
           "word_ms": 1570
         },
         {
@@ -418,9 +420,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/07.wav",
           "word_clip": "rounds/round_02/words/07.wav",
-          "number_start_ms": 22120,
+          "number_start_ms": 28120,
           "number_ms": 590,
-          "word_start_ms": 23710,
+          "word_start_ms": 29710,
           "word_ms": 580
         },
         {
@@ -429,9 +431,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/08.wav",
           "word_clip": "rounds/round_02/words/08.wav",
-          "number_start_ms": 25290,
+          "number_start_ms": 32290,
           "number_ms": 730,
-          "word_start_ms": 27020,
+          "word_start_ms": 34020,
           "word_ms": 720
         },
         {
@@ -440,9 +442,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/09.wav",
           "word_clip": "rounds/round_02/words/09.wav",
-          "number_start_ms": 28740,
+          "number_start_ms": 36740,
           "number_ms": 890,
-          "word_start_ms": 30630,
+          "word_start_ms": 38630,
           "word_ms": 880
         },
         {
@@ -451,9 +453,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/10.wav",
           "word_clip": "rounds/round_02/words/10.wav",
-          "number_start_ms": 32510,
+          "number_start_ms": 41510,
           "number_ms": 760,
-          "word_start_ms": 34270,
+          "word_start_ms": 43270,
           "word_ms": 740
         },
         {
@@ -462,9 +464,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/11.wav",
           "word_clip": "rounds/round_02/words/11.wav",
-          "number_start_ms": 36010,
+          "number_start_ms": 46010,
           "number_ms": 960,
-          "word_start_ms": 37970,
+          "word_start_ms": 47970,
           "word_ms": 650
         },
         {
@@ -473,9 +475,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/12.wav",
           "word_clip": "rounds/round_02/words/12.wav",
-          "number_start_ms": 39620,
+          "number_start_ms": 50620,
           "number_ms": 1060,
-          "word_start_ms": 41680,
+          "word_start_ms": 52680,
           "word_ms": 780
         },
         {
@@ -484,9 +486,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/13.wav",
           "word_clip": "rounds/round_02/words/13.wav",
-          "number_start_ms": 43460,
+          "number_start_ms": 55460,
           "number_ms": 870,
-          "word_start_ms": 45330,
+          "word_start_ms": 57330,
           "word_ms": 760
         },
         {
@@ -495,9 +497,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/14.wav",
           "word_clip": "rounds/round_02/words/14.wav",
-          "number_start_ms": 47090,
+          "number_start_ms": 60090,
           "number_ms": 1020,
-          "word_start_ms": 49110,
+          "word_start_ms": 62110,
           "word_ms": 790
         },
         {
@@ -506,9 +508,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/15.wav",
           "word_clip": "rounds/round_02/words/15.wav",
-          "number_start_ms": 50900,
+          "number_start_ms": 64900,
           "number_ms": 1030,
-          "word_start_ms": 52930,
+          "word_start_ms": 66930,
           "word_ms": 900
         },
         {
@@ -517,9 +519,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/16.wav",
           "word_clip": "rounds/round_02/words/16.wav",
-          "number_start_ms": 54830,
+          "number_start_ms": 69830,
           "number_ms": 1060,
-          "word_start_ms": 56890,
+          "word_start_ms": 71890,
           "word_ms": 930
         },
         {
@@ -528,9 +530,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/17.wav",
           "word_clip": "rounds/round_02/words/17.wav",
-          "number_start_ms": 58820,
+          "number_start_ms": 74820,
           "number_ms": 950,
-          "word_start_ms": 60770,
+          "word_start_ms": 76770,
           "word_ms": 650
         },
         {
@@ -539,9 +541,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/18.wav",
           "word_clip": "rounds/round_02/words/18.wav",
-          "number_start_ms": 62420,
+          "number_start_ms": 79420,
           "number_ms": 1060,
-          "word_start_ms": 64480,
+          "word_start_ms": 81480,
           "word_ms": 840
         },
         {
@@ -550,9 +552,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/19.wav",
           "word_clip": "rounds/round_02/words/19.wav",
-          "number_start_ms": 66320,
+          "number_start_ms": 84320,
           "number_ms": 1120,
-          "word_start_ms": 68440,
+          "word_start_ms": 86440,
           "word_ms": 690
         },
         {
@@ -561,9 +563,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/20.wav",
           "word_clip": "rounds/round_02/words/20.wav",
-          "number_start_ms": 70130,
+          "number_start_ms": 89130,
           "number_ms": 850,
-          "word_start_ms": 71980,
+          "word_start_ms": 90980,
           "word_ms": 800
         },
         {
@@ -572,9 +574,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/21.wav",
           "word_clip": "rounds/round_02/words/21.wav",
-          "number_start_ms": 73780,
+          "number_start_ms": 93780,
           "number_ms": 950,
-          "word_start_ms": 75730,
+          "word_start_ms": 95730,
           "word_ms": 730
         },
         {
@@ -583,9 +585,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/22.wav",
           "word_clip": "rounds/round_02/words/22.wav",
-          "number_start_ms": 77460,
+          "number_start_ms": 98460,
           "number_ms": 890,
-          "word_start_ms": 79350,
+          "word_start_ms": 100350,
           "word_ms": 480
         },
         {
@@ -594,9 +596,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/23.wav",
           "word_clip": "rounds/round_02/words/23.wav",
-          "number_start_ms": 80830,
+          "number_start_ms": 102830,
           "number_ms": 920,
-          "word_start_ms": 82750,
+          "word_start_ms": 104750,
           "word_ms": 870
         },
         {
@@ -605,9 +607,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_02/numbers/24.wav",
           "word_clip": "rounds/round_02/words/24.wav",
-          "number_start_ms": 84620,
+          "number_start_ms": 107620,
           "number_ms": 1100,
-          "word_start_ms": 86720,
+          "word_start_ms": 109720,
           "word_ms": 820
         },
         {
@@ -616,9 +618,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_02/numbers/25.wav",
           "word_clip": "rounds/round_02/words/25.wav",
-          "number_start_ms": 88540,
+          "number_start_ms": 112540,
           "number_ms": 940,
-          "word_start_ms": 90480,
+          "word_start_ms": 114480,
           "word_ms": 740
         }
       ]
@@ -631,9 +633,10 @@
       "scene": "A packed stadium in the last seconds of a cup final",
       "performance": "Yell every line at the top of your voice with wild excitement, as if each word were a winning goal",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_03/dictation.mp3",
-      "dictation_ms": 94730,
+      "dictation_ms": 119730,
       "gain_db": -2.3,
       "segmentation": {
         "shortest_gap_s": 0.3,
@@ -674,9 +677,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/02.wav",
           "word_clip": "rounds/round_03/words/02.wav",
-          "number_start_ms": 3870,
+          "number_start_ms": 4870,
           "number_ms": 800,
-          "word_start_ms": 5670,
+          "word_start_ms": 6670,
           "word_ms": 1030
         },
         {
@@ -685,9 +688,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/03.wav",
           "word_clip": "rounds/round_03/words/03.wav",
-          "number_start_ms": 7700,
+          "number_start_ms": 9700,
           "number_ms": 580,
-          "word_start_ms": 9280,
+          "word_start_ms": 11280,
           "word_ms": 890
         },
         {
@@ -696,9 +699,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/04.wav",
           "word_clip": "rounds/round_03/words/04.wav",
-          "number_start_ms": 11170,
+          "number_start_ms": 14170,
           "number_ms": 690,
-          "word_start_ms": 12860,
+          "word_start_ms": 15860,
           "word_ms": 710
         },
         {
@@ -707,9 +710,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/05.wav",
           "word_clip": "rounds/round_03/words/05.wav",
-          "number_start_ms": 14570,
+          "number_start_ms": 18570,
           "number_ms": 640,
-          "word_start_ms": 16210,
+          "word_start_ms": 20210,
           "word_ms": 1060
         },
         {
@@ -718,9 +721,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/06.wav",
           "word_clip": "rounds/round_03/words/06.wav",
-          "number_start_ms": 18270,
+          "number_start_ms": 23270,
           "number_ms": 780,
-          "word_start_ms": 20050,
+          "word_start_ms": 25050,
           "word_ms": 910
         },
         {
@@ -729,9 +732,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/07.wav",
           "word_clip": "rounds/round_03/words/07.wav",
-          "number_start_ms": 21960,
+          "number_start_ms": 27960,
           "number_ms": 750,
-          "word_start_ms": 23710,
+          "word_start_ms": 29710,
           "word_ms": 610
         },
         {
@@ -740,9 +743,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/08.wav",
           "word_clip": "rounds/round_03/words/08.wav",
-          "number_start_ms": 25320,
+          "number_start_ms": 32320,
           "number_ms": 830,
-          "word_start_ms": 27150,
+          "word_start_ms": 34150,
           "word_ms": 910
         },
         {
@@ -751,9 +754,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/09.wav",
           "word_clip": "rounds/round_03/words/09.wav",
-          "number_start_ms": 29060,
+          "number_start_ms": 37060,
           "number_ms": 760,
-          "word_start_ms": 30820,
+          "word_start_ms": 38820,
           "word_ms": 1380
         },
         {
@@ -762,9 +765,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/10.wav",
           "word_clip": "rounds/round_03/words/10.wav",
-          "number_start_ms": 33200,
+          "number_start_ms": 42200,
           "number_ms": 770,
-          "word_start_ms": 34970,
+          "word_start_ms": 43970,
           "word_ms": 1000
         },
         {
@@ -773,9 +776,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/11.wav",
           "word_clip": "rounds/round_03/words/11.wav",
-          "number_start_ms": 36970,
+          "number_start_ms": 46970,
           "number_ms": 970,
-          "word_start_ms": 38940,
+          "word_start_ms": 48940,
           "word_ms": 850
         },
         {
@@ -784,9 +787,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/12.wav",
           "word_clip": "rounds/round_03/words/12.wav",
-          "number_start_ms": 40790,
+          "number_start_ms": 51790,
           "number_ms": 1080,
-          "word_start_ms": 42870,
+          "word_start_ms": 53870,
           "word_ms": 740
         },
         {
@@ -795,9 +798,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/13.wav",
           "word_clip": "rounds/round_03/words/13.wav",
-          "number_start_ms": 44610,
+          "number_start_ms": 56610,
           "number_ms": 880,
-          "word_start_ms": 46490,
+          "word_start_ms": 58490,
           "word_ms": 540
         },
         {
@@ -806,9 +809,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/14.wav",
           "word_clip": "rounds/round_03/words/14.wav",
-          "number_start_ms": 48030,
+          "number_start_ms": 61030,
           "number_ms": 1000,
-          "word_start_ms": 50030,
+          "word_start_ms": 63030,
           "word_ms": 540
         },
         {
@@ -817,9 +820,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/15.wav",
           "word_clip": "rounds/round_03/words/15.wav",
-          "number_start_ms": 51570,
+          "number_start_ms": 65570,
           "number_ms": 880,
-          "word_start_ms": 53450,
+          "word_start_ms": 67450,
           "word_ms": 740
         },
         {
@@ -828,9 +831,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_03/numbers/16.wav",
           "word_clip": "rounds/round_03/words/16.wav",
-          "number_start_ms": 55190,
+          "number_start_ms": 70190,
           "number_ms": 960,
-          "word_start_ms": 57150,
+          "word_start_ms": 72150,
           "word_ms": 700
         },
         {
@@ -839,9 +842,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/17.wav",
           "word_clip": "rounds/round_03/words/17.wav",
-          "number_start_ms": 58850,
+          "number_start_ms": 74850,
           "number_ms": 950,
-          "word_start_ms": 60800,
+          "word_start_ms": 76800,
           "word_ms": 1710
         },
         {
@@ -850,9 +853,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/18.wav",
           "word_clip": "rounds/round_03/words/18.wav",
-          "number_start_ms": 63510,
+          "number_start_ms": 80510,
           "number_ms": 1090,
-          "word_start_ms": 65600,
+          "word_start_ms": 82600,
           "word_ms": 790
         },
         {
@@ -861,9 +864,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/19.wav",
           "word_clip": "rounds/round_03/words/19.wav",
-          "number_start_ms": 67390,
+          "number_start_ms": 85390,
           "number_ms": 1030,
-          "word_start_ms": 69420,
+          "word_start_ms": 87420,
           "word_ms": 760
         },
         {
@@ -872,9 +875,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/20.wav",
           "word_clip": "rounds/round_03/words/20.wav",
-          "number_start_ms": 71180,
+          "number_start_ms": 90180,
           "number_ms": 780,
-          "word_start_ms": 72960,
+          "word_start_ms": 91960,
           "word_ms": 900
         },
         {
@@ -883,9 +886,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/21.wav",
           "word_clip": "rounds/round_03/words/21.wav",
-          "number_start_ms": 74860,
+          "number_start_ms": 94860,
           "number_ms": 960,
-          "word_start_ms": 76820,
+          "word_start_ms": 96820,
           "word_ms": 950
         },
         {
@@ -894,9 +897,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/22.wav",
           "word_clip": "rounds/round_03/words/22.wav",
-          "number_start_ms": 78770,
+          "number_start_ms": 99770,
           "number_ms": 960,
-          "word_start_ms": 80730,
+          "word_start_ms": 101730,
           "word_ms": 1570
         },
         {
@@ -905,9 +908,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/23.wav",
           "word_clip": "rounds/round_03/words/23.wav",
-          "number_start_ms": 83300,
+          "number_start_ms": 105300,
           "number_ms": 910,
-          "word_start_ms": 85210,
+          "word_start_ms": 107210,
           "word_ms": 810
         },
         {
@@ -916,9 +919,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/24.wav",
           "word_clip": "rounds/round_03/words/24.wav",
-          "number_start_ms": 87020,
+          "number_start_ms": 110020,
           "number_ms": 1130,
-          "word_start_ms": 89150,
+          "word_start_ms": 112150,
           "word_ms": 820
         },
         {
@@ -927,9 +930,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_03/numbers/25.wav",
           "word_clip": "rounds/round_03/words/25.wav",
-          "number_start_ms": 90970,
+          "number_start_ms": 114970,
           "number_ms": 1010,
-          "word_start_ms": 92980,
+          "word_start_ms": 116980,
           "word_ms": 750
         }
       ]
@@ -942,9 +945,10 @@
       "scene": "A birthday party with balloons and confetti",
       "performance": "Squeal with delight, high-pitched and bubbly, as if every word were the best present ever",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_04/dictation.mp3",
-      "dictation_ms": 92810,
+      "dictation_ms": 117810,
       "gain_db": -3.6,
       "segmentation": {
         "shortest_gap_s": 0.5,
@@ -985,9 +989,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/02.wav",
           "word_clip": "rounds/round_04/words/02.wav",
-          "number_start_ms": 3770,
+          "number_start_ms": 4770,
           "number_ms": 880,
-          "word_start_ms": 5650,
+          "word_start_ms": 6650,
           "word_ms": 1030
         },
         {
@@ -996,9 +1000,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/03.wav",
           "word_clip": "rounds/round_04/words/03.wav",
-          "number_start_ms": 7680,
+          "number_start_ms": 9680,
           "number_ms": 540,
-          "word_start_ms": 9220,
+          "word_start_ms": 11220,
           "word_ms": 850
         },
         {
@@ -1007,9 +1011,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/04.wav",
           "word_clip": "rounds/round_04/words/04.wav",
-          "number_start_ms": 11070,
+          "number_start_ms": 14070,
           "number_ms": 700,
-          "word_start_ms": 12770,
+          "word_start_ms": 15770,
           "word_ms": 880
         },
         {
@@ -1018,9 +1022,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/05.wav",
           "word_clip": "rounds/round_04/words/05.wav",
-          "number_start_ms": 14650,
+          "number_start_ms": 18650,
           "number_ms": 530,
-          "word_start_ms": 16180,
+          "word_start_ms": 20180,
           "word_ms": 770
         },
         {
@@ -1029,9 +1033,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/06.wav",
           "word_clip": "rounds/round_04/words/06.wav",
-          "number_start_ms": 17950,
+          "number_start_ms": 22950,
           "number_ms": 770,
-          "word_start_ms": 19720,
+          "word_start_ms": 24720,
           "word_ms": 780
         },
         {
@@ -1040,9 +1044,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/07.wav",
           "word_clip": "rounds/round_04/words/07.wav",
-          "number_start_ms": 21500,
+          "number_start_ms": 27500,
           "number_ms": 660,
-          "word_start_ms": 23160,
+          "word_start_ms": 29160,
           "word_ms": 1110
         },
         {
@@ -1051,9 +1055,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/08.wav",
           "word_clip": "rounds/round_04/words/08.wav",
-          "number_start_ms": 25270,
+          "number_start_ms": 32270,
           "number_ms": 880,
-          "word_start_ms": 27150,
+          "word_start_ms": 34150,
           "word_ms": 860
         },
         {
@@ -1062,9 +1066,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/09.wav",
           "word_clip": "rounds/round_04/words/09.wav",
-          "number_start_ms": 29010,
+          "number_start_ms": 37010,
           "number_ms": 720,
-          "word_start_ms": 30730,
+          "word_start_ms": 38730,
           "word_ms": 780
         },
         {
@@ -1073,9 +1077,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/10.wav",
           "word_clip": "rounds/round_04/words/10.wav",
-          "number_start_ms": 32510,
+          "number_start_ms": 41510,
           "number_ms": 800,
-          "word_start_ms": 34310,
+          "word_start_ms": 43310,
           "word_ms": 900
         },
         {
@@ -1084,9 +1088,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/11.wav",
           "word_clip": "rounds/round_04/words/11.wav",
-          "number_start_ms": 36210,
+          "number_start_ms": 46210,
           "number_ms": 970,
-          "word_start_ms": 38180,
+          "word_start_ms": 48180,
           "word_ms": 880
         },
         {
@@ -1095,9 +1099,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/12.wav",
           "word_clip": "rounds/round_04/words/12.wav",
-          "number_start_ms": 40060,
+          "number_start_ms": 51060,
           "number_ms": 970,
-          "word_start_ms": 42030,
+          "word_start_ms": 53030,
           "word_ms": 960
         },
         {
@@ -1106,9 +1110,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/13.wav",
           "word_clip": "rounds/round_04/words/13.wav",
-          "number_start_ms": 43990,
+          "number_start_ms": 55990,
           "number_ms": 850,
-          "word_start_ms": 45840,
+          "word_start_ms": 57840,
           "word_ms": 750
         },
         {
@@ -1117,9 +1121,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/14.wav",
           "word_clip": "rounds/round_04/words/14.wav",
-          "number_start_ms": 47590,
+          "number_start_ms": 60590,
           "number_ms": 1100,
-          "word_start_ms": 49690,
+          "word_start_ms": 62690,
           "word_ms": 590
         },
         {
@@ -1128,9 +1132,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/15.wav",
           "word_clip": "rounds/round_04/words/15.wav",
-          "number_start_ms": 51280,
+          "number_start_ms": 65280,
           "number_ms": 910,
-          "word_start_ms": 53190,
+          "word_start_ms": 67190,
           "word_ms": 780
         },
         {
@@ -1139,9 +1143,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/16.wav",
           "word_clip": "rounds/round_04/words/16.wav",
-          "number_start_ms": 54970,
+          "number_start_ms": 69970,
           "number_ms": 1090,
-          "word_start_ms": 57060,
+          "word_start_ms": 72060,
           "word_ms": 670
         },
         {
@@ -1150,9 +1154,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/17.wav",
           "word_clip": "rounds/round_04/words/17.wav",
-          "number_start_ms": 58730,
+          "number_start_ms": 74730,
           "number_ms": 990,
-          "word_start_ms": 60720,
+          "word_start_ms": 76720,
           "word_ms": 800
         },
         {
@@ -1161,9 +1165,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/18.wav",
           "word_clip": "rounds/round_04/words/18.wav",
-          "number_start_ms": 62520,
+          "number_start_ms": 79520,
           "number_ms": 1190,
-          "word_start_ms": 64710,
+          "word_start_ms": 81710,
           "word_ms": 700
         },
         {
@@ -1172,9 +1176,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/19.wav",
           "word_clip": "rounds/round_04/words/19.wav",
-          "number_start_ms": 66410,
+          "number_start_ms": 84410,
           "number_ms": 1180,
-          "word_start_ms": 68590,
+          "word_start_ms": 86590,
           "word_ms": 590
         },
         {
@@ -1183,9 +1187,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/20.wav",
           "word_clip": "rounds/round_04/words/20.wav",
-          "number_start_ms": 70180,
+          "number_start_ms": 89180,
           "number_ms": 750,
-          "word_start_ms": 71930,
+          "word_start_ms": 90930,
           "word_ms": 870
         },
         {
@@ -1194,9 +1198,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/21.wav",
           "word_clip": "rounds/round_04/words/21.wav",
-          "number_start_ms": 73800,
+          "number_start_ms": 93800,
           "number_ms": 1040,
-          "word_start_ms": 75840,
+          "word_start_ms": 95840,
           "word_ms": 860
         },
         {
@@ -1205,9 +1209,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/22.wav",
           "word_clip": "rounds/round_04/words/22.wav",
-          "number_start_ms": 77700,
+          "number_start_ms": 98700,
           "number_ms": 980,
-          "word_start_ms": 79680,
+          "word_start_ms": 100680,
           "word_ms": 890
         },
         {
@@ -1216,9 +1220,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_04/numbers/23.wav",
           "word_clip": "rounds/round_04/words/23.wav",
-          "number_start_ms": 81570,
+          "number_start_ms": 103570,
           "number_ms": 970,
-          "word_start_ms": 83540,
+          "word_start_ms": 105540,
           "word_ms": 680
         },
         {
@@ -1227,9 +1231,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/24.wav",
           "word_clip": "rounds/round_04/words/24.wav",
-          "number_start_ms": 85220,
+          "number_start_ms": 108220,
           "number_ms": 1100,
-          "word_start_ms": 87320,
+          "word_start_ms": 110320,
           "word_ms": 840
         },
         {
@@ -1238,9 +1242,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_04/numbers/25.wav",
           "word_clip": "rounds/round_04/words/25.wav",
-          "number_start_ms": 89160,
+          "number_start_ms": 113160,
           "number_ms": 1060,
-          "word_start_ms": 91220,
+          "word_start_ms": 115220,
           "word_ms": 590
         }
       ]
@@ -1253,9 +1257,10 @@
       "scene": "The deck of a ship at anchor in the evening",
       "performance": "Growl in a rough, gravelly, salty voice, like a weathered old sailor, and hold a long heavy pause after every line",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_05/dictation.mp3",
-      "dictation_ms": 100010,
+      "dictation_ms": 125010,
       "gain_db": 0.7,
       "segmentation": {
         "shortest_gap_s": 0.75,
@@ -1296,9 +1301,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/02.wav",
           "word_clip": "rounds/round_05/words/02.wav",
-          "number_start_ms": 5810,
+          "number_start_ms": 6810,
           "number_ms": 970,
-          "word_start_ms": 7780,
+          "word_start_ms": 8780,
           "word_ms": 890
         },
         {
@@ -1307,9 +1312,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_05/numbers/03.wav",
           "word_clip": "rounds/round_05/words/03.wav",
-          "number_start_ms": 9670,
+          "number_start_ms": 11670,
           "number_ms": 1220,
-          "word_start_ms": 11890,
+          "word_start_ms": 13890,
           "word_ms": 910
         },
         {
@@ -1318,9 +1323,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/04.wav",
           "word_clip": "rounds/round_05/words/04.wav",
-          "number_start_ms": 13800,
+          "number_start_ms": 16800,
           "number_ms": 1380,
-          "word_start_ms": 16180,
+          "word_start_ms": 19180,
           "word_ms": 900
         },
         {
@@ -1329,9 +1334,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/05.wav",
           "word_clip": "rounds/round_05/words/05.wav",
-          "number_start_ms": 18080,
+          "number_start_ms": 22080,
           "number_ms": 650,
-          "word_start_ms": 19730,
+          "word_start_ms": 23730,
           "word_ms": 870
         },
         {
@@ -1340,9 +1345,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/06.wav",
           "word_clip": "rounds/round_05/words/06.wav",
-          "number_start_ms": 21600,
+          "number_start_ms": 26600,
           "number_ms": 890,
-          "word_start_ms": 23490,
+          "word_start_ms": 28490,
           "word_ms": 780
         },
         {
@@ -1351,9 +1356,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/07.wav",
           "word_clip": "rounds/round_05/words/07.wav",
-          "number_start_ms": 25270,
+          "number_start_ms": 31270,
           "number_ms": 720,
-          "word_start_ms": 26990,
+          "word_start_ms": 32990,
           "word_ms": 900
         },
         {
@@ -1362,9 +1367,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_05/numbers/08.wav",
           "word_clip": "rounds/round_05/words/08.wav",
-          "number_start_ms": 28890,
+          "number_start_ms": 35890,
           "number_ms": 890,
-          "word_start_ms": 30780,
+          "word_start_ms": 37780,
           "word_ms": 790
         },
         {
@@ -1373,9 +1378,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/09.wav",
           "word_clip": "rounds/round_05/words/09.wav",
-          "number_start_ms": 32570,
+          "number_start_ms": 40570,
           "number_ms": 870,
-          "word_start_ms": 34440,
+          "word_start_ms": 42440,
           "word_ms": 790
         },
         {
@@ -1384,9 +1389,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/10.wav",
           "word_clip": "rounds/round_05/words/10.wav",
-          "number_start_ms": 36230,
+          "number_start_ms": 45230,
           "number_ms": 840,
-          "word_start_ms": 38070,
+          "word_start_ms": 47070,
           "word_ms": 890
         },
         {
@@ -1395,9 +1400,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/11.wav",
           "word_clip": "rounds/round_05/words/11.wav",
-          "number_start_ms": 39960,
+          "number_start_ms": 49960,
           "number_ms": 1070,
-          "word_start_ms": 42030,
+          "word_start_ms": 52030,
           "word_ms": 1100
         },
         {
@@ -1406,9 +1411,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/12.wav",
           "word_clip": "rounds/round_05/words/12.wav",
-          "number_start_ms": 44130,
+          "number_start_ms": 55130,
           "number_ms": 1130,
-          "word_start_ms": 46260,
+          "word_start_ms": 57260,
           "word_ms": 970
         },
         {
@@ -1417,9 +1422,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_05/numbers/13.wav",
           "word_clip": "rounds/round_05/words/13.wav",
-          "number_start_ms": 48230,
+          "number_start_ms": 60230,
           "number_ms": 990,
-          "word_start_ms": 50220,
+          "word_start_ms": 62220,
           "word_ms": 1030
         },
         {
@@ -1428,9 +1433,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/14.wav",
           "word_clip": "rounds/round_05/words/14.wav",
-          "number_start_ms": 52250,
+          "number_start_ms": 65250,
           "number_ms": 1110,
-          "word_start_ms": 54360,
+          "word_start_ms": 67360,
           "word_ms": 940
         },
         {
@@ -1439,9 +1444,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/15.wav",
           "word_clip": "rounds/round_05/words/15.wav",
-          "number_start_ms": 56300,
+          "number_start_ms": 70300,
           "number_ms": 1040,
-          "word_start_ms": 58340,
+          "word_start_ms": 72340,
           "word_ms": 960
         },
         {
@@ -1450,9 +1455,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/16.wav",
           "word_clip": "rounds/round_05/words/16.wav",
-          "number_start_ms": 60300,
+          "number_start_ms": 75300,
           "number_ms": 1140,
-          "word_start_ms": 62440,
+          "word_start_ms": 77440,
           "word_ms": 780
         },
         {
@@ -1461,9 +1466,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/17.wav",
           "word_clip": "rounds/round_05/words/17.wav",
-          "number_start_ms": 64220,
+          "number_start_ms": 80220,
           "number_ms": 1120,
-          "word_start_ms": 66340,
+          "word_start_ms": 82340,
           "word_ms": 660
         },
         {
@@ -1472,9 +1477,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_05/numbers/18.wav",
           "word_clip": "rounds/round_05/words/18.wav",
-          "number_start_ms": 68000,
+          "number_start_ms": 85000,
           "number_ms": 1200,
-          "word_start_ms": 70200,
+          "word_start_ms": 87200,
           "word_ms": 890
         },
         {
@@ -1483,9 +1488,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/19.wav",
           "word_clip": "rounds/round_05/words/19.wav",
-          "number_start_ms": 72090,
+          "number_start_ms": 90090,
           "number_ms": 1180,
-          "word_start_ms": 74270,
+          "word_start_ms": 92270,
           "word_ms": 680
         },
         {
@@ -1494,9 +1499,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/20.wav",
           "word_clip": "rounds/round_05/words/20.wav",
-          "number_start_ms": 75950,
+          "number_start_ms": 94950,
           "number_ms": 960,
-          "word_start_ms": 77910,
+          "word_start_ms": 96910,
           "word_ms": 920
         },
         {
@@ -1505,9 +1510,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/21.wav",
           "word_clip": "rounds/round_05/words/21.wav",
-          "number_start_ms": 79830,
+          "number_start_ms": 99830,
           "number_ms": 1140,
-          "word_start_ms": 81970,
+          "word_start_ms": 101970,
           "word_ms": 830
         },
         {
@@ -1516,9 +1521,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/22.wav",
           "word_clip": "rounds/round_05/words/22.wav",
-          "number_start_ms": 83800,
+          "number_start_ms": 104800,
           "number_ms": 1090,
-          "word_start_ms": 85890,
+          "word_start_ms": 106890,
           "word_ms": 900
         },
         {
@@ -1527,9 +1532,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_05/numbers/23.wav",
           "word_clip": "rounds/round_05/words/23.wav",
-          "number_start_ms": 87790,
+          "number_start_ms": 109790,
           "number_ms": 1080,
-          "word_start_ms": 89870,
+          "word_start_ms": 111870,
           "word_ms": 1020
         },
         {
@@ -1538,9 +1543,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/24.wav",
           "word_clip": "rounds/round_05/words/24.wav",
-          "number_start_ms": 91890,
+          "number_start_ms": 114890,
           "number_ms": 1280,
-          "word_start_ms": 94170,
+          "word_start_ms": 117170,
           "word_ms": 850
         },
         {
@@ -1549,9 +1554,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_05/numbers/25.wav",
           "word_clip": "rounds/round_05/words/25.wav",
-          "number_start_ms": 96020,
+          "number_start_ms": 120020,
           "number_ms": 1140,
-          "word_start_ms": 98160,
+          "word_start_ms": 122160,
           "word_ms": 850
         }
       ]
@@ -1564,9 +1569,10 @@
       "scene": "A nearly empty train station at the end of a double shift",
       "performance": "Drone in a flat, exhausted, utterly bored monotone, sighing and barely caring",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_06/dictation.mp3",
-      "dictation_ms": 94430,
+      "dictation_ms": 119430,
       "gain_db": -2.1,
       "segmentation": {
         "shortest_gap_s": 0.44,
@@ -1607,9 +1613,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/02.wav",
           "word_clip": "rounds/round_06/words/02.wav",
-          "number_start_ms": 4700,
+          "number_start_ms": 5700,
           "number_ms": 1300,
-          "word_start_ms": 7000,
+          "word_start_ms": 8000,
           "word_ms": 1180
         },
         {
@@ -1618,9 +1624,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_06/numbers/03.wav",
           "word_clip": "rounds/round_06/words/03.wav",
-          "number_start_ms": 9180,
+          "number_start_ms": 11180,
           "number_ms": 480,
-          "word_start_ms": 10660,
+          "word_start_ms": 12660,
           "word_ms": 1240
         },
         {
@@ -1629,9 +1635,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/04.wav",
           "word_clip": "rounds/round_06/words/04.wav",
-          "number_start_ms": 12900,
+          "number_start_ms": 15900,
           "number_ms": 830,
-          "word_start_ms": 14730,
+          "word_start_ms": 17730,
           "word_ms": 1200
         },
         {
@@ -1640,9 +1646,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/05.wav",
           "word_clip": "rounds/round_06/words/05.wav",
-          "number_start_ms": 16930,
+          "number_start_ms": 20930,
           "number_ms": 670,
-          "word_start_ms": 18600,
+          "word_start_ms": 22600,
           "word_ms": 1150
         },
         {
@@ -1651,9 +1657,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/06.wav",
           "word_clip": "rounds/round_06/words/06.wav",
-          "number_start_ms": 20750,
+          "number_start_ms": 25750,
           "number_ms": 930,
-          "word_start_ms": 22680,
+          "word_start_ms": 27680,
           "word_ms": 980
         },
         {
@@ -1662,9 +1668,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/07.wav",
           "word_clip": "rounds/round_06/words/07.wav",
-          "number_start_ms": 24660,
+          "number_start_ms": 30660,
           "number_ms": 810,
-          "word_start_ms": 26470,
+          "word_start_ms": 32470,
           "word_ms": 740
         },
         {
@@ -1673,9 +1679,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_06/numbers/08.wav",
           "word_clip": "rounds/round_06/words/08.wav",
-          "number_start_ms": 28210,
+          "number_start_ms": 35210,
           "number_ms": 800,
-          "word_start_ms": 30010,
+          "word_start_ms": 37010,
           "word_ms": 650
         },
         {
@@ -1684,9 +1690,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/09.wav",
           "word_clip": "rounds/round_06/words/09.wav",
-          "number_start_ms": 31660,
+          "number_start_ms": 39660,
           "number_ms": 800,
-          "word_start_ms": 33460,
+          "word_start_ms": 41460,
           "word_ms": 920
         },
         {
@@ -1695,9 +1701,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/10.wav",
           "word_clip": "rounds/round_06/words/10.wav",
-          "number_start_ms": 35380,
+          "number_start_ms": 44380,
           "number_ms": 760,
-          "word_start_ms": 37140,
+          "word_start_ms": 46140,
           "word_ms": 740
         },
         {
@@ -1706,9 +1712,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/11.wav",
           "word_clip": "rounds/round_06/words/11.wav",
-          "number_start_ms": 38880,
+          "number_start_ms": 48880,
           "number_ms": 980,
-          "word_start_ms": 40860,
+          "word_start_ms": 50860,
           "word_ms": 850
         },
         {
@@ -1717,9 +1723,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/12.wav",
           "word_clip": "rounds/round_06/words/12.wav",
-          "number_start_ms": 42710,
+          "number_start_ms": 53710,
           "number_ms": 1070,
-          "word_start_ms": 44780,
+          "word_start_ms": 55780,
           "word_ms": 850
         },
         {
@@ -1728,9 +1734,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_06/numbers/13.wav",
           "word_clip": "rounds/round_06/words/13.wav",
-          "number_start_ms": 46630,
+          "number_start_ms": 58630,
           "number_ms": 960,
-          "word_start_ms": 48590,
+          "word_start_ms": 60590,
           "word_ms": 760
         },
         {
@@ -1739,9 +1745,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/14.wav",
           "word_clip": "rounds/round_06/words/14.wav",
-          "number_start_ms": 50350,
+          "number_start_ms": 63350,
           "number_ms": 1000,
-          "word_start_ms": 52350,
+          "word_start_ms": 65350,
           "word_ms": 820
         },
         {
@@ -1750,9 +1756,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/15.wav",
           "word_clip": "rounds/round_06/words/15.wav",
-          "number_start_ms": 54170,
+          "number_start_ms": 68170,
           "number_ms": 980,
-          "word_start_ms": 56150,
+          "word_start_ms": 70150,
           "word_ms": 970
         },
         {
@@ -1761,9 +1767,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/16.wav",
           "word_clip": "rounds/round_06/words/16.wav",
-          "number_start_ms": 58120,
+          "number_start_ms": 73120,
           "number_ms": 870,
-          "word_start_ms": 59990,
+          "word_start_ms": 74990,
           "word_ms": 720
         },
         {
@@ -1772,9 +1778,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/17.wav",
           "word_clip": "rounds/round_06/words/17.wav",
-          "number_start_ms": 61710,
+          "number_start_ms": 77710,
           "number_ms": 930,
-          "word_start_ms": 63640,
+          "word_start_ms": 79640,
           "word_ms": 600
         },
         {
@@ -1783,9 +1789,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_06/numbers/18.wav",
           "word_clip": "rounds/round_06/words/18.wav",
-          "number_start_ms": 65240,
+          "number_start_ms": 82240,
           "number_ms": 1040,
-          "word_start_ms": 67280,
+          "word_start_ms": 84280,
           "word_ms": 610
         },
         {
@@ -1794,9 +1800,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/19.wav",
           "word_clip": "rounds/round_06/words/19.wav",
-          "number_start_ms": 68890,
+          "number_start_ms": 86890,
           "number_ms": 990,
-          "word_start_ms": 70880,
+          "word_start_ms": 88880,
           "word_ms": 590
         },
         {
@@ -1805,9 +1811,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/20.wav",
           "word_clip": "rounds/round_06/words/20.wav",
-          "number_start_ms": 72470,
+          "number_start_ms": 91470,
           "number_ms": 860,
-          "word_start_ms": 74330,
+          "word_start_ms": 93330,
           "word_ms": 930
         },
         {
@@ -1816,9 +1822,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/21.wav",
           "word_clip": "rounds/round_06/words/21.wav",
-          "number_start_ms": 76260,
+          "number_start_ms": 96260,
           "number_ms": 950,
-          "word_start_ms": 78210,
+          "word_start_ms": 98210,
           "word_ms": 670
         },
         {
@@ -1827,9 +1833,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/22.wav",
           "word_clip": "rounds/round_06/words/22.wav",
-          "number_start_ms": 79880,
+          "number_start_ms": 100880,
           "number_ms": 870,
-          "word_start_ms": 81750,
+          "word_start_ms": 102750,
           "word_ms": 670
         },
         {
@@ -1838,9 +1844,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_06/numbers/23.wav",
           "word_clip": "rounds/round_06/words/23.wav",
-          "number_start_ms": 83420,
+          "number_start_ms": 105420,
           "number_ms": 870,
-          "word_start_ms": 85290,
+          "word_start_ms": 107290,
           "word_ms": 750
         },
         {
@@ -1849,9 +1855,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/24.wav",
           "word_clip": "rounds/round_06/words/24.wav",
-          "number_start_ms": 87040,
+          "number_start_ms": 110040,
           "number_ms": 1120,
-          "word_start_ms": 89160,
+          "word_start_ms": 112160,
           "word_ms": 720
         },
         {
@@ -1860,9 +1866,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_06/numbers/25.wav",
           "word_clip": "rounds/round_06/words/25.wav",
-          "number_start_ms": 90880,
+          "number_start_ms": 114880,
           "number_ms": 960,
-          "word_start_ms": 92840,
+          "word_start_ms": 116840,
           "word_ms": 590
         }
       ]
@@ -1875,9 +1881,10 @@
       "scene": "A parade ground at dawn in front of new recruits",
       "performance": "Bark every line, loud, harsh and stern, as an order that nobody dares to disobey",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_07/dictation.mp3",
-      "dictation_ms": 84730,
+      "dictation_ms": 109730,
       "gain_db": -6.9,
       "segmentation": {
         "shortest_gap_s": 0.4,
@@ -1918,9 +1925,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/02.wav",
           "word_clip": "rounds/round_07/words/02.wav",
-          "number_start_ms": 3290,
+          "number_start_ms": 4290,
           "number_ms": 530,
-          "word_start_ms": 4820,
+          "word_start_ms": 5820,
           "word_ms": 540
         },
         {
@@ -1929,9 +1936,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_07/numbers/03.wav",
           "word_clip": "rounds/round_07/words/03.wav",
-          "number_start_ms": 6360,
+          "number_start_ms": 8360,
           "number_ms": 390,
-          "word_start_ms": 7750,
+          "word_start_ms": 9750,
           "word_ms": 690
         },
         {
@@ -1940,9 +1947,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/04.wav",
           "word_clip": "rounds/round_07/words/04.wav",
-          "number_start_ms": 9440,
+          "number_start_ms": 12440,
           "number_ms": 600,
-          "word_start_ms": 11040,
+          "word_start_ms": 14040,
           "word_ms": 720
         },
         {
@@ -1951,9 +1958,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/05.wav",
           "word_clip": "rounds/round_07/words/05.wav",
-          "number_start_ms": 12760,
+          "number_start_ms": 16760,
           "number_ms": 410,
-          "word_start_ms": 14170,
+          "word_start_ms": 18170,
           "word_ms": 620
         },
         {
@@ -1962,9 +1969,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/06.wav",
           "word_clip": "rounds/round_07/words/06.wav",
-          "number_start_ms": 15790,
+          "number_start_ms": 20790,
           "number_ms": 560,
-          "word_start_ms": 17350,
+          "word_start_ms": 22350,
           "word_ms": 670
         },
         {
@@ -1973,9 +1980,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/07.wav",
           "word_clip": "rounds/round_07/words/07.wav",
-          "number_start_ms": 19020,
+          "number_start_ms": 25020,
           "number_ms": 540,
-          "word_start_ms": 20560,
+          "word_start_ms": 26560,
           "word_ms": 600
         },
         {
@@ -1984,9 +1991,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_07/numbers/08.wav",
           "word_clip": "rounds/round_07/words/08.wav",
-          "number_start_ms": 22160,
+          "number_start_ms": 29160,
           "number_ms": 620,
-          "word_start_ms": 23780,
+          "word_start_ms": 30780,
           "word_ms": 620
         },
         {
@@ -1995,9 +2002,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/09.wav",
           "word_clip": "rounds/round_07/words/09.wav",
-          "number_start_ms": 25400,
+          "number_start_ms": 33400,
           "number_ms": 610,
-          "word_start_ms": 27010,
+          "word_start_ms": 35010,
           "word_ms": 700
         },
         {
@@ -2006,9 +2013,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/10.wav",
           "word_clip": "rounds/round_07/words/10.wav",
-          "number_start_ms": 28710,
+          "number_start_ms": 37710,
           "number_ms": 630,
-          "word_start_ms": 30340,
+          "word_start_ms": 39340,
           "word_ms": 680
         },
         {
@@ -2017,9 +2024,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/11.wav",
           "word_clip": "rounds/round_07/words/11.wav",
-          "number_start_ms": 32020,
+          "number_start_ms": 42020,
           "number_ms": 810,
-          "word_start_ms": 33830,
+          "word_start_ms": 43830,
           "word_ms": 670
         },
         {
@@ -2028,9 +2035,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/12.wav",
           "word_clip": "rounds/round_07/words/12.wav",
-          "number_start_ms": 35500,
+          "number_start_ms": 46500,
           "number_ms": 790,
-          "word_start_ms": 37290,
+          "word_start_ms": 48290,
           "word_ms": 740
         },
         {
@@ -2039,9 +2046,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_07/numbers/13.wav",
           "word_clip": "rounds/round_07/words/13.wav",
-          "number_start_ms": 39030,
+          "number_start_ms": 51030,
           "number_ms": 740,
-          "word_start_ms": 40770,
+          "word_start_ms": 52770,
           "word_ms": 770
         },
         {
@@ -2050,9 +2057,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/14.wav",
           "word_clip": "rounds/round_07/words/14.wav",
-          "number_start_ms": 42540,
+          "number_start_ms": 55540,
           "number_ms": 850,
-          "word_start_ms": 44390,
+          "word_start_ms": 57390,
           "word_ms": 710
         },
         {
@@ -2061,9 +2068,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/15.wav",
           "word_clip": "rounds/round_07/words/15.wav",
-          "number_start_ms": 46100,
+          "number_start_ms": 60100,
           "number_ms": 750,
-          "word_start_ms": 47850,
+          "word_start_ms": 61850,
           "word_ms": 660
         },
         {
@@ -2072,9 +2079,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/16.wav",
           "word_clip": "rounds/round_07/words/16.wav",
-          "number_start_ms": 49510,
+          "number_start_ms": 64510,
           "number_ms": 800,
-          "word_start_ms": 51310,
+          "word_start_ms": 66310,
           "word_ms": 740
         },
         {
@@ -2083,9 +2090,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/17.wav",
           "word_clip": "rounds/round_07/words/17.wav",
-          "number_start_ms": 53050,
+          "number_start_ms": 69050,
           "number_ms": 790,
-          "word_start_ms": 54840,
+          "word_start_ms": 70840,
           "word_ms": 690
         },
         {
@@ -2094,9 +2101,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_07/numbers/18.wav",
           "word_clip": "rounds/round_07/words/18.wav",
-          "number_start_ms": 56530,
+          "number_start_ms": 73530,
           "number_ms": 830,
-          "word_start_ms": 58360,
+          "word_start_ms": 75360,
           "word_ms": 640
         },
         {
@@ -2105,9 +2112,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/19.wav",
           "word_clip": "rounds/round_07/words/19.wav",
-          "number_start_ms": 60000,
+          "number_start_ms": 78000,
           "number_ms": 890,
-          "word_start_ms": 61890,
+          "word_start_ms": 79890,
           "word_ms": 650
         },
         {
@@ -2116,9 +2123,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/20.wav",
           "word_clip": "rounds/round_07/words/20.wav",
-          "number_start_ms": 63540,
+          "number_start_ms": 82540,
           "number_ms": 690,
-          "word_start_ms": 65230,
+          "word_start_ms": 84230,
           "word_ms": 540
         },
         {
@@ -2127,9 +2134,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/21.wav",
           "word_clip": "rounds/round_07/words/21.wav",
-          "number_start_ms": 66770,
+          "number_start_ms": 86770,
           "number_ms": 940,
-          "word_start_ms": 68710,
+          "word_start_ms": 88710,
           "word_ms": 660
         },
         {
@@ -2138,9 +2145,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/22.wav",
           "word_clip": "rounds/round_07/words/22.wav",
-          "number_start_ms": 70370,
+          "number_start_ms": 91370,
           "number_ms": 890,
-          "word_start_ms": 72260,
+          "word_start_ms": 93260,
           "word_ms": 570
         },
         {
@@ -2149,9 +2156,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_07/numbers/23.wav",
           "word_clip": "rounds/round_07/words/23.wav",
-          "number_start_ms": 73830,
+          "number_start_ms": 95830,
           "number_ms": 910,
-          "word_start_ms": 75740,
+          "word_start_ms": 97740,
           "word_ms": 590
         },
         {
@@ -2160,9 +2167,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/24.wav",
           "word_clip": "rounds/round_07/words/24.wav",
-          "number_start_ms": 77330,
+          "number_start_ms": 100330,
           "number_ms": 1030,
-          "word_start_ms": 79360,
+          "word_start_ms": 102360,
           "word_ms": 610
         },
         {
@@ -2171,9 +2178,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_07/numbers/25.wav",
           "word_clip": "rounds/round_07/words/25.wav",
-          "number_start_ms": 80970,
+          "number_start_ms": 104970,
           "number_ms": 960,
-          "word_start_ms": 82930,
+          "word_start_ms": 106930,
           "word_ms": 800
         }
       ]
@@ -2186,9 +2193,10 @@
       "scene": "A dark library at midnight; nobody must overhear",
       "performance": "Speak very quietly and secretively in a low, hushed voice, close to the microphone. Do not whisper: keep the voice sounding and every consonant distinct",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_08/dictation.mp3",
-      "dictation_ms": 90690,
+      "dictation_ms": 115690,
       "gain_db": 0.3,
       "segmentation": {
         "shortest_gap_s": 0.41,
@@ -2229,9 +2237,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/02.wav",
           "word_clip": "rounds/round_08/words/02.wav",
-          "number_start_ms": 3770,
+          "number_start_ms": 4770,
           "number_ms": 510,
-          "word_start_ms": 5280,
+          "word_start_ms": 6280,
           "word_ms": 1550
         },
         {
@@ -2240,9 +2248,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_08/numbers/03.wav",
           "word_clip": "rounds/round_08/words/03.wav",
-          "number_start_ms": 7830,
+          "number_start_ms": 9830,
           "number_ms": 440,
-          "word_start_ms": 9270,
+          "word_start_ms": 11270,
           "word_ms": 730
         },
         {
@@ -2251,9 +2259,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/04.wav",
           "word_clip": "rounds/round_08/words/04.wav",
-          "number_start_ms": 11000,
+          "number_start_ms": 14000,
           "number_ms": 770,
-          "word_start_ms": 12770,
+          "word_start_ms": 15770,
           "word_ms": 810
         },
         {
@@ -2262,9 +2270,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/05.wav",
           "word_clip": "rounds/round_08/words/05.wav",
-          "number_start_ms": 14580,
+          "number_start_ms": 18580,
           "number_ms": 600,
-          "word_start_ms": 16180,
+          "word_start_ms": 20180,
           "word_ms": 840
         },
         {
@@ -2273,9 +2281,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/06.wav",
           "word_clip": "rounds/round_08/words/06.wav",
-          "number_start_ms": 18020,
+          "number_start_ms": 23020,
           "number_ms": 790,
-          "word_start_ms": 19810,
+          "word_start_ms": 24810,
           "word_ms": 680
         },
         {
@@ -2284,9 +2292,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/07.wav",
           "word_clip": "rounds/round_08/words/07.wav",
-          "number_start_ms": 21490,
+          "number_start_ms": 27490,
           "number_ms": 660,
-          "word_start_ms": 23150,
+          "word_start_ms": 29150,
           "word_ms": 700
         },
         {
@@ -2295,9 +2303,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_08/numbers/08.wav",
           "word_clip": "rounds/round_08/words/08.wav",
-          "number_start_ms": 24850,
+          "number_start_ms": 31850,
           "number_ms": 800,
-          "word_start_ms": 26650,
+          "word_start_ms": 33650,
           "word_ms": 650
         },
         {
@@ -2306,9 +2314,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/09.wav",
           "word_clip": "rounds/round_08/words/09.wav",
-          "number_start_ms": 28300,
+          "number_start_ms": 36300,
           "number_ms": 690,
-          "word_start_ms": 29990,
+          "word_start_ms": 37990,
           "word_ms": 640
         },
         {
@@ -2317,9 +2325,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/10.wav",
           "word_clip": "rounds/round_08/words/10.wav",
-          "number_start_ms": 31630,
+          "number_start_ms": 40630,
           "number_ms": 740,
-          "word_start_ms": 33370,
+          "word_start_ms": 42370,
           "word_ms": 710
         },
         {
@@ -2328,9 +2336,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/11.wav",
           "word_clip": "rounds/round_08/words/11.wav",
-          "number_start_ms": 35080,
+          "number_start_ms": 45080,
           "number_ms": 990,
-          "word_start_ms": 37070,
+          "word_start_ms": 47070,
           "word_ms": 780
         },
         {
@@ -2339,9 +2347,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/12.wav",
           "word_clip": "rounds/round_08/words/12.wav",
-          "number_start_ms": 38850,
+          "number_start_ms": 49850,
           "number_ms": 900,
-          "word_start_ms": 40750,
+          "word_start_ms": 51750,
           "word_ms": 710
         },
         {
@@ -2350,9 +2358,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_08/numbers/13.wav",
           "word_clip": "rounds/round_08/words/13.wav",
-          "number_start_ms": 42460,
+          "number_start_ms": 54460,
           "number_ms": 880,
-          "word_start_ms": 44340,
+          "word_start_ms": 56340,
           "word_ms": 1020
         },
         {
@@ -2361,9 +2369,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/14.wav",
           "word_clip": "rounds/round_08/words/14.wav",
-          "number_start_ms": 46360,
+          "number_start_ms": 59360,
           "number_ms": 1010,
-          "word_start_ms": 48370,
+          "word_start_ms": 61370,
           "word_ms": 780
         },
         {
@@ -2372,9 +2380,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/15.wav",
           "word_clip": "rounds/round_08/words/15.wav",
-          "number_start_ms": 50150,
+          "number_start_ms": 64150,
           "number_ms": 890,
-          "word_start_ms": 52040,
+          "word_start_ms": 66040,
           "word_ms": 830
         },
         {
@@ -2383,9 +2391,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/16.wav",
           "word_clip": "rounds/round_08/words/16.wav",
-          "number_start_ms": 53870,
+          "number_start_ms": 68870,
           "number_ms": 950,
-          "word_start_ms": 55820,
+          "word_start_ms": 70820,
           "word_ms": 580
         },
         {
@@ -2394,9 +2402,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/17.wav",
           "word_clip": "rounds/round_08/words/17.wav",
-          "number_start_ms": 57400,
+          "number_start_ms": 73400,
           "number_ms": 980,
-          "word_start_ms": 59380,
+          "word_start_ms": 75380,
           "word_ms": 510
         },
         {
@@ -2405,9 +2413,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_08/numbers/18.wav",
           "word_clip": "rounds/round_08/words/18.wav",
-          "number_start_ms": 60890,
+          "number_start_ms": 77890,
           "number_ms": 1050,
-          "word_start_ms": 62940,
+          "word_start_ms": 79940,
           "word_ms": 560
         },
         {
@@ -2416,9 +2424,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/19.wav",
           "word_clip": "rounds/round_08/words/19.wav",
-          "number_start_ms": 64500,
+          "number_start_ms": 82500,
           "number_ms": 990,
-          "word_start_ms": 66490,
+          "word_start_ms": 84490,
           "word_ms": 450
         },
         {
@@ -2427,9 +2435,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/20.wav",
           "word_clip": "rounds/round_08/words/20.wav",
-          "number_start_ms": 67940,
+          "number_start_ms": 86940,
           "number_ms": 740,
-          "word_start_ms": 69680,
+          "word_start_ms": 88680,
           "word_ms": 1460
         },
         {
@@ -2438,9 +2446,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/21.wav",
           "word_clip": "rounds/round_08/words/21.wav",
-          "number_start_ms": 72140,
+          "number_start_ms": 92140,
           "number_ms": 1010,
-          "word_start_ms": 74150,
+          "word_start_ms": 94150,
           "word_ms": 670
         },
         {
@@ -2449,9 +2457,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/22.wav",
           "word_clip": "rounds/round_08/words/22.wav",
-          "number_start_ms": 75820,
+          "number_start_ms": 96820,
           "number_ms": 880,
-          "word_start_ms": 77700,
+          "word_start_ms": 98700,
           "word_ms": 760
         },
         {
@@ -2460,9 +2468,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_08/numbers/23.wav",
           "word_clip": "rounds/round_08/words/23.wav",
-          "number_start_ms": 79460,
+          "number_start_ms": 101460,
           "number_ms": 870,
-          "word_start_ms": 81330,
+          "word_start_ms": 103330,
           "word_ms": 780
         },
         {
@@ -2471,9 +2479,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/24.wav",
           "word_clip": "rounds/round_08/words/24.wav",
-          "number_start_ms": 83110,
+          "number_start_ms": 106110,
           "number_ms": 1050,
-          "word_start_ms": 85160,
+          "word_start_ms": 108160,
           "word_ms": 730
         },
         {
@@ -2482,9 +2490,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_08/numbers/25.wav",
           "word_clip": "rounds/round_08/words/25.wav",
-          "number_start_ms": 86890,
+          "number_start_ms": 110890,
           "number_ms": 950,
-          "word_start_ms": 88840,
+          "word_start_ms": 112840,
           "word_ms": 850
         }
       ]
@@ -2497,9 +2505,10 @@
       "scene": "A cluttered study piled with lost glasses and notes",
       "performance": "Speak in a flustered, quavering, elderly voice, hurried and worried, desperately trying not to forget each word",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_09/dictation.mp3",
-      "dictation_ms": 99330,
+      "dictation_ms": 124330,
       "gain_db": 0.1,
       "segmentation": {
         "shortest_gap_s": 0.3,
@@ -2540,9 +2549,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/02.wav",
           "word_clip": "rounds/round_09/words/02.wav",
-          "number_start_ms": 3890,
+          "number_start_ms": 4890,
           "number_ms": 1190,
-          "word_start_ms": 6080,
+          "word_start_ms": 7080,
           "word_ms": 980
         },
         {
@@ -2551,9 +2560,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_09/numbers/03.wav",
           "word_clip": "rounds/round_09/words/03.wav",
-          "number_start_ms": 8060,
+          "number_start_ms": 10060,
           "number_ms": 910,
-          "word_start_ms": 9970,
+          "word_start_ms": 11970,
           "word_ms": 700
         },
         {
@@ -2562,9 +2571,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/04.wav",
           "word_clip": "rounds/round_09/words/04.wav",
-          "number_start_ms": 11670,
+          "number_start_ms": 14670,
           "number_ms": 1050,
-          "word_start_ms": 13720,
+          "word_start_ms": 16720,
           "word_ms": 760
         },
         {
@@ -2573,9 +2582,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/05.wav",
           "word_clip": "rounds/round_09/words/05.wav",
-          "number_start_ms": 15480,
+          "number_start_ms": 19480,
           "number_ms": 800,
-          "word_start_ms": 17280,
+          "word_start_ms": 21280,
           "word_ms": 1000
         },
         {
@@ -2584,9 +2593,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/06.wav",
           "word_clip": "rounds/round_09/words/06.wav",
-          "number_start_ms": 19280,
+          "number_start_ms": 24280,
           "number_ms": 820,
-          "word_start_ms": 21100,
+          "word_start_ms": 26100,
           "word_ms": 1040
         },
         {
@@ -2595,9 +2604,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/07.wav",
           "word_clip": "rounds/round_09/words/07.wav",
-          "number_start_ms": 23140,
+          "number_start_ms": 29140,
           "number_ms": 900,
-          "word_start_ms": 25040,
+          "word_start_ms": 31040,
           "word_ms": 720
         },
         {
@@ -2606,9 +2615,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_09/numbers/08.wav",
           "word_clip": "rounds/round_09/words/08.wav",
-          "number_start_ms": 26760,
+          "number_start_ms": 33760,
           "number_ms": 720,
-          "word_start_ms": 28480,
+          "word_start_ms": 35480,
           "word_ms": 1080
         },
         {
@@ -2617,9 +2626,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/09.wav",
           "word_clip": "rounds/round_09/words/09.wav",
-          "number_start_ms": 30560,
+          "number_start_ms": 38560,
           "number_ms": 900,
-          "word_start_ms": 32460,
+          "word_start_ms": 40460,
           "word_ms": 1010
         },
         {
@@ -2628,9 +2637,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/10.wav",
           "word_clip": "rounds/round_09/words/10.wav",
-          "number_start_ms": 34470,
+          "number_start_ms": 43470,
           "number_ms": 950,
-          "word_start_ms": 36420,
+          "word_start_ms": 45420,
           "word_ms": 1350
         },
         {
@@ -2639,9 +2648,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/11.wav",
           "word_clip": "rounds/round_09/words/11.wav",
-          "number_start_ms": 38770,
+          "number_start_ms": 48770,
           "number_ms": 1190,
-          "word_start_ms": 40960,
+          "word_start_ms": 50960,
           "word_ms": 790
         },
         {
@@ -2650,9 +2659,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/12.wav",
           "word_clip": "rounds/round_09/words/12.wav",
-          "number_start_ms": 42750,
+          "number_start_ms": 53750,
           "number_ms": 960,
-          "word_start_ms": 44710,
+          "word_start_ms": 55710,
           "word_ms": 610
         },
         {
@@ -2661,9 +2670,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_09/numbers/13.wav",
           "word_clip": "rounds/round_09/words/13.wav",
-          "number_start_ms": 46320,
+          "number_start_ms": 58320,
           "number_ms": 1220,
-          "word_start_ms": 48540,
+          "word_start_ms": 60540,
           "word_ms": 830
         },
         {
@@ -2672,9 +2681,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/14.wav",
           "word_clip": "rounds/round_09/words/14.wav",
-          "number_start_ms": 50370,
+          "number_start_ms": 63370,
           "number_ms": 1230,
-          "word_start_ms": 52600,
+          "word_start_ms": 65600,
           "word_ms": 820
         },
         {
@@ -2683,9 +2692,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/15.wav",
           "word_clip": "rounds/round_09/words/15.wav",
-          "number_start_ms": 54420,
+          "number_start_ms": 68420,
           "number_ms": 1120,
-          "word_start_ms": 56540,
+          "word_start_ms": 70540,
           "word_ms": 710
         },
         {
@@ -2694,9 +2703,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/16.wav",
           "word_clip": "rounds/round_09/words/16.wav",
-          "number_start_ms": 58250,
+          "number_start_ms": 73250,
           "number_ms": 1170,
-          "word_start_ms": 60420,
+          "word_start_ms": 75420,
           "word_ms": 940
         },
         {
@@ -2705,9 +2714,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/17.wav",
           "word_clip": "rounds/round_09/words/17.wav",
-          "number_start_ms": 62360,
+          "number_start_ms": 78360,
           "number_ms": 1290,
-          "word_start_ms": 64650,
+          "word_start_ms": 80650,
           "word_ms": 1280
         },
         {
@@ -2716,9 +2725,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_09/numbers/18.wav",
           "word_clip": "rounds/round_09/words/18.wav",
-          "number_start_ms": 66930,
+          "number_start_ms": 83930,
           "number_ms": 1220,
-          "word_start_ms": 69150,
+          "word_start_ms": 86150,
           "word_ms": 1000
         },
         {
@@ -2727,9 +2736,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/19.wav",
           "word_clip": "rounds/round_09/words/19.wav",
-          "number_start_ms": 71150,
+          "number_start_ms": 89150,
           "number_ms": 1250,
-          "word_start_ms": 73400,
+          "word_start_ms": 91400,
           "word_ms": 890
         },
         {
@@ -2738,9 +2747,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/20.wav",
           "word_clip": "rounds/round_09/words/20.wav",
-          "number_start_ms": 75290,
+          "number_start_ms": 94290,
           "number_ms": 930,
-          "word_start_ms": 77220,
+          "word_start_ms": 96220,
           "word_ms": 760
         },
         {
@@ -2749,9 +2758,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/21.wav",
           "word_clip": "rounds/round_09/words/21.wav",
-          "number_start_ms": 78980,
+          "number_start_ms": 98980,
           "number_ms": 1370,
-          "word_start_ms": 81350,
+          "word_start_ms": 101350,
           "word_ms": 1030
         },
         {
@@ -2760,9 +2769,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/22.wav",
           "word_clip": "rounds/round_09/words/22.wav",
-          "number_start_ms": 83380,
+          "number_start_ms": 104380,
           "number_ms": 1180,
-          "word_start_ms": 85560,
+          "word_start_ms": 106560,
           "word_ms": 990
         },
         {
@@ -2771,9 +2780,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_09/numbers/23.wav",
           "word_clip": "rounds/round_09/words/23.wav",
-          "number_start_ms": 87550,
+          "number_start_ms": 109550,
           "number_ms": 1240,
-          "word_start_ms": 89790,
+          "word_start_ms": 111790,
           "word_ms": 720
         },
         {
@@ -2782,9 +2791,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/24.wav",
           "word_clip": "rounds/round_09/words/24.wav",
-          "number_start_ms": 91510,
+          "number_start_ms": 114510,
           "number_ms": 1380,
-          "word_start_ms": 93890,
+          "word_start_ms": 116890,
           "word_ms": 660
         },
         {
@@ -2793,9 +2802,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_09/numbers/25.wav",
           "word_clip": "rounds/round_09/words/25.wav",
-          "number_start_ms": 95550,
+          "number_start_ms": 119550,
           "number_ms": 1170,
-          "word_start_ms": 97720,
+          "word_start_ms": 121720,
           "word_ms": 610
         }
       ]
@@ -2808,9 +2817,10 @@
       "scene": "A cosy room by the fireplace at bedtime",
       "performance": "Speak softly and slowly in a kind old voice, lovingly drawing out every word like a fairy tale",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 2000,
       "dictation": "rounds/round_10/dictation.mp3",
-      "dictation_ms": 100140,
+      "dictation_ms": 125140,
       "gain_db": -1.2,
       "segmentation": {
         "shortest_gap_s": 0.5,
@@ -2851,9 +2861,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/02.wav",
           "word_clip": "rounds/round_10/words/02.wav",
-          "number_start_ms": 3960,
+          "number_start_ms": 4960,
           "number_ms": 980,
-          "word_start_ms": 5940,
+          "word_start_ms": 6940,
           "word_ms": 1140
         },
         {
@@ -2862,9 +2872,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_10/numbers/03.wav",
           "word_clip": "rounds/round_10/words/03.wav",
-          "number_start_ms": 8080,
+          "number_start_ms": 10080,
           "number_ms": 520,
-          "word_start_ms": 9600,
+          "word_start_ms": 11600,
           "word_ms": 870
         },
         {
@@ -2873,9 +2883,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/04.wav",
           "word_clip": "rounds/round_10/words/04.wav",
-          "number_start_ms": 11470,
+          "number_start_ms": 14470,
           "number_ms": 1010,
-          "word_start_ms": 13480,
+          "word_start_ms": 16480,
           "word_ms": 990
         },
         {
@@ -2884,9 +2894,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/05.wav",
           "word_clip": "rounds/round_10/words/05.wav",
-          "number_start_ms": 15470,
+          "number_start_ms": 19470,
           "number_ms": 720,
-          "word_start_ms": 17190,
+          "word_start_ms": 21190,
           "word_ms": 1130
         },
         {
@@ -2895,9 +2905,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/06.wav",
           "word_clip": "rounds/round_10/words/06.wav",
-          "number_start_ms": 19320,
+          "number_start_ms": 24320,
           "number_ms": 860,
-          "word_start_ms": 21180,
+          "word_start_ms": 26180,
           "word_ms": 860
         },
         {
@@ -2906,9 +2916,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/07.wav",
           "word_clip": "rounds/round_10/words/07.wav",
-          "number_start_ms": 23040,
+          "number_start_ms": 29040,
           "number_ms": 1380,
-          "word_start_ms": 25420,
+          "word_start_ms": 31420,
           "word_ms": 930
         },
         {
@@ -2917,9 +2927,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_10/numbers/08.wav",
           "word_clip": "rounds/round_10/words/08.wav",
-          "number_start_ms": 27350,
+          "number_start_ms": 34350,
           "number_ms": 980,
-          "word_start_ms": 29330,
+          "word_start_ms": 36330,
           "word_ms": 1090
         },
         {
@@ -2928,9 +2938,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/09.wav",
           "word_clip": "rounds/round_10/words/09.wav",
-          "number_start_ms": 31420,
+          "number_start_ms": 39420,
           "number_ms": 1220,
-          "word_start_ms": 33640,
+          "word_start_ms": 41640,
           "word_ms": 1420
         },
         {
@@ -2939,9 +2949,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/10.wav",
           "word_clip": "rounds/round_10/words/10.wav",
-          "number_start_ms": 36060,
+          "number_start_ms": 45060,
           "number_ms": 890,
-          "word_start_ms": 37950,
+          "word_start_ms": 46950,
           "word_ms": 730
         },
         {
@@ -2950,9 +2960,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/11.wav",
           "word_clip": "rounds/round_10/words/11.wav",
-          "number_start_ms": 39680,
+          "number_start_ms": 49680,
           "number_ms": 1020,
-          "word_start_ms": 41700,
+          "word_start_ms": 51700,
           "word_ms": 960
         },
         {
@@ -2961,9 +2971,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/12.wav",
           "word_clip": "rounds/round_10/words/12.wav",
-          "number_start_ms": 43660,
+          "number_start_ms": 54660,
           "number_ms": 1090,
-          "word_start_ms": 45750,
+          "word_start_ms": 56750,
           "word_ms": 760
         },
         {
@@ -2972,9 +2982,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_10/numbers/13.wav",
           "word_clip": "rounds/round_10/words/13.wav",
-          "number_start_ms": 47510,
+          "number_start_ms": 59510,
           "number_ms": 1020,
-          "word_start_ms": 49530,
+          "word_start_ms": 61530,
           "word_ms": 810
         },
         {
@@ -2983,9 +2993,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/14.wav",
           "word_clip": "rounds/round_10/words/14.wav",
-          "number_start_ms": 51340,
+          "number_start_ms": 64340,
           "number_ms": 1230,
-          "word_start_ms": 53570,
+          "word_start_ms": 66570,
           "word_ms": 840
         },
         {
@@ -2994,9 +3004,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/15.wav",
           "word_clip": "rounds/round_10/words/15.wav",
-          "number_start_ms": 55410,
+          "number_start_ms": 69410,
           "number_ms": 940,
-          "word_start_ms": 57350,
+          "word_start_ms": 71350,
           "word_ms": 1190
         },
         {
@@ -3005,9 +3015,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/16.wav",
           "word_clip": "rounds/round_10/words/16.wav",
-          "number_start_ms": 59540,
+          "number_start_ms": 74540,
           "number_ms": 1170,
-          "word_start_ms": 61710,
+          "word_start_ms": 76710,
           "word_ms": 1290
         },
         {
@@ -3016,9 +3026,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/17.wav",
           "word_clip": "rounds/round_10/words/17.wav",
-          "number_start_ms": 64000,
+          "number_start_ms": 80000,
           "number_ms": 1340,
-          "word_start_ms": 66340,
+          "word_start_ms": 82340,
           "word_ms": 1000
         },
         {
@@ -3027,9 +3037,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_10/numbers/18.wav",
           "word_clip": "rounds/round_10/words/18.wav",
-          "number_start_ms": 68340,
+          "number_start_ms": 85340,
           "number_ms": 1280,
-          "word_start_ms": 70620,
+          "word_start_ms": 87620,
           "word_ms": 820
         },
         {
@@ -3038,9 +3048,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/19.wav",
           "word_clip": "rounds/round_10/words/19.wav",
-          "number_start_ms": 72440,
+          "number_start_ms": 90440,
           "number_ms": 1200,
-          "word_start_ms": 74640,
+          "word_start_ms": 92640,
           "word_ms": 950
         },
         {
@@ -3049,9 +3059,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/20.wav",
           "word_clip": "rounds/round_10/words/20.wav",
-          "number_start_ms": 76590,
+          "number_start_ms": 95590,
           "number_ms": 830,
-          "word_start_ms": 78420,
+          "word_start_ms": 97420,
           "word_ms": 1030
         },
         {
@@ -3060,9 +3070,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/21.wav",
           "word_clip": "rounds/round_10/words/21.wav",
-          "number_start_ms": 80450,
+          "number_start_ms": 100450,
           "number_ms": 1150,
-          "word_start_ms": 82600,
+          "word_start_ms": 102600,
           "word_ms": 930
         },
         {
@@ -3071,9 +3081,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/22.wav",
           "word_clip": "rounds/round_10/words/22.wav",
-          "number_start_ms": 84530,
+          "number_start_ms": 105530,
           "number_ms": 1100,
-          "word_start_ms": 86630,
+          "word_start_ms": 107630,
           "word_ms": 950
         },
         {
@@ -3082,9 +3092,9 @@
           "difficulty": "hard",
           "number_clip": "rounds/round_10/numbers/23.wav",
           "word_clip": "rounds/round_10/words/23.wav",
-          "number_start_ms": 88580,
+          "number_start_ms": 110580,
           "number_ms": 1180,
-          "word_start_ms": 90760,
+          "word_start_ms": 112760,
           "word_ms": 700
         },
         {
@@ -3093,9 +3103,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/24.wav",
           "word_clip": "rounds/round_10/words/24.wav",
-          "number_start_ms": 92460,
+          "number_start_ms": 115460,
           "number_ms": 1240,
-          "word_start_ms": 94700,
+          "word_start_ms": 117700,
           "word_ms": 660
         },
         {
@@ -3104,9 +3114,9 @@
           "difficulty": "easy",
           "number_clip": "rounds/round_10/numbers/25.wav",
           "word_clip": "rounds/round_10/words/25.wav",
-          "number_start_ms": 96360,
+          "number_start_ms": 120360,
           "number_ms": 1060,
-          "word_start_ms": 98420,
+          "word_start_ms": 122420,
           "word_ms": 720
         }
       ]
@@ -3119,7 +3129,8 @@
       "scene": "A state television studio during an important announcement",
       "performance": "Declaim with grave solemnity, formal, stately and resonant, every word of historic importance",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 1000,
       "dictation": "rounds/round_11/dictation.mp3",
       "dictation_ms": 96660,
       "gain_db": -3.1,
@@ -3430,7 +3441,8 @@
       "scene": "A gym in the middle of a hard workout",
       "performance": "Shout in a punchy, breathless, pumped-up voice, driving the listener on with every line",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 1000,
       "dictation": "rounds/round_12/dictation.mp3",
       "dictation_ms": 83040,
       "gain_db": -3.0,
@@ -3741,7 +3753,8 @@
       "scene": "A rainy night in a smoky office",
       "performance": "Mutter in a low, husky, world-weary voice, slowly and cynically",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 1000,
       "dictation": "rounds/round_13/dictation.mp3",
       "dictation_ms": 94840,
       "gain_db": 0.4,
@@ -4052,7 +4065,8 @@
       "scene": "The grand hall of a great museum",
       "performance": "Speak with refined, awed admiration, breathing out every word as a priceless masterpiece",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 1000,
       "dictation": "rounds/round_14/dictation.mp3",
       "dictation_ms": 115210,
       "gain_db": 0.5,
@@ -4363,7 +4377,8 @@
       "scene": "A noisy fairground",
       "performance": "Bellow in a loud, sing-song, teasing voice, rolling out every word like a fabulous prize",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 1000,
       "dictation": "rounds/round_15/dictation.mp3",
       "dictation_ms": 102860,
       "gain_db": -1.1,
@@ -4674,7 +4689,8 @@
       "scene": "A factory control room",
       "performance": "Speak as a machine: perfectly flat, mechanical and robotic, with no emotion and an exactly equal rhythm",
       "sample_rate": 24000,
-      "pause_ms": 1000,
+      "number_pause_ms": 1000,
+      "word_pause_ms": 1000,
       "dictation": "rounds/round_16/dictation.mp3",
       "dictation_ms": 95380,
       "gain_db": -5.9,

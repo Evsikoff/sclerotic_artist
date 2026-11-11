@@ -24,7 +24,7 @@ npm run build    # сборка в dist/, озвучка копируется т
 | `src/answer.ts` | Сравнение ответа: без регистра, «е/ё», пунктуации и пробелов |
 | `src/progress.ts` | Прогресс в `localStorage` |
 | `src/ads.ts` | Заглушка рекламы |
-| `video/tutorial/` | Сценарий обучающего ролика (`SCRIPT.md`), скриншоты интерфейса, сцены из Gemini Omni и сборка `make_tutorial.py` |
+| `video/tutorial/` | Обучающий ролик: сценарий (`SCRIPT.md`), запись экрана игры (`record_ui.mjs`), сцены из Gemini Omni и сборка `make_tutorial.py` |
 
 Номер ячейки в опросе вырезается из `dictation.mp3` по таймингам манифеста, поэтому в сборку попадают только `dictation.mp3` и `lines/*.wav` каждого раунда.
 

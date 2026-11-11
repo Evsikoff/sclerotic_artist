@@ -4,18 +4,60 @@
   --line: #e2d4b9;
   --ink: #2a1f3d;
   --ink-soft: #6f6280;
-  --purple: #6a2ea8;
-  --purple-dark: #4a1d7a;
+  --accent: #6a2ea8;
+  --accent-dark: #4a1d7a;
+  --accent-shadow: rgba(74, 29, 122, 0.22);
+  --accent-tint: #efe6fa;
+  --accent-track: rgba(106, 46, 168, 0.12);
   --red: #d33b2c;
   --red-dark: #9e2a1f;
   --yellow: #f7c548;
   --yellow-dark: #c99626;
   --green: #2f9e57;
   --green-dark: #1f7440;
+  /* Стол под полем раунда; тот же цвет у холста в board.ts. */
+  --desk: #efe4cf;
+  --bar: rgba(250, 245, 234, 0.95);
+  --bar-shadow: rgba(120, 90, 40, 0.1);
+  --scrim: rgba(42, 31, 61, 0.55);
+  --badge: var(--yellow);
+  --badge-ink: var(--ink);
+  --glow-warm: rgba(247, 197, 72, 0.38);
+  --glow-accent: rgba(106, 46, 168, 0.2);
+  --glow-cool: rgba(47, 111, 214, 0.13);
+  --glow-hot: rgba(211, 59, 44, 0.12);
   --font: 'Rubik', system-ui, sans-serif;
   --font-hand: 'Caveat', 'Comic Sans MS', cursive;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/*
+ * Сложные раунды (короткая пауза в диктовке) — в прохладной «ночной» гамме:
+ * сам раунд, его итоги и его плашки в меню. Цвета холста — в board.ts.
+ */
+.hard {
+  --bg: #e6eaf1;
+  --paper: #fbfcff;
+  --line: #cbd4e3;
+  --ink: #1d2233;
+  --ink-soft: #5e6781;
+  --accent: #2b50b8;
+  --accent-dark: #1b3580;
+  --accent-shadow: rgba(27, 53, 128, 0.25);
+  --accent-tint: #e2e9fb;
+  --accent-track: rgba(43, 80, 184, 0.14);
+  --desk: #dde3ec;
+  --bar: rgba(243, 246, 251, 0.95);
+  --bar-shadow: rgba(30, 50, 90, 0.12);
+  --scrim: rgba(18, 26, 48, 0.58);
+  --badge: var(--accent);
+  --badge-ink: #fff;
+  --glow-warm: rgba(247, 197, 72, 0.3);
+  --glow-accent: rgba(43, 80, 184, 0.24);
+  --glow-cool: rgba(28, 160, 190, 0.16);
+  --glow-hot: rgba(120, 90, 220, 0.12);
+  color: var(--ink);
 }
 
 * {
@@ -88,10 +130,10 @@ button:disabled {
 .paper-bg {
   background-color: var(--bg);
   background-image:
-    radial-gradient(ellipse 45vmax 32vmax at 0% 0%, rgba(247, 197, 72, 0.38), transparent 70%),
-    radial-gradient(ellipse 40vmax 34vmax at 100% 100%, rgba(106, 46, 168, 0.2), transparent 70%),
-    radial-gradient(ellipse 28vmax 22vmax at 100% 8%, rgba(47, 111, 214, 0.13), transparent 70%),
-    radial-gradient(ellipse 26vmax 20vmax at 0% 92%, rgba(211, 59, 44, 0.12), transparent 70%);
+    radial-gradient(ellipse 45vmax 32vmax at 0% 0%, var(--glow-warm), transparent 70%),
+    radial-gradient(ellipse 40vmax 34vmax at 100% 100%, var(--glow-accent), transparent 70%),
+    radial-gradient(ellipse 28vmax 22vmax at 100% 8%, var(--glow-cool), transparent 70%),
+    radial-gradient(ellipse 26vmax 20vmax at 0% 92%, var(--glow-hot), transparent 70%);
 }
 
 @keyframes fade-in {
@@ -129,13 +171,13 @@ button:disabled {
   min-height: 48px;
   padding: 0.7em 1.4em;
   border-radius: 16px;
-  background: var(--purple);
+  background: var(--accent);
   color: #fff;
   font-size: 1.1rem;
   font-weight: 700;
   box-shadow:
-    0 5px 0 var(--purple-dark),
-    0 9px 18px rgba(74, 29, 122, 0.22);
+    0 5px 0 var(--accent-dark),
+    0 9px 18px var(--accent-shadow);
   transition:
     transform 0.08s,
     box-shadow 0.08s,
@@ -144,7 +186,7 @@ button:disabled {
 
 .btn:active:not(:disabled) {
   transform: translateY(4px);
-  box-shadow: 0 1px 0 var(--purple-dark);
+  box-shadow: 0 1px 0 var(--accent-dark);
 }
 
 .btn:disabled {
@@ -306,7 +348,7 @@ button:disabled {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  background: var(--purple);
+  background: var(--accent);
   color: #fff;
   font-size: 48px;
   box-shadow: 0 0 0 10px rgba(106, 46, 168, 0.15);
@@ -380,7 +422,7 @@ button:disabled {
   background: var(--paper);
   box-shadow: 0 4px 0 var(--line);
   font-weight: 700;
-  color: var(--purple);
+  color: var(--accent);
 }
 
 .help-btn:active {
@@ -407,9 +449,9 @@ button:disabled {
   gap: 6px;
   padding: 22px 22px 24px;
   border-radius: 26px;
-  background: var(--purple);
+  background: var(--accent);
   color: #fff;
-  box-shadow: 0 6px 0 var(--purple-dark);
+  box-shadow: 0 6px 0 var(--accent-dark);
 }
 
 .next-card::after {
@@ -476,7 +518,8 @@ button:disabled {
   width: 44px;
   height: 44px;
   border-radius: 13px;
-  background: var(--yellow);
+  background: var(--badge);
+  color: var(--badge-ink);
   font-size: 1.25rem;
   font-weight: 800;
 }
@@ -529,8 +572,8 @@ button:disabled {
   gap: 1px;
   padding: 7px 9px 5px;
   border-radius: 13px;
-  background: #efe6fa;
-  color: var(--purple);
+  background: var(--accent-tint);
+  color: var(--accent);
   font-size: 22px;
 }
 
@@ -544,7 +587,7 @@ button:disabled {
 /* ——— Раунд ——— */
 
 .round {
-  background: #efe4cf;
+  background: var(--desk);
 }
 
 .board {
@@ -574,8 +617,8 @@ button:disabled {
   align-items: center;
   gap: 12px;
   padding: calc(var(--safe-top) + 8px) 12px 12px;
-  background: rgba(250, 245, 234, 0.95);
-  box-shadow: 0 2px 0 rgba(120, 90, 40, 0.1);
+  background: var(--bar);
+  box-shadow: 0 2px 0 var(--bar-shadow);
 }
 
 .hud-center {
@@ -608,14 +651,14 @@ button:disabled {
   right: 0;
   bottom: 0;
   height: 4px;
-  background: rgba(106, 46, 168, 0.12);
+  background: var(--accent-track);
 }
 
 .hud-progress i {
   display: block;
   width: 0;
   height: 100%;
-  background: var(--purple);
+  background: var(--accent);
 }
 
 .hud-progress.final i {
@@ -658,8 +701,8 @@ button:disabled {
   justify-content: center;
   gap: 8px;
   padding: 10px 12px calc(var(--safe-bottom) + 12px);
-  background: rgba(250, 245, 234, 0.95);
-  box-shadow: 0 -2px 0 rgba(120, 90, 40, 0.1);
+  background: var(--bar);
+  box-shadow: 0 -2px 0 var(--bar-shadow);
 }
 
 .tool {
@@ -696,13 +739,13 @@ button:disabled {
 }
 
 .tool.hint {
-  background: var(--purple);
+  background: var(--accent);
   color: #fff;
-  box-shadow: 0 3px 0 var(--purple-dark);
+  box-shadow: 0 3px 0 var(--accent-dark);
 }
 
 .tool.hint:active {
-  box-shadow: 0 1px 0 var(--purple-dark);
+  box-shadow: 0 1px 0 var(--accent-dark);
 }
 
 .tool.hint .icon {
@@ -726,7 +769,7 @@ button:disabled {
   gap: 14px;
   padding: 32px;
   text-align: center;
-  background: var(--purple);
+  background: var(--accent);
   color: #fff;
 }
 
@@ -799,7 +842,7 @@ button:disabled {
 }
 
 .quiz-question b {
-  color: var(--purple);
+  color: var(--accent);
 }
 
 .quiz-form {
@@ -823,7 +866,7 @@ button:disabled {
 
 .quiz-input:focus {
   outline: none;
-  border-color: var(--purple);
+  border-color: var(--accent);
 }
 
 .quiz-feedback {
@@ -1002,7 +1045,7 @@ button:disabled {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: rgba(42, 31, 61, 0.55);
+  background: var(--scrim);
   animation: fade-in 0.2s ease both;
 }
 

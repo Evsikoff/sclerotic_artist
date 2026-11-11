@@ -1,9 +1,9 @@
 import { isCorrect } from './answer';
 import { audio, type Voice } from './audio';
-import { Board, CELLS, GRID, renderThumb } from './board';
+import { Board, CELLS, GRID, PALETTES, renderThumb } from './board';
 import { QUIZ_SIZE, type RoundInfo } from './content';
 import { progress } from './progress';
-import { h, icon, points, setScreen, signed } from './ui';
+import { h, icon, plural, points, setScreen, signed } from './ui';
 
 const FINAL_SECONDS = 30;
 const URGENT_SECONDS = 5;
@@ -44,6 +44,14 @@ function loadSound(info: RoundInfo): Promise<RoundSound> {
     audio.load(info.quizIntroUrl),
     audio.load(info.quizIntroEarlyUrl),
   ]).then(([dictation, time30s, quizIntro, quizIntroEarly]) => ({ dictation, time30s, quizIntro, quizIntroEarly }));
+}
+
+/** «секунду», «две секунды»: сколько голос молчит между номером и словом. */
+function pauseWords(ms: number) {
+  const s = Math.round(ms / 1000);
+  if (s === 1) return 'секунду';
+  if (s === 2) return 'две секунды';
+  return `${s} ${plural(s, ['секунду', 'секунды', 'секунд'])}`;
 }
 
 function pickCells(count: number): number[] {
@@ -205,10 +213,10 @@ class RoundSession {
       next: () => this.board.focus(this.nextCell()),
       repeat: () => this.sayNumber(this.quizCell),
     });
-    this.board = new Board(this.ui.canvas);
+    this.board = new Board(this.ui.canvas, info.hard ? PALETTES.hard : PALETTES.normal);
     this.board.onChange = () => this.updateTools();
     const { canvas, top, tools, quiz } = this.ui;
-    this.root = h('div', { class: 'screen round' }, canvas, top, tools, quiz);
+    this.root = h('div', { class: `screen round${info.hard ? ' hard' : ''}` }, canvas, top, tools, quiz);
     // Телефон может вернуть звук только по нажатию — во время рисования об этом просит подсказка soundHint.
     this.root.addEventListener(
       'pointerdown',
@@ -264,7 +272,7 @@ class RoundSession {
 
     show(
       '',
-      h('div', { class: 'ready-kicker' }, 'Раунд'),
+      h('div', { class: 'ready-kicker' }, this.info.hard ? 'Сложный раунд' : 'Раунд'),
       h('div', { class: 'ready-number' }, String(this.info.round)),
       h('p', {}, `Диктует ${this.info.narrator}`),
     );
@@ -272,7 +280,11 @@ class RoundSession {
     show(
       '',
       h('div', { class: 'ready-title' }, 'Приготовьтесь!'),
-      h('p', {}, 'Голос назовёт номер ячейки, а через секунду — слово. Нарисуйте это слово в ячейке с таким номером.'),
+      h(
+        'p',
+        {},
+        `Голос назовёт номер ячейки, а через ${pauseWords(this.info.numberPauseMs)} — слово. Нарисуйте это слово в ячейке с таким номером.`,
+      ),
     );
     await this.waitOrTap(3800, card);
     if (!this.sound) {
@@ -390,7 +402,7 @@ class RoundSession {
           h(
             'figure',
             { class: `res-item ${a.ok ? 'ok' : 'bad'}` },
-            h('div', { class: 'res-thumb' }, renderThumb(this.board.strokes[a.cell], a.cell + 1)),
+            h('div', { class: 'res-thumb' }, renderThumb(this.board.strokes[a.cell], a.cell + 1, this.board.colors)),
             h(
               'figcaption',
               {},
@@ -474,7 +486,7 @@ class RoundSession {
   private sayNumber(cell: number) {
     if (!this.sound) return;
     const c = this.info.cells[cell];
-    // Номер вырезаем из дорожки диктовки. Вокруг него секунда тишины,
+    // Номер вырезаем из дорожки диктовки. Вокруг него не меньше секунды тишины,
     // так что запас по краям покрывает задержку MP3-декодера.
     this.numberVoice?.stop();
     this.numberVoice = this.say(this.sound.dictation, Math.max(0, c.numberStartMs - 80) / 1000, (c.numberMs + 240) / 1000);

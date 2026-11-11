@@ -24,7 +24,7 @@ export function showMenu(): Promise<MenuChoice> {
       next !== null
         ? h(
             'section',
-            { class: 'next-card' },
+            { class: `next-card${ROUNDS[next - 1].hard ? ' hard' : ''}` },
             h('div', { class: 'next-kicker' }, played.length ? 'Следующий раунд' : 'Первый раунд'),
             h('h2', {}, `Раунд ${next}`),
             h('p', {}, `Диктует ${ROUNDS[next - 1].narrator}`),
@@ -77,7 +77,7 @@ function roundItem(r: RoundInfo, onReplay: () => void) {
   const record = progress.record(r.round)!;
   return h(
     'li',
-    { class: 'round-item' },
+    { class: `round-item${r.hard ? ' hard' : ''}` },
     h('div', { class: 'round-num' }, String(r.round)),
     h('div', { class: 'round-meta' }, h('b', {}, `Раунд ${r.round}`), h('small', {}, capitalize(r.narrator))),
     h(
