@@ -1,7 +1,8 @@
 """Озвучка игры «Художник-склеротик» через Gemini TTS.
 
 Один вызов TTS читает весь раунд (25 номеров + 25 слов), дальше запись режется
-по паузам на отдельные клипы, а дорожка раунда собирается с паузами ровно в 1 секунду.
+по паузам на отдельные клипы, а дорожка раунда собирается с паузами ровно в 2 секунды
+(в первых EASY_ROUNDS раундах) или в 1 секунду (в остальных, более сложных).
 
     set GEMINI_API_KEY=...
     python -X utf8 generate_voiceover.py generate --rounds 1-3
@@ -44,6 +45,9 @@ MAX_BLOCKED = 8  # 3.1-preview часто случайно отвечает fini
 MAX_REJECTED = 3  # брак нарезки оплачивается как полноценный дубль
 
 PAUSE_S = 1.0
+# Первые раунды проще: после номера и после слова пауза вдвое длиннее.
+EASY_ROUNDS = 10
+EASY_PAUSE_S = 2.0
 TARGET_RMS_DB = -20.0
 PEAK_LIMIT = 0.89  # -1 dBFS
 SILENCE_DB = -40.0
@@ -92,6 +96,10 @@ ROUND_PLAN = [
 
 # На 3.1-preview раунды 2 и 5 почти всегда получали отказ SAFETY.
 MODEL_OVERRIDES = {2: MODELS[0], 5: MODELS[0]}
+
+
+def pause_for(round_no):
+    return EASY_PAUSE_S if round_no <= EASY_ROUNDS else PAUSE_S
 
 
 def model_for(round_no):
@@ -376,7 +384,8 @@ def process_round(entry):
     extras = {k: v * min(level[k], PEAK_LIMIT / np.abs(v).max()) for k, v in extras.items()}
 
     folder = ROUNDS_DIR / f"round_{round_no:02d}"
-    pause = np.zeros(int(rate * PAUSE_S))
+    pause_s = pause_for(round_no)
+    pause = np.zeros(int(rate * pause_s))
     track, cursor, cells = [], 0, []
     for i, item in enumerate(entry["items"]):
         n = item["cell_number"]
@@ -399,7 +408,7 @@ def process_round(entry):
         service[key] = {"text": LINES[key], "clip": f"rounds/round_{round_no:02d}/lines/{key}.wav", "ms": ms(len(clip), rate)}
 
     return {"round": round_no, "model": model, "voice": voice, "persona": plan[1], "scene": plan[2], "performance": plan[3],
-            "sample_rate": rate, "pause_ms": round(PAUSE_S * 1000),
+            "sample_rate": rate, "pause_ms": round(pause_s * 1000),
             "dictation": f"rounds/round_{round_no:02d}/dictation.mp3", "dictation_ms": ms(cursor, rate),
             "gain_db": round(20 * float(np.log10(gain)), 1), "segmentation": gaps, "lines": service, "cells": cells}
 
