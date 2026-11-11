@@ -283,7 +283,7 @@ class RoundSession {
       h(
         'p',
         {},
-        `Голос назовёт номер ячейки, а через ${pauseWords(this.info.pauseMs)} — слово. Нарисуйте это слово в ячейке с таким номером.`,
+        `Голос назовёт номер ячейки, а через ${pauseWords(this.info.numberPauseMs)} — слово. Нарисуйте это слово в ячейке с таким номером.`,
       ),
     );
     await this.waitOrTap(3800, card);
