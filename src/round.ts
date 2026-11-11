@@ -21,6 +21,7 @@ interface RoundSound {
   dictation: AudioBuffer;
   time30s: AudioBuffer;
   quizIntro: AudioBuffer;
+  quizIntroEarly: AudioBuffer;
 }
 
 interface QuizAnswer {
@@ -37,9 +38,12 @@ export function playRound(info: RoundInfo): Promise<RoundExit> {
 }
 
 function loadSound(info: RoundInfo): Promise<RoundSound> {
-  return Promise.all([audio.load(info.dictationUrl), audio.load(info.time30sUrl), audio.load(info.quizIntroUrl)]).then(
-    ([dictation, time30s, quizIntro]) => ({ dictation, time30s, quizIntro }),
-  );
+  return Promise.all([
+    audio.load(info.dictationUrl),
+    audio.load(info.time30sUrl),
+    audio.load(info.quizIntroUrl),
+    audio.load(info.quizIntroEarlyUrl),
+  ]).then(([dictation, time30s, quizIntro, quizIntroEarly]) => ({ dictation, time30s, quizIntro, quizIntroEarly }));
 }
 
 function pickCells(count: number): number[] {
@@ -231,8 +235,8 @@ class RoundSession {
       await this.ready(sound);
       const s = await this.guard(sound);
       await this.dictate(s);
-      await this.finalSeconds(s);
-      const answers = await this.quiz(s);
+      const early = await this.finalSeconds(s);
+      const answers = await this.quiz(s, early);
       return await this.results(answers);
     } catch (e) {
       if (e instanceof Aborted) return 'menu';
@@ -301,7 +305,8 @@ class RoundSession {
     this.setHighlight(null);
   }
 
-  private async finalSeconds(s: RoundSound) {
+  /** Возвращает true, если игрок нажал «Готово», не дожидаясь конца отсчёта. */
+  private async finalSeconds(s: RoundSound): Promise<boolean> {
     this.phase = 'final';
     // Отсчёт идёт от конца диктовки, даже если игрок в этот момент был в другом приложении.
     const start = Math.min(wallNow(), this.dictationEnd);
@@ -311,6 +316,7 @@ class RoundSession {
     this.ui.done.hidden = false;
     this.updateTools();
     await this.guard(new Promise<void>((resolve) => (this.endPhase = resolve)));
+    const early = wallNow() < this.finalEnd;
     this.endPhase = null;
     this.track.stop();
     this.track = null;
@@ -321,23 +327,25 @@ class RoundSession {
     this.ui.done.hidden = true;
     this.ui.tools.hidden = true;
     this.ui.progressBar.classList.remove('final');
+    return early;
   }
 
-  private async quiz(s: RoundSound): Promise<QuizAnswer[]> {
+  private async quiz(s: RoundSound, early: boolean): Promise<QuizAnswer[]> {
     this.phase = 'quiz';
     this.updateMenuButton();
     audio.playMusic('quiet');
     this.board.focus(null);
-    this.ui.status.textContent = 'Время вышло';
+    const title = early ? 'Рисунок готов' : 'Время вышло';
+    this.ui.status.textContent = title;
     this.ui.bar.style.width = '0%';
     const banner = h(
       'div',
       { class: 'ready alert' },
-      h('div', { class: 'ready-title' }, 'Время вышло!'),
+      h('div', { class: 'ready-title' }, `${title}!`),
       h('p', {}, 'Сейчас прозвучат номера ячеек. Вспомните, что вы в них нарисовали.'),
     );
     this.root.append(banner);
-    await this.guard(this.say(s.quizIntro).ended);
+    await this.guard(this.say(early ? s.quizIntroEarly : s.quizIntro).ended);
     banner.remove();
 
     const cells = pickCells(QUIZ_SIZE);

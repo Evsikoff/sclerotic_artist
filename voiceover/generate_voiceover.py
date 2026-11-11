@@ -119,7 +119,13 @@ SPEECH = {
 LINES = {
     "time_30s": "Список закончился. У вас есть ещё тридцать секунд, чтобы закончить рисунок.",
     "quiz_intro": "Время вышло. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
+    # Игрок нажал «Готово», не дожидаясь конца тридцати секунд.
+    "quiz_intro_early": "Рисунок готов. Теперь скажите, что было нарисовано в ячейках, которые я назову.",
 }
+
+# Реплика, которая звучит вместо другой, выравнивается по её громкости. В общем усилении
+# раунда она не участвует, поэтому её добавление не перезаписывает готовые клипы.
+SUBSTITUTES = {"quiz_intro_early": "quiz_intro"}
 
 # Слова, которые в общем дубле прозвучали неверно: {раунд: {ячейка: текст}}.
 RETAKES = {
@@ -314,15 +320,18 @@ def obtain(round_no, name, model, voice, prompt, process):
     raise QCError(f"раунд {round_no}, {name}: отказов {blocked}, брака {rejected}")
 
 
+def voiced(clip, rate):
+    mask, n = speech_mask(clip, rate)
+    return clip[: len(mask) * n].reshape(-1, n)[mask].ravel()
+
+
+def rms(x):
+    return np.sqrt((x ** 2).mean())
+
+
 def round_gain(clips, rate):
-    voiced = []
-    for c in clips:
-        mask, n = speech_mask(c, rate)
-        voiced.append(c[: len(mask) * n].reshape(-1, n)[mask].ravel())
-    voiced = np.concatenate(voiced)
-    rms = np.sqrt((voiced ** 2).mean())
     peak = max(np.abs(c).max() for c in clips)
-    return min(10 ** (TARGET_RMS_DB / 20) / rms, PEAK_LIMIT / peak)
+    return min(10 ** (TARGET_RMS_DB / 20) / rms(np.concatenate([voiced(c, rate) for c in clips])), PEAK_LIMIT / peak)
 
 
 def to_pcm(x):
@@ -360,9 +369,11 @@ def process_round(entry):
         clips[2 * cell - 1], _ = obtain(round_no, f"retake_{cell:02d}", model, voice, build_prompt(plan, [text]),
                                         lambda x, r: trim(x, r))
 
-    gain = round_gain(clips + list(extras.values()), rate)
+    gain = round_gain(clips + [v for k, v in extras.items() if k not in SUBSTITUTES], rate)
     clips = [c * gain for c in clips]
-    extras = {k: v * gain for k, v in extras.items()}
+    level = {k: gain * rms(voiced(extras[SUBSTITUTES[k]], rate)) / rms(voiced(v, rate)) if k in SUBSTITUTES else gain
+             for k, v in extras.items()}
+    extras = {k: v * min(level[k], PEAK_LIMIT / np.abs(v).max()) for k, v in extras.items()}
 
     folder = ROUNDS_DIR / f"round_{round_no:02d}"
     pause = np.zeros(int(rate * PAUSE_S))
@@ -434,6 +445,8 @@ def generate(rounds, force):
             continue
         try:
             manifest["rounds"][str(r)] = process_round(data[r])
+            # Порядок раундов не должен зависеть от того, какие из них пересобирались.
+            manifest["rounds"] = dict(sorted(manifest["rounds"].items(), key=lambda kv: int(kv[0])))
             save_json(MANIFEST, manifest)
         except DailyQuota:
             print(f"  дневной лимит {model} исчерпан, его раунды переносятся на завтра", flush=True)
